@@ -95,6 +95,7 @@ If you want to the git command on your MacOS terminal:
 
 ### Where to learn?
 List of resources to learn HTML & CSS:
+  * [progate's HTML](https://progate.com/languages/html)
   * [Introduction to HTML by MDN](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML)
   * [HTML Periodic Table](https://websitesetup.org/html5-periodical-table/) – lists all HTML tags in the form of a periodic table, making it easy to learn/use them.
   * [HTML Cheat Sheet](https://websitesetup.org/html5-cheat-sheet/) - Learn with templates
