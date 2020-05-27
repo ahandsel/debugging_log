@@ -92,3 +92,23 @@ If you want to the git command on your MacOS terminal:
   * Or Try: `export PATH=/usr/local/bin:$PATH`
 
 ## Step 1 - What is HTML & CSS anyway?
+
+### Where to learn?
+List of resources to learn HTML & CSS:
+  * [Introduction to HTML by MDN](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML)
+  * [HTML Periodic Table](https://websitesetup.org/html5-periodical-table/) – lists all HTML tags in the form of a periodic table, making it easy to learn/use them.
+  * [HTML Cheat Sheet](https://websitesetup.org/html5-cheat-sheet/) - Learn with templates
+  * [khanacademy's Making Webpages](https://www.khanacademy.org/computing/computer-programming/html-css)
+
+[JavaScript Tutorial for Beginners: Learn JavaScript in 1 Hour [2020]](https://youtu.be/W6NZfCO5SIk)
+
+Video Tutorials:
+* [Intro to HTML & CSS - Tutorial | FreeCodeCamp.org](https://youtu.be/kLO4X_3VYdg)
+* [HTML Full Course - Build a Website Tutorial | FreeCodeCamp.org](https://www.youtube.com/watch?v=pQN-pnXPaVg&t=493s)
+
+### What is HTML?
+* HTML stands for Hypertext Markup Language
+* HTML is not a programming language
+* Instead, it is a markup language that tells web browsers how to structure the web pages you visit.
+* It can be as complicated or as simple as the web developer wants it to be.
+* HTML consists of a series of elements, which you use to enclose, wrap, or mark up different parts of content to make it appear or act a certain way.
