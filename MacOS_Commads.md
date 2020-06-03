@@ -74,3 +74,14 @@
   * [How to Reduce WindowServer CPU and RAM Usage in macOS?](https://osxtips.net/how-to-reduce-windowserver-cpu-and-ram-usage-in-macos/)
 
 ---
+## `rm` command to delete files & folders
+  * Syntax:  rm [options] file ...
+  * Options: 
+    * -f   Attempt to remove the files without prompting for confirmation, regardless of the file's permissions.
+    * -i   Request confirmation before attempting to remove each file.
+    * -R   (i.e. -r) Remove the entire file hierarchy rooted in each file argument. (implies the -d  Delete folders).
+### Examples
+* Delete all .jpg files in the current folder: `rm *.jpg`
+* Delete the folder named "temp", and all its contents: `rm -R temp`
+* Delete a protected folder: `sudo rm -r NAME_OF_FOLDER_TO_DELETE`
+* Move the file Hunter.txt to the Trash using mv: `$ mv Hunter.txt ~/.Trash`
