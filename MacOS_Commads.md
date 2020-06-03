@@ -77,10 +77,11 @@
 ## `rm` command to delete files & folders
   * Syntax:  rm [options] file ...
   * Options: 
-    * -f   Attempt to remove the files without prompting for confirmation, regardless of the file's permissions.
-    * -i   Request confirmation before attempting to remove each file.
-    * -R   (i.e. -r) Remove the entire file hierarchy rooted in each file argument. (implies the -d  Delete folders).
+    * `-f`   Attempt to remove the files without prompting for confirmation, regardless of the file's permissions.
+    * `-i`   Request confirmation before attempting to remove each file.
+    * `-r`   Remove the entire file hierarchy rooted in each file argument. (implies the -d  Delete folders).
 ### Examples
+* Delete `.git` directory: `rm -rf .git`
 * Delete all .jpg files in the current folder: `rm *.jpg`
 * Delete the folder named "temp", and all its contents: `rm -R temp`
 * Delete a protected folder: `sudo rm -r NAME_OF_FOLDER_TO_DELETE`
