@@ -1,5 +1,20 @@
 # Compilation of random notes in using VS Code
 
+## Display Whitespace in VS Code
+* It is useful to see whitespace in your code editor.
+* `editor.renderWhitespace` in the [VS Code Setting](https://code.visualstudio.com/docs/getstarted/settings) governs how to display whitespace. It takes in the following input:
+  * `none` - Whitespace will never be displayed.
+  * `boundary` - Whitespace will be displayed except for single spaces between words.
+  * `section` - (Default) Whitespace will be displayed only on selected text.
+  * `all` - All whitespace characters will be displayed all the time.
+* I recommend setting `editor.renderWhitespace` to `boundary`.
+* To change your VS Code Setting to display whitespace:
+  * File > Preference > Setting
+  * Search `editor.renderWhitespace`
+  * Select `boundary` from the dropdown menu
+* Demo gif:
+  * ![](./img/whitespace_setting.gif)
+
 ## Remove Duplicate Lines in VS Code
 * Original: [marcosvpj/vscode-remove-duplicate-lines.md](https://gist.github.com/marcosvpj/f04116e5443284ccb5f14f3c443a2d0d)
 
