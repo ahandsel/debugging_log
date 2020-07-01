@@ -33,3 +33,13 @@
   * **search**: `((^[^\S$]*?(?=\S)(?:.*)+$)[\S\s]*?)^\2$(?:\n)?`
   * **replace with**: `$1`
   * Click the "Replace All" button (*as many times as there are duplicate occurrences*)
+
+## How to install VS Code Extensions Manually?
+* Based on this [Stack Overflow Thread](https://stackoverflow.com/questions/42017617/how-to-install-vs-code-extension-manually)
+* Example VS Extension from GitHub: [znck/ grammarly](https://github.com/znck/grammarly)
+* Go to the GitHub repo's Releases and download the `.vsix` file
+  * https://github.com/znck/grammarly/releases
+  * --> `grammarly-0.12.2.vsix`
+* In VS Code, Extensions > `...` > `Install from VSIX...`
+  * ![](https://i.stack.imgur.com/nPF49.png)
+* Verify the Extension was installed!
