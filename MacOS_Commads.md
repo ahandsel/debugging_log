@@ -1,14 +1,18 @@
 # MacOS Commands <!-- omit in toc -->
   * This document is a complication of commands and technical notes regarding MacOS
 
-- [scp command notes & examples](#scp-command-notes--examples)
-  - [What is Secure Copy (scp)?](#what-is-secure-copy-scp)
-    - [Remote to Local](#remote-to-local)
-    - [Local to Remote](#local-to-remote)
-    - [Remote to Remote](#remote-to-remote)
-    - [scp Performance](#scp-performance)
-  - [Error: `bash: scp: command not found` | Fixed :green_check:](#error-bash-scp-command-not-found--fixed-green_check)
-- [WindowServer process - MacOS system Process/ Command](#windowserver-process---macos-system-process-command)
+1. [scp command notes & examples](#scp-command-notes--examples)
+   1. [What is Secure Copy (scp)?](#what-is-secure-copy-scp)
+      1. [Remote to Local](#remote-to-local)
+      2. [Local to Remote](#local-to-remote)
+      3. [Remote to Remote](#remote-to-remote)
+      4. [scp Performance](#scp-performance)
+   2. [Error: `bash: scp: command not found` | Fixed :green_check:](#error-bash-scp-command-not-found--fixed-green_check)
+2. [WindowServer process - MacOS system Process/ Command](#windowserver-process---macos-system-process-command)
+3. [`rm` command to delete files & folders](#rm-command-to-delete-files--folders)
+   1. [Examples](#examples)
+4. [Useful Mac Shortcuts!](#useful-mac-shortcuts)
+5. [Mac's Keyboard Symbols](#macs-keyboard-symbols)
 
 ---
 
@@ -76,7 +80,7 @@
 ---
 ## `rm` command to delete files & folders
   * Syntax:  rm [options] file ...
-  * Options: 
+  * Options:
     * `-f`   Attempt to remove the files without prompting for confirmation, regardless of the file's permissions.
     * `-i`   Request confirmation before attempting to remove each file.
     * `-r`   Remove the entire file hierarchy rooted in each file argument. (implies the -d  Delete folders).
@@ -86,3 +90,26 @@
 * Delete the folder named "temp", and all its contents: `rm -R temp`
 * Delete a protected folder: `sudo rm -r NAME_OF_FOLDER_TO_DELETE`
 * Move the file Hunter.txt to the Trash using mv: `$ mv Hunter.txt ~/.Trash`
+
+## Useful Mac Shortcuts!
+
+| Shortcut                      | Command                                           |
+| ----------------------------- | ------------------------------------------------- |
+| Command(⌘) + Shift(⇧) + ?     | Open the Help menu's search box                   |
+| Option(⌥) + Command(⌘) + ESC  | Force quit an app.                                |
+| Option(⌥) + Command(⌘) + V    | Move files to the current location.               |
+| Command(⌘) + Left Bracket([)  | Go to the previous folder.                        |
+| Command(⌘) + Right Bracket(]) | Go to the next folder.                            |
+| Command(⌘) + Up Arrow(▲)      | Open the folder that contains the current folder. |
+| Command(⌘) + Right Arrow(►)   | Move cursor to the end of the line                |
+| Option(⌥) + Right Arrow(►)    | Move cursor to the next breakpoint in the line    |
+
+## Mac's Keyboard Symbols
+
+| Modifier key    | Symbol |
+| --------------- | ------ |
+| Alt / Option    | ⌥      |
+| Control         | ⌃      |
+| Shift           | ⇧      |
+| Backward delete | ⌫      |
+| Forward delete  | ⌦      |
