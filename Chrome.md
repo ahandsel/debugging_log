@@ -17,3 +17,8 @@ YouTube:
 - Search Engine: YouTube
 - Keyword: youtube.com
 - URL with %s in place of query: `https://youtube.com/search?q=%s`
+
+Flaticon
+- Search Engine: `Flaticon`
+- Keyword: `flaticon`
+- Query URL: `https://www.flaticon.com/search?word=%s`
