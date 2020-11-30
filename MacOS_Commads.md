@@ -1,18 +1,20 @@
 # MacOS Commands <!-- omit in toc -->
   * This document is a complication of commands and technical notes regarding MacOS
 
-1. [scp command notes & examples](#scp-command-notes--examples)
-   1. [What is Secure Copy (scp)?](#what-is-secure-copy-scp)
-      1. [Remote to Local](#remote-to-local)
-      2. [Local to Remote](#local-to-remote)
-      3. [Remote to Remote](#remote-to-remote)
-      4. [scp Performance](#scp-performance)
-   2. [Error: `bash: scp: command not found` | Fixed :green_check:](#error-bash-scp-command-not-found--fixed-green_check)
-2. [WindowServer process - MacOS system Process/ Command](#windowserver-process---macos-system-process-command)
-3. [`rm` command to delete files & folders](#rm-command-to-delete-files--folders)
-   1. [Examples](#examples)
-4. [Useful Mac Shortcuts!](#useful-mac-shortcuts)
-5. [Mac's Keyboard Symbols](#macs-keyboard-symbols)
+- [scp command notes & examples](#scp-command-notes--examples)
+  - [What is Secure Copy (scp)?](#what-is-secure-copy-scp)
+    - [Remote to Local](#remote-to-local)
+    - [Local to Remote](#local-to-remote)
+    - [Remote to Remote](#remote-to-remote)
+    - [scp Performance](#scp-performance)
+  - [Error: `bash: scp: command not found` | Fixed :green_check:](#error-bash-scp-command-not-found--fixed-green_check)
+- [WindowServer process - MacOS system Process/ Command](#windowserver-process---macos-system-process-command)
+- [`rm` command to delete files & folders](#rm-command-to-delete-files--folders)
+  - [Examples](#examples)
+- [Useful Mac Shortcuts!](#useful-mac-shortcuts)
+- [Mac's Keyboard Symbols](#macs-keyboard-symbols)
+- [Calibrate the battery once every few months](#calibrate-the-battery-once-every-few-months)
+- [Resetting SMC:](#resetting-smc)
 
 ---
 
@@ -113,3 +115,25 @@
 | Shift           | ⇧      |
 | Backward delete | ⌫      |
 | Forward delete  | ⌦      |
+
+## Calibrate the battery once every few months
+If your battery is showing signs of shorter run times, calibrate the battery (once every few months).  
+To calibrate the battery, follow these instructions:
+1. Fully charge your MacBook.
+2. Once fully charged, leave it plugged in for at least another 2 hours.
+3. Remove the MagSafe power adapter, and use your computer until you get the battery level warning message.
+4. Ignore that message and keep running your notebook.
+5. Eventually the machine will go to sleep.
+6. Do NOT plug it in. Instead, let it sleep for at least 5 hours.
+7. After the time has passed, plug it back in, and let it fully charge.
+8. Once fully charged, your battery has been properly calibrated.
+
+
+## Resetting SMC:
+(On Mac notebooks with non-removable battery)
+1. Shut down the computer.
+2. Plug in the MagSafe or USB-C power adapter to a power source and to your computer.
+3. On the built-in keyboard, press the (left side) Shift-Control-Option keys and the power button at the same time.
+4. Release all the keys and the power button at the same time.
+5. Press the power button to turn on the computer.
+6. On MagSafe power adapters, the LED might change states or temporarily turn off when you reset the SMC.

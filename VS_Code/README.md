@@ -1,10 +1,10 @@
 # Getting Started with Visual Studio Code (VS Code)
 I highly recommend using Visual studio code as your code editor.
 
-1. [Getting Started with Visual Studio Code (VS Code)](#getting-started-with-visual-studio-code-vs-code)
-   1. [What is a Code Editor?](#what-is-a-code-editor)
-   2. [What is Visual studio code?](#what-is-visual-studio-code)
-2. [Recommended VS Code Extensions](#recommended-vs-code-extensions)
+- [Getting Started with Visual Studio Code (VS Code)](#getting-started-with-visual-studio-code-vs-code)
+  - [What is a Code Editor?](#what-is-a-code-editor)
+  - [What is Visual studio code?](#what-is-visual-studio-code)
+- [Recommended VS Code Extensions](#recommended-vs-code-extensions)
 
 ## What is a Code Editor?
   * i.e. Source-code editor
