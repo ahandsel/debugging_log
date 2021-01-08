@@ -29,3 +29,18 @@ Kintone:
 - Search Engine: `Kintone`
 - Keyword: `kin`
 - Query URL: https://YOUR_SUBDOMAIN.kintone.com/k/search?keyword=%s
+
+Kintone Developer Program (KDP):
+- Search Engine: `KDP`
+- Keyword: `kdp`
+- Query URL: `https://developer.kintone.io/hc/en-us/search?utf8=%E2%9C%93&query=%s&commit=Search`
+
+Google Translate (Japanese to English):
+- Search Engine: `JP_Translate`
+- Keyword: `_jp`
+- Query URL: `https://translate.google.com/#view=home&op=translate&sl=ja&tl=en&text=%s`
+
+Google Translate (English to Japanese):
+- Search Engine: `EN_Translate`
+- Keyword: `_en`
+- Query URL: `https://translate.google.com/#view=home&op=translate&sl=en&tl=ja&text=%s`
