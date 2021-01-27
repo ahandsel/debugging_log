@@ -13,6 +13,9 @@ MD013 - Line length
 MD022 - Headings should be surrounded by blank lines
   * false
 
+MD024 - Multiple headers with the same content
+  * false
+
 MD032 - Lists should be surrounded by blank lines
   * false
 
