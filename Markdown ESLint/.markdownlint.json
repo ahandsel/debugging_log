@@ -1,4 +1,7 @@
 {
+  "MD004": {
+    "style": "consistent"
+  },
   "MD007": {
     "indent": 2,
     "start_indented": true
