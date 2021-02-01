@@ -19,6 +19,34 @@
      ...
    }
    ```
+<!-- markdownlint-capture -->
+<!-- markdownlint-disable -->
+
+## Quick ways to Enable / Disable rules within a file
+Add one of the following markers to the appropriate place:
+
+| Type                                                     | Marker                                                |
+| -------------------------------------------------------- | ----------------------------------------------------- |
+| Disable all rules                                        | `<!-- markdownlint-disable -->`                       |
+| Disable all rules for the next line only                 | `<!-- markdownlint-disable-next-line -->`             |
+| Disable one or more rules by name                        | `<!-- markdownlint-disable MD001 MD005 -->`           |
+| Disable one or more rules by name for the next line only | `<!-- markdownlint-disable-next-line MD001 MD005 -->` |
+| Enable all rules                                         | `<!-- markdownlint-enable -->` <!-- markdownlint-disable -->                       |
+| Enable one or more rules by name                         | `<!-- markdownlint-enable MD001 MD005 -->`            |
+| -                                                        | -                                                     |
+| Capture the current rule configuration                   | `<!-- markdownlint-capture -->`                       |
+| Restore the captured rule configuration                  | `<!-- markdownlint-restore -->`                       |
+
+To temporarily disable rule(s), then restore the former configuration:
+
+  ``` md
+  <!-- markdownlint-capture -->
+  <!-- markdownlint-disable -->
+  any violations you want
+  <!-- markdownlint-restore -->
+  ```
+
+<!-- markdownlint-restore -->
 
 ## Deviation from the default
 
