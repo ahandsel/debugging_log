@@ -1,37 +1,38 @@
 # MacOS Commands <!-- omit in toc -->
   * This document is a complication of commands and technical notes regarding MacOS
 
-- [scp command notes & examples](#scp-command-notes--examples)
-  - [What is Secure Copy (scp)?](#what-is-secure-copy-scp)
-    - [Remote to Local](#remote-to-local)
-    - [Local to Remote](#local-to-remote)
-    - [Remote to Remote](#remote-to-remote)
-    - [scp Performance](#scp-performance)
-  - [Error: `bash: scp: command not found` | Fixed :green_check:](#error-bash-scp-command-not-found--fixed-green_check)
-- [WindowServer process - MacOS system Process/ Command](#windowserver-process---macos-system-process-command)
-- [`rm` command to delete files & folders](#rm-command-to-delete-files--folders)
-  - [Examples](#examples)
-- [Useful Mac Shortcuts!](#useful-mac-shortcuts)
-- [Mac's Keyboard Symbols](#macs-keyboard-symbols)
-- [Calibrate the battery once every few months](#calibrate-the-battery-once-every-few-months)
-- [Resetting SMC:](#resetting-smc)
+## Outline <!-- omit in toc -->
+  * [scp command notes & examples](#scp-command-notes--examples)
+    * [What is Secure Copy (scp)?](#what-is-secure-copy-scp)
+      * [Remote to Local](#remote-to-local)
+      * [Local to Remote](#local-to-remote)
+      * [Remote to Remote](#remote-to-remote)
+      * [scp Performance](#scp-performance)
+    * [Error: `bash: scp: command not found` | Fixed :green_check:](#error-bash-scp-command-not-found--fixed-green_check)
+  * [WindowServer process - MacOS system Process/ Command](#windowserver-process---macos-system-process-command)
+  * [`rm` command to delete files & folders](#rm-command-to-delete-files--folders)
+    * [Examples](#examples)
+  * [Useful Mac Shortcuts!](#useful-mac-shortcuts)
+  * [Mac's Keyboard Symbols](#macs-keyboard-symbols)
+  * [Calibrate the battery once every few months](#calibrate-the-battery-once-every-few-months)
+  * [Resetting SMC:](#resetting-smc)
 
 ---
 
 ## scp command notes & examples
-* Thank you [michaelminter/scp.md](https://gist.github.com/michaelminter/7377743)
-* Example syntax for Secure Copy (scp)
+  * Thank you [michaelminter/scp.md](https://gist.github.com/michaelminter/7377743)
+  * Example syntax for Secure Copy (scp)
 
 ### What is Secure Copy (scp)?
-* **scp** command allows for local :left_right_arrow: remote file transfers
+  * **scp** command allows for local :left_right_arrow: remote file transfers
   * It uses ssh for data transfer and provides the same authentication and same level of security as ssh.
-* ⚡️ Remember to install scp on local & remote machines!
+  * ⚡️ Remember to install scp on local & remote machines!
   * `yum install openssh-clients`
   * ⚠️ Error: `-bash: scp: command not found`
   * Solution: Install `openssh-clients` on your remote & local machine!
 
 #### Examples Environment <!-- omit in toc -->
-* The examples will use the following environment:
+  * The examples will use the following environment:
   * Remote host:
     * username: `root`
     * hostname: `10.224.156.228`
@@ -62,12 +63,12 @@
     * `scp root@rh1.edu:/root/foobar.txt \ root@rh2.edu:/root/`
 
 #### scp Performance
-* By default scp uses the Triple-DES cipher to encrypt the data being sent.
-* Using the Blowfish cipher has been shown to increase speed.
+  * By default scp uses the Triple-DES cipher to encrypt the data being sent.
+  * Using the Blowfish cipher has been shown to increase speed.
   * This can be done by using option -c blowfish in the command line.
   * `scp -c blowfish some_file root@10.224.156.228:~`
 
-### Error: `bash: scp: command not found` | Fixed :green_check:
+### Error: `bash: scp: command not found`
   * Make sure your remote host has also scp!
   * Remote CentOS 6: `yum install openssh-clients`
 
@@ -87,13 +88,13 @@
     * `-i`   Request confirmation before attempting to remove each file.
     * `-r`   Remove the entire file hierarchy rooted in each file argument. (implies the -d  Delete folders).
 ### Examples
-* Delete `.git` directory: `rm -rf .git`
-* Delete all .jpg files in the current folder: `rm *.jpg`
-* Delete the folder named "temp", and all its contents: `rm -R temp`
-* Delete a protected folder: `sudo rm -r NAME_OF_FOLDER_TO_DELETE`
-* Move the file Hunter.txt to the Trash using mv: `$ mv Hunter.txt ~/.Trash`
+  * Delete `.git` directory: `rm -rf .git`
+  * Delete all .jpg files in the current folder: `rm *.jpg`
+  * Delete the folder named "temp", and all its contents: `rm -R temp`
+  * Delete a protected folder: `sudo rm -r NAME_OF_FOLDER_TO_DELETE`
+  * Move the file Hunter.txt to the Trash using mv: `$ mv Hunter.txt ~/.Trash`
 
-## Useful Mac Shortcuts!
+## Useful Mac Shortcuts
 
 | Shortcut                      | Command                                           |
 | ----------------------------- | ------------------------------------------------- |
@@ -128,8 +129,7 @@ To calibrate the battery, follow these instructions:
 7. After the time has passed, plug it back in, and let it fully charge.
 8. Once fully charged, your battery has been properly calibrated.
 
-
-## Resetting SMC:
+## Resetting SMC
 (On Mac notebooks with non-removable battery)
 1. Shut down the computer.
 2. Plug in the MagSafe or USB-C power adapter to a power source and to your computer.
