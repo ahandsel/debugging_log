@@ -1,4 +1,5 @@
 {
+  "blanks-around-fences": true,
   "MD004": {
     "style": "consistent"
   },
