@@ -19,6 +19,11 @@
 
 ---
 
+## Terminal: List only directories for the current location
+  * `ls -d */`
+
+---
+
 ## scp command notes & examples
   * Thank you [michaelminter/scp.md](https://gist.github.com/michaelminter/7377743)
   * Example syntax for Secure Copy (scp)
@@ -94,6 +99,7 @@
   * Delete a protected folder: `sudo rm -r NAME_OF_FOLDER_TO_DELETE`
   * Move the file Hunter.txt to the Trash using mv: `$ mv Hunter.txt ~/.Trash`
 
+---
 ## Useful Mac Shortcuts
 
 | Shortcut                      | Command                                           |
