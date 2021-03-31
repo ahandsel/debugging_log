@@ -32,3 +32,7 @@ Thank you so much for the perfect tutorial. I am writing it here just for my own
 | Step 1 | Step 2 | Step 3 | Step 4 |
 | ------ | ------ | ------ | ------ |
 | ![Step 1](https://brainarchives.com/content/images/2019/05/automator_0.png) | ![Step 2](https://brainarchives.com/content/images/2019/05/automator_1.png) | ![Step 3](https://brainarchives.com/content/images/2019/05/automator_2.png) | ![Step 4](https://brainarchives.com/content/images/2019/05/automator_3.png) |
+
+## Demo Gif
+
+![Gif going through steps 1 through 5](img/Open%20in%20VS%20Code.gif)
