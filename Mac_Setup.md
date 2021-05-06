@@ -42,7 +42,7 @@ It is helpful to manage packages like font-fira-code, git, python, or node.
 | [Node.js](https://nodejs.org/en/)                               | `brew install node`                     | JavaScript server environment      |
 | [Git](https://git-scm.com/)                                     | `brew install git`                      | distributed version control system |
 | [Pandoc](https://pandoc.org/)                                   | `brew install pandoc`                   | Markdown ↔︎ Word Docx               |
-| [ryanoasis/nerd-fonts](https://github.com/ryanoasis/nerd-fonts) | Fonts including Fira Code & MesloLGS NF |
+| [ryanoasis/nerd-fonts](https://github.com/ryanoasis/nerd-fonts) | `brew tap homebrew/cask-fonts`<br>`brew install --cask font-hack-nerd-font` | Fonts including Fira Code & MesloLGS NF |
 | [tonsky/FiraCode](https://github.com/tonsky/FiraCode)           | `brew cask install font-fira-code`      | Great font for coding              |
 
 ## Terminal
@@ -52,3 +52,18 @@ It is helpful to manage packages like font-fira-code, git, python, or node.
     * `brew tap homebrew/cask-fonts`
     * `brew install --cask font-hack-nerd-font`
   * Selection Hex: `#00C9C1`
+
+## Setting up [romkatv/powerlevel10k](https://github.com/romkatv/powerlevel10k) for your Terminal
+1. Make sure you installed [ryanoasis/nerd-fonts](https://github.com/ryanoasis/nerd-fonts)
+   * `brew tap homebrew/cask-fonts`
+   * `brew install --cask font-hack-nerd-font`
+2. Install
+   * `git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k`
+   * `echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc`
+3. Go through the `p10k configure` configuration wizard
+    * ![configuration-wizard.gif](https://raw.githubusercontent.com/romkatv/powerlevel10k-media/master/configuration-wizard.gif)
+    * Type in the choice you want.
+    * Example: `Choice [12345rq]: ...`
+      * 1 ~ 5 are the options
+      * r is for restarting the configuration wizard
+      * q is for quitting without saving
