@@ -12,10 +12,16 @@ pandoc -f markdown -t html5 -o output.html input.md -c style.css
 pandoc -f markdown input.md --pdf-engine=xelatex -o example13.pdf
 ```
 
-## HTML to Markdown
+## HTML to Markdown ([Pandoc’s Markdown](https://pandoc.org/MANUAL.html#pandocs-markdown))
 
 ```bash
 pandoc -f html -t markdown input.html -o output.md
+```
+
+## HTML to Markdown ([GitHub-Flavored Markdown](https://docs.github.com/en/github/writing-on-github))
+
+```bash
+pandoc -f html -t gfm input.html -o output.md
 ```
 
 <!-- ## PowerPoint to Markdown -->
