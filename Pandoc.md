@@ -9,7 +9,13 @@
 ## Markdown to PDF
 
 ```bash
-pandoc -f markdown input.md --pdf-engine=xelatex -o example13.pdf
+  pandoc -f markdown input.md --pdf-engine=xelatex -o example13.pdf
+```
+
+## HTML to Markdown
+
+```bash
+  pandoc -f html -t markdown input.html -o output.md
 ```
 
 <!-- ## PowerPoint to Markdown -->
