@@ -97,7 +97,7 @@ Following are the same & available to both:
 
 ## Zoom's Waiting Rooms Are Not Very Customizable.
 * Only a tiny (100 x 100 px) logo can be placed.
-  * ![](https://bozuman.cybozu.com/k/api/space/blob/download.do/-/2020-07-29%20135715.png?id=2247155&hash=B465F&w=250&.png)
+  * ![Customize Waiting Room Screen Shot - Zoom_1.png](img/Zoom_1.png)
 * Text description can be added, but it is not clickable (users cannot click or copy a link).
 * [Waiting Room | Zoom's Help Doc](https://support.zoom.us/hc/en-us/articles/115000332726-Waiting-Room#h_57118d8b-1498-4c4c-a520-f8a5815930a7)
 * Waiting Room's Setting:
