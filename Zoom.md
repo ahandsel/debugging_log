@@ -1,5 +1,19 @@
 # Notes about [Zoom](https://zoom.us/)
 
+## Outline
+  * [Enable the following Zoom Webinar settings for Virtual Workshop](#enable-the-following-zoom-webinar-settings-for-virtual-workshop)
+  * [Steps to configuring Zoom settings](#steps-to-configuring-zoom-settings)
+  * [Useful shortcuts](#useful-shortcuts)
+  * [Roles in a webinar | Zoom Help](#roles-in-a-webinar--zoom-help)
+  * [Zoom Meeting vs. Zoom Webinar](#zoom-meeting-vs-zoom-webinar)
+  * [Zoom's Waiting Rooms Are Not Very Customizable](#zooms-waiting-rooms-are-not-very-customizable)
+  * [Getting Attendees' Feedback Over Zoom](#getting-attendees-feedback-over-zoom)
+    * [Webinar - Use Post Webinar Survey](#webinar---use-post-webinar-survey)
+    * [Meeting - Use Poll](#meeting---use-poll)
+  * [Sharing a Video on Zoom - Superior Method](#sharing-a-video-on-zoom---superior-method)
+
+---
+
 ## Enable the following Zoom Webinar settings for Virtual Workshop
   * Webinar practice session | [Zoom Doc](https://support.zoom.us/hc/en-us/articles/206316975-Webinar-practice-session#h_f39ba5de-428f-4aed-a962-3741d6543ca6)
     * This allows the hosts to configure their Zoom settings before sharing with attendees.
@@ -9,6 +23,8 @@
     * Once the Webinar has started, allow attendees to see other's questions | See attached screenshot
   * Recoding setting to **record active speaker, gallery view, and shared screen separately** | [Zoom Doc](https://support.zoom.us/hc/en-us/articles/360025561091-Recording-layouts#h_ba887192-78ae-4613-82cb-a7b52d1f4b67)
     * By recording the Webinar without participant's faces, we can share the video publicly
+
+---
 
 ## Steps to configuring Zoom settings
   * See attached video
@@ -21,6 +37,8 @@
     * Record the Webinar automatically
 3. Visit <https://cybozu.zoom.us/profile/setting?tab=recording>
   * Under Cloud recording > enable **Record active speaker, gallery view, and shared screen separately**
+
+---
 
 ## Useful shortcuts
 
@@ -35,6 +53,8 @@
 
 [Full list of shortcuts](https://support.zoom.us/hc/en-us/articles/205683899)
 
+---
+
 ## Roles in a webinar | [Zoom Help](https://support.zoom.us/hc/en-us/articles/360000252726)
   * **Host** of the webinar is the user who the webinar is scheduled under.
     * Has full permissions to manage the webinar, panelists, and attendees.
@@ -48,6 +68,8 @@
     * Host must assign a panelist. --> [Inviting panelists to a webinar](https://support.zoom.us/hc/en-us/articles/115005657826)
   * **Attendees** are view-only participants who can be unmuted if the host chooses.
     * Can only interact with the host and the panelists through the Q&A and the chat.
+
+---
 
 ## Zoom Meeting vs. Zoom Webinar
 Here is a rundown of the differences between the two.
@@ -97,6 +119,8 @@ Following are the same & available to both:
   * Registration
   * Require password to join
 
+---
+
 ## Zoom's Waiting Rooms Are Not Very Customizable
   * Only a tiny (100 x 100 px) logo can be placed.
     * ![Customize Waiting Room Screen Shot - Zoom_1.png](img/Zoom_1.png)
@@ -105,6 +129,8 @@ Following are the same & available to both:
   * Waiting Room's Setting:
     * `https://cybozu.zoom.us/profile/setting`
     * Meeting > Security > Waiting Room
+
+---
 
 ## Getting Attendees' Feedback Over Zoom
 ### Webinar - Use Post Webinar Survey
@@ -117,3 +143,21 @@ Following are the same & available to both:
 ### Meeting - Use Poll
   * Create a Zoom Poll to collect feedback on how attendees are doing before the break.
   * [How To Use (In Meeting) Polling in Zoom - YouTube](https://youtu.be/erz4xtQHoVs?t=14)
+
+---
+
+## Sharing a Video on Zoom - Superior Method
+1. Download the video in advance
+   * I recommend [Folx - Download manager for Mac](https://mac.eltima.com/download-manager.html)
+2. On Zoom:
+   1. Click **Share Screen** ![share-screen-button-green.png](https://assets.zoom.us/generic-images/common-buttons-and-icons/filled/share-screen-button-green.png) located in your meeting controls.
+   2. Switch to the **Advanced** tab
+   3. Then select **Video** ![Video.png](https://assets.zoom.us/generic-images/desktop-client/in-meeting/Video.png)
+   4. Navigate to and select the video you wish to share, then click **Open**
+   5. The video will now open within Zoom and be visible to attendees!
+
+Zoom Help Doc:
+  * 日本語 - [ビデオの共有](https://support.zoom.us/hc/ja/articles/360051673592-Sharing-and-playing-a-video#h_01EPAWQXNJNETMY4S33GB0WST0)
+  * English - [Sharing your video](https://support.zoom.us/hc/en-us/articles/360051673592-Sharing-and-playing-a-video#h_01EPAWQXNJNETMY4S33GB0WST0)
+
+---
