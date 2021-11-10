@@ -161,4 +161,4 @@ Zoom Help Doc:
   * English - [Sharing your video](https://support.zoom.us/hc/en-us/articles/360051673592-Sharing-and-playing-a-video#h_01EPAWQXNJNETMY4S33GB0WST0)
 
 Here is a demo of sharing a video on Zoom:
-  * ![Share_Video_Zoom.gif](img/Share_Video_Zoom.gif)
+  * ![Share_Video_Zoom.gif](img/Zoom_Video_Share_Public_Compressed.gif)
