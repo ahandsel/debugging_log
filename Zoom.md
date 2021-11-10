@@ -89,23 +89,23 @@ TL;DR
 
 Comparing the features (Differences)
 
-| Feature            |                                       Meeting                                        |                                                           Webinar                                                            |
-| ------------------ | :----------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------: |
-| Participant roles  |                          Host, Co-host, & **Participants**                           |                                        Host, Co-hosts, **Panelist**, & **Attendees**                                         |
-| Audio sharing      |                   All participants can mute/unmute their own audio                   | Only the Host & panelists can mute/unmute their own audio; Attendees join in listen-only mode; Host can unmute the attendees |
-| Video sharing      |                                   All participants                                   |                                                    Hosts & Panelists Only                                                    |
+| Feature            |                                          Meeting                                           |                                                           Webinar                                                            |
+| ------------------ | :----------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------: |
+| Participant roles  |                             Host, Co-host, & **Participants**                              |                                        Host, Co-hosts, **Panelist**, & **Attendees**                                         |
+| Audio sharing      |                      All participants can mute/unmute their own audio                      | Only the Host & panelists can mute/unmute their own audio; Attendees join in listen-only mode; Host can unmute the attendees |
+| Video sharing      |                                      All participants                                      |                                                    Hosts & Panelists Only                                                    |
 | Capacity           | Up to 100 with a free license, up to 1,000 depending on the plan and large meeting add-on. |                                   Up to 100-10,000 participants, depending on the license.                                   |
-| Participants list  |                             Visible to all participants                              |                                                 Visible to host and panelist                                                 |
-| Email reminders    |                                         N/A                                          |                                                  If registration is enabled                                                  |
-| Chat               |                    In-meeting Chat; Basic text & file attachment                     |                                            Webinar chat; ranking, answering, more                                            |
-| Meeting reactions  |                                          ✔                                           |                                                             N/A                                                              |
-| Nonverbal feedback |                                          ✔                                           |                                                       Only raise hand                                                        |
-| Q&A                |                                         N/A                                          |                                                              ✔                                                               |
-| File transfer      |                                          ✔                                           |                                                             N/A                                                              |
-| Breakout rooms     |                                          ✔                                           |                                                             N/A                                                              |
-| Practice session   |                                         N/A                                          |                                                              ✔                                                               |
-| Waiting room       |                                          ✔                                           |                                                             N/A                                                              |
-| Paypal integration |                                         N/A                                          |                                                              ✔                                                               |
+| Participants list  |                                Visible to all participants                                 |                                                 Visible to host and panelist                                                 |
+| Email reminders    |                                            N/A                                             |                                                  If registration is enabled                                                  |
+| Chat               |                       In-meeting Chat; Basic text & file attachment                        |                                            Webinar chat; ranking, answering, more                                            |
+| Meeting reactions  |                                             ✔                                              |                                                             N/A                                                              |
+| Nonverbal feedback |                                             ✔                                              |                                                       Only raise hand                                                        |
+| Q&A                |                                            N/A                                             |                                                              ✔                                                               |
+| File transfer      |                                             ✔                                              |                                                             N/A                                                              |
+| Breakout rooms     |                                             ✔                                              |                                                             N/A                                                              |
+| Practice session   |                                            N/A                                             |                                                              ✔                                                               |
+| Waiting room       |                                             ✔                                              |                                                             N/A                                                              |
+| Paypal integration |                                            N/A                                             |                                                              ✔                                                               |
 
 Following are the same & available to both:
   * [Annotation](https://support.zoom.us/hc/en-us/articles/115005706806)
@@ -160,4 +160,5 @@ Zoom Help Doc:
   * 日本語 - [ビデオの共有](https://support.zoom.us/hc/ja/articles/360051673592-Sharing-and-playing-a-video#h_01EPAWQXNJNETMY4S33GB0WST0)
   * English - [Sharing your video](https://support.zoom.us/hc/en-us/articles/360051673592-Sharing-and-playing-a-video#h_01EPAWQXNJNETMY4S33GB0WST0)
 
----
+Here is a demo of sharing a video on Zoom:
+  * ![Share_Video_Zoom.gif](img/Share_Video_Zoom.gif)
