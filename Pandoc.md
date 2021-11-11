@@ -30,10 +30,16 @@ pandoc -f html -t markdown input.html -o output.md
 pandoc -f html -t gfm input.html -o output.md
 ```
 
-## [GitHub-Flavored Markdown](https://docs.github.com/en/github/writing-on-github) to Word docx
+## GitHub-Flavored Markdown to Word docx
 
 ```bash
 pandoc -f gfm input.md -o output.docx
+```
+
+## Word Docx to GitHub-Flavored Markdown
+
+```bash
+pandoc --from=docx input.docx --to=gfm --output=output.md
 ```
 
 <!-- ## PowerPoint to Markdown -->
