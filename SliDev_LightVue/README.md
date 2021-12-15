@@ -85,7 +85,7 @@ left: false
 ---
 ```
 
-![dynamic-image](./LightVue_Screenshots/3-layout-dynamic-image-dark.png)
+![dynamic-image](./LightVue_Screenshots/3-layout-dynamic-image-light.png)
 
 #### Dynamic Image `dynamic-image`
 
@@ -98,7 +98,7 @@ left: false
 ---
 ```
 
-![dynamic-image](./LightVue_Screenshots/4-layout-dynamic-image-dark.png)
+![dynamic-image](./LightVue_Screenshots/4-layout-dynamic-image-light.png)
 
 #### Dynamic Image `dynamic-image`
 
@@ -111,7 +111,7 @@ left: true
 ---
 ```
 
-![dynamic-image](./LightVue_Screenshots/5-layout-dynamic-image-dark.png)
+![dynamic-image](./LightVue_Screenshots/5-layout-dynamic-image-light.png)
 
 ---
 
@@ -126,7 +126,7 @@ left: false
 ---
 ```
 
-![dynamic-image](./LightVue_Screenshots/6-layout-dynamic-image-dark.png)
+![dynamic-image](./LightVue_Screenshots/6-layout-dynamic-image-light.png)
 
 #### Dynamic Image `dynamic-image`
 
@@ -140,7 +140,7 @@ left: false
 ---
 ```
 
-![dynamic-image](./LightVue_Screenshots/7-layout-dynamic-image-dark.png)
+![dynamic-image](./LightVue_Screenshots/7-layout-dynamic-image-light.png)
 
 #### Image at center `dynamic-image`
 
