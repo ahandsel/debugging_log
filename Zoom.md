@@ -1,4 +1,6 @@
-# Notes about [Zoom](https://zoom.us/)
+# Notes about Zoom
+  * [Zoom](https://zoom.us/)
+  * Japanese version -> [Zoom_JP.md](Zoom_JP.md)
 
 ## Outline
   * [Enable the following Zoom Webinar settings for Virtual Workshop](#enable-the-following-zoom-webinar-settings-for-virtual-workshop)
