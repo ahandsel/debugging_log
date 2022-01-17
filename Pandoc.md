@@ -1,4 +1,5 @@
-# [Pandoc - Universal Document Converter](https://pandoc.org/)
+# Pandoc - Universal Document Converter
+[Pandoc - Universal Document Converter](https://pandoc.org/)
 
 ## Markdown to HTML
 
