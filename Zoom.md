@@ -30,13 +30,13 @@
   * See attached video
 1. Visit [https://cybozu.zoom.us/webinar/list](https://cybozu.zoom.us/webinar/list)
 2. Schedule a webinar, or click the title of a webinar that's already scheduled.
-  * Click Edit this Webinar.
-  * In the Webinar Options section, check the following boxes:
-    * Q&A
-    * Enable Practice Session
-    * Record the Webinar automatically
+   * Click Edit this Webinar.
+   * In the Webinar Options section, check the following boxes:
+     * Q&A
+     * Enable Practice Session
+     * Record the Webinar automatically
 3. Visit <https://cybozu.zoom.us/profile/setting?tab=recording>
-  * Under Cloud recording > enable **Record active speaker, gallery view, and shared screen separately**
+   * Under Cloud recording > enable **Record active speaker, gallery view, and shared screen separately**
 
 ---
 
