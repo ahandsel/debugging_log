@@ -1,4 +1,6 @@
-# [Zoom](https://zoom.us/)に関する注意事項
+# Zoom に関する注意事項
+  * [Zoom](https://zoom.us/)
+  * English Version -> [Zoom.md](Zoom.md)
 
 ## 概要
   * [MCチップ - Zoomで動画を共有するとき](#mcチップ---zoomで動画を共有するとき)
