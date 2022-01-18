@@ -6,7 +6,6 @@
 
 <!-- optional markdown-notes-tree directory description ends here -->
 
-- [**img**](img)
 - [How to Create a Finder Action to Open a Folder in VS Code](<Open in VS Code from Finder (Mac).md>)
 - [VS Codeを使用する際のさまざまなメモのまとめ](VS_Code_Notes_JP.md)
 - [Compilation of random notes in using VS Code](VS_Code_Notes.md)
