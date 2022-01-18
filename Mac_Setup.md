@@ -22,7 +22,7 @@
 ### PDF Expert - $80
   * Download:
     * Mac App Store: [PDF Expert - Edit and Sign PDF on the Mac App Store](https://apps.apple.com/us/app/id1055273043?mt=12)
-    * Developer's Website: [PDF Editor and Reader for Mac | PDF Expert](https://pdfexpert.com/)
+    * Developer's Website: <https://pdfexpert.com/>
   * Price: $80
   * My Review: Pricy BUT it does 100% of PDF-related tasks & does it well!
     * Do you need to read through huge PDF files for your college courses?
