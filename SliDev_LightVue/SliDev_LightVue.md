@@ -7,8 +7,21 @@
 
 ## Slide Deck
   * Markdown - [slides.md](slides.md)
+  * Demo / Example Slides
+    * Demo you get with SliDev Initiate -> [Demo_slides.md](./SliDev_Basic/Demo_slides.md)
 
 ## Commands
+
+### Quick Start
+
+Initiate the Project: `npm init slidev`
+
+Run the Project: `npx slidev`
+
+npm commands:
+  * `npm run dev` -> start dev server
+  * `npm run build` -> build production SPA
+  * `npm run export` -> export slides to pdf
 
 ### Setup
 
