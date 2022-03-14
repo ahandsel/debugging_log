@@ -1,32 +1,23 @@
 # Overview on Slidev's Default Demo
 
-## Outline <!-- omit in toc -->
-<!-- markdownlint-disable MD007 -->
-* [Configuring Front Matter](#configuring-front-matter)
-* [Slidev Starter Template](#slidev-starter-template)
-* [persist: false](#persist-false)
-* [1 - Intro Slide](#1---intro-slide)
-* [2 - Markdown + Style](#2---markdown--style)
-* [3 - Navigation Slide](#3---navigation-slide)
-  * [Keyboard Shortcuts](#keyboard-shortcuts)
-* [4 - image-right Slide](#4---image-right-slide)
-* [image: https://source.unsplash.com/collection/94734566/1920x1080](#image-httpssourceunsplashcomcollection947345661920x1080)
-* [Components](#components)
-* [Class](#class)
-* [class: px-20](#class-px-20)
-* [Animations Slide](#animations-slide)
-* [preload: false](#preload-false)
-* [LaTeX Slide](#latex-slide)
-* [Diagrams Slide](#diagrams-slide)
-* [Learn more Slide](#learn-more-slide)
-* [class: text-center](#class-text-center)
-<!-- markdownlint-enable MD007 -->
+## Outline
+  * [Configure Front Matter](#configure-front-matter)
+  * [1 - Intro Slide](#1---intro-slide)
+  * [2 - Markdown + Style](#2---markdown--style)
+  * [3 - Navigation Slide](#3---navigation-slide)
+  * [4 - image-right Slide](#4---image-right-slide)
+  * [5 - Components](#5---components)
+  * [6 - Class](#6---class)
+  * [7 - Animations Slide](#7---animations-slide)
+  * [8 - LaTeX Slide](#8---latex-slide)
+  * [9 - Diagrams Slide](#9---diagrams-slide)
+  * [10 - Learn more Slide](#10---learn-more-slide)
 
 ---
 
-## Configuring Front Matter
+## Configure Front Matter
 
-````YAML  <!-- omit in toc -->
+````YAML
 ---
 # try also 'default' to start simple
 theme: seriph
@@ -55,7 +46,7 @@ drawings:
 
 ## 1 - Intro Slide
 
-````md  <!-- omit in toc -->
+````md
 # Welcome to Slidev
 
 Presentation slides for developers
@@ -81,7 +72,7 @@ The last comment block of each slide will be treated as slide notes. It will be 
 -->
 ````
 
-![slide_1](slide_1.png)
+![slide_1](./SliDev_Basic/slide_1.png)
 
 ---
 
@@ -123,7 +114,7 @@ h1 {
 </style>
 ````
 
-![slide_2](slide_2.png)
+![slide_2](./SliDev_Basic/slide_2.png)
 
 ---
 
@@ -136,12 +127,12 @@ h1 {
 
   ### Keyboard Shortcuts
 
-  |     |     |
-  | --- | --- |
-  | <kbd>right</kbd> / <kbd>space</kbd>| next animation or slide |
+  |                                                     |                             |
+  | --------------------------------------------------- | --------------------------- |
+  | <kbd>right</kbd> / <kbd>space</kbd>                 | next animation or slide     |
   | <kbd>left</kbd>  / <kbd>shift</kbd><kbd>space</kbd> | previous animation or slide |
-  | <kbd>up</kbd> | previous slide |
-  | <kbd>down</kbd> | next slide |
+  | <kbd>up</kbd>                                       | previous slide              |
+  | <kbd>down</kbd>                                     | next slide                  |
 
   <!-- https://sli.dev/guide/animations.html#click-animations -->
   <img
@@ -152,9 +143,11 @@ h1 {
   <p v-after class="absolute bottom-23 left-45 opacity-30 transform -rotate-10">Here!</p>
   ````
 
+![slide_3](./SliDev_Basic/slide_3.png)
+
 ## 4 - image-right Slide
 
-  ````md  <!-- omit in toc -->
+````md
   ---
   layout: image-right
   image: https://source.unsplash.com/collection/94734566/1920x1080
@@ -194,45 +187,49 @@ h1 {
     display: none;
   }
   </style>
-  ````
-
-## Components
-
-````md   <!-- omit in toc -->
-# Components
-
-<div grid="~ cols-2 gap-4">
-<div>
-
-You can use Vue components directly inside your slides.
-
-We have provided a few built-in components like `<Tweet/>` and `<Youtube/>` that you can use directly. And adding your custom components is also super easy.
-
-```html
-<Counter :count="10" />
-```
-
-<!-- ./components/Counter.vue -->
-<Counter :count="10" m="t-4" />
-
-Check out [the guides](https://sli.dev/builtin/components.html) for more.
-
-</div>
-<div>
-
-```html
-<Tweet id="1390115482657726468" />
-```
-
-<Tweet id="1390115482657726468" scale="0.65" />
-
-</div>
-</div>
 ````
 
-## Class
+![slide_4](./SliDev_Basic/slide_4.png)
 
-````md   <!-- omit in toc -->
+## 5 - Components
+
+  ````md  
+  # Components
+
+  <div grid="~ cols-2 gap-4">
+  <div>
+
+  You can use Vue components directly inside your slides.
+
+  We have provided a few built-in components like `<Tweet/>` and `<Youtube/>` that you can use directly. And adding your custom components is also super easy.
+
+  ```html
+  <Counter :count="10" />
+  ```
+
+  <!-- ./components/Counter.vue -->
+  <Counter :count="10" m="t-4" />
+
+  Check out [the guides](https://sli.dev/builtin/components.html) for more.
+
+  </div>
+  <div>
+
+  ```html
+  <Tweet id="1390115482657726468" />
+  ```
+
+  <Tweet id="1390115482657726468" scale="0.65" />
+
+  </div>
+  </div>
+  ````
+
+![slide_5](./SliDev_Basic/slide_5.png)
+
+## 6 - Class
+
+````md  
 ---
 class: px-20
 ---
@@ -265,9 +262,11 @@ Read more about [How to use a theme](https://sli.dev/themes/use.html) and
 check out the [Awesome Themes Gallery](https://sli.dev/themes/gallery.html).
 ````
 
-## Animations Slide
+![slide_6](./SliDev_Basic/slide_6.png)
 
-````md   <!-- omit in toc -->
+## 7 - Animations Slide
+
+````md  
 ---
 preload: false
 ---
@@ -345,9 +344,11 @@ const final = {
 </div>
 ````
 
-## LaTeX Slide
+![slide_7](./SliDev_Basic/slide_7.png)
 
-````md   <!-- omit in toc -->
+## 8 - LaTeX Slide
+
+````md  
 # LaTeX
 
 LaTeX is supported out-of-box powered by [KaTeX](https://katex.org/).
@@ -375,9 +376,11 @@ $$
 [Learn more](https://sli.dev/guide/syntax#latex)
 ````
 
-## Diagrams Slide
+![slide_8](./SliDev_Basic/slide_8.png)
 
-````md  <!-- omit in toc -->
+## 9 - Diagrams Slide
+
+````md  
 ---
 
 # Diagrams
@@ -404,9 +407,11 @@ C -->|Two| E[Result 2]
 [Learn More](https://sli.dev/guide/syntax.html#diagrams)
 ````
 
-## Learn more Slide
+![slide_9](./SliDev_Basic/slide_9.png)
 
-````md  <!-- omit in toc -->
+## 10 - Learn more Slide
+
+````md  
 ---
 layout: center
 class: text-center
@@ -416,3 +421,5 @@ class: text-center
 
 [Documentations](https://sli.dev) · [GitHub](https://github.com/slidevjs/slidev) · [Showcases](https://sli.dev/showcases.html)
 ````
+
+![slide_10](./SliDev_Basic/slide_10.png)
