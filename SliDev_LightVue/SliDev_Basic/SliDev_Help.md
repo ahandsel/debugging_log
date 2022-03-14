@@ -4,13 +4,13 @@ slidev [args]
 
 ## Commands
 
-| Commands                  | Notes                                               |
-| ------------------------- | --------------------------------------------------- |
-| slidev [entry]            | Start a local server for Slidev           [default] |
-| slidev build [entry]      | Build hostable SPA                                  |
-| slidev format [entry]     | Format the markdown file                            |
-| slidev theme [subcommand] | Theme related operations                            |
-| slidev export [entry]     | Export slides to PDF                                |
+| Commands                  | Notes                           |
+| ------------------------- | ------------------------------- |
+| slidev [entry]            | Start a local server for Slidev |
+| slidev build [entry]      | Build hostable SPA              |
+| slidev format [entry]     | Format the markdown file        |
+| slidev theme [subcommand] | Theme related operations        |
+| slidev export [entry]     | Export slides to PDF            |
 
 ## Positions
 [entry]
