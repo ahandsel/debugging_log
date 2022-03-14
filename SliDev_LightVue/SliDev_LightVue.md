@@ -257,7 +257,8 @@ class: my-cool-content-on-the-left
 
 #### `image`
 
-Shows an image as the main content of the page.
+Shows an image as the main content of the page.  
+i.e. Slidev's background image setting
 
 ```yaml
 ---
