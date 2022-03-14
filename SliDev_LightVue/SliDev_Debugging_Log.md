@@ -45,3 +45,27 @@ Solution:
   * `npm i playwright-chromium`
   * `npx slidev export`
   * --> exported to ./slides-export.pdf
+
+## Slidev build with base Error: Could not resolve entry module (index.html)
+
+```shell
+# Attempting to build a SPA with slidev
+❯ npx slidev build "./slides/slidev_template.md" "--base" "/slides/slidev_template/"
+
+  ●■▲
+  Slidev  v0.27.20 
+
+  theme   @slidev/theme-seriph
+  entry   /Users/g001494/Documents/GitHub/Talks/slides/slidev_template.md
+
+vite v2.8.6 building for production...
+✓ 0 modules transformed.
+Could not resolve entry module (index.html).
+Error: Could not resolve entry module (index.html).
+    at error (/Users/g001494/Documents/GitHub/Talks/node_modules/rollup/dist/shared/rollup.js:198:30)
+    at ModuleLoader.loadEntryModule (/Users/g001494/Documents/GitHub/Talks/node_modules/rollup/dist/shared/rollup.js:22436:20)
+    at async Promise.all (index 0) {
+  code: 'UNRESOLVED_ENTRY'
+}
+```
+
