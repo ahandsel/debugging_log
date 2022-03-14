@@ -72,7 +72,7 @@ The last comment block of each slide will be treated as slide notes. It will be 
 -->
 ````
 
-![slide_1](./SliDev_Basic/slide_1.png)
+[![slide_1](./SliDev_Basic/slide_1_small.png)](./SliDev_Basic/slide_1.png)
 
 ---
 
@@ -114,7 +114,7 @@ h1 {
 </style>
 ````
 
-![slide_2](./SliDev_Basic/slide_2.png)
+[![slide_2](./SliDev_Basic/slide_2_small.png)](./SliDev_Basic/slide_2.png)
 
 ---
 
@@ -143,7 +143,7 @@ h1 {
   <p v-after class="absolute bottom-23 left-45 opacity-30 transform -rotate-10">Here!</p>
   ````
 
-![slide_3](./SliDev_Basic/slide_3.png)
+[![slide_3](./SliDev_Basic/slide_3_small.png)](./SliDev_Basic/slide_3.png)
 
 ## 4 - image-right Slide
 
@@ -189,7 +189,7 @@ h1 {
   </style>
 ````
 
-![slide_4](./SliDev_Basic/slide_4.png)
+[![slide_4](./SliDev_Basic/slide_4_small.png)](./SliDev_Basic/slide_4.png)
 
 ## 5 - Components
 
@@ -225,7 +225,7 @@ h1 {
   </div>
   ````
 
-![slide_5](./SliDev_Basic/slide_5.png)
+[![slide_5](./SliDev_Basic/slide_5_small.png)](./SliDev_Basic/slide_5.png)
 
 ## 6 - Class
 
@@ -262,7 +262,7 @@ Read more about [How to use a theme](https://sli.dev/themes/use.html) and
 check out the [Awesome Themes Gallery](https://sli.dev/themes/gallery.html).
 ````
 
-![slide_6](./SliDev_Basic/slide_6.png)
+[![slide_6](./SliDev_Basic/slide_6_small.png)](./SliDev_Basic/slide_6.png)
 
 ## 7 - Animations Slide
 
@@ -344,7 +344,7 @@ const final = {
 </div>
 ````
 
-![slide_7](./SliDev_Basic/slide_7.png)
+[![slide_7](./SliDev_Basic/slide_7_small.png)](./SliDev_Basic/slide_7.png)
 
 ## 8 - LaTeX Slide
 
@@ -376,7 +376,7 @@ $$
 [Learn more](https://sli.dev/guide/syntax#latex)
 ````
 
-![slide_8](./SliDev_Basic/slide_8.png)
+[![slide_8](./SliDev_Basic/slide_8_small.png)](./SliDev_Basic/slide_8.png)
 
 ## 9 - Diagrams Slide
 
@@ -407,7 +407,7 @@ C -->|Two| E[Result 2]
 [Learn More](https://sli.dev/guide/syntax.html#diagrams)
 ````
 
-![slide_9](./SliDev_Basic/slide_9.png)
+[![slide_9](./SliDev_Basic/slide_9_small.png)](./SliDev_Basic/slide_9.png)
 
 ## 10 - Learn more Slide
 
@@ -422,4 +422,4 @@ class: text-center
 [Documentations](https://sli.dev) · [GitHub](https://github.com/slidevjs/slidev) · [Showcases](https://sli.dev/showcases.html)
 ````
 
-![slide_10](./SliDev_Basic/slide_10.png)
+[![slide_10](./SliDev_Basic/slide_10_small.png)](./SliDev_Basic/slide_10.png)
