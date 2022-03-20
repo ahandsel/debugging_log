@@ -179,11 +179,11 @@ left: false
 
 ![dynamic-image](./LightVue_Screenshots/9-layout-dynamic-image-light.png)
 
-#### Image at left `left-image`
+#### Image at left `image-left`
 
 ```yaml
 ---
-layout: left-image
+layout: image-left
 image: '../assets/images/light-vue-landing.svg'
 equal: true
 ---
