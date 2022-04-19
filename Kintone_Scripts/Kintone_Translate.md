@@ -22,11 +22,11 @@
 | Group selection      | グループ選択          |
 | Department selection | 組織選択              |
 
-| English (Field)  | Japanese (フィールド) | Code               |
+| English (Field)  | 日本語	 (フィールド) | 中文（简体）               |
 | ---------------- | --------------------- | ------------------ |
-| Record number    | レコード番号          |                    |
-| Updated by       | 更新者                |                    |
-| Created by       | 作成者                |                    |
+| Record number    | レコード番号          |    记录编号                |
+| Updated by       | 更新者                |     更新人               |
+| Created by       | 作成者                |     创建人               |
 | Updated datetime | 更新日時              | `Updated_datetime` |
 | Created datetime | 作成日時              | `Created_datetime` |
 | Status           | ステータス            |                    |
