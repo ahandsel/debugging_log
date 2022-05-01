@@ -6,4 +6,4 @@
 
 <!-- optional markdown-notes-tree directory description ends here -->
 
-
+- [Kintone Translate](Kintone_Translate.md)

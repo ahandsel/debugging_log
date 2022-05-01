@@ -8,4 +8,9 @@
 
 - [**LightVue_Screenshots**](LightVue_Screenshots)
 - [**LightVue_Theme_Layouts**](LightVue_Theme_Layouts)
+- [**SliDev_Basic**](SliDev_Basic)
+    - [Welcome to Slidev](SliDev_Basic/Demo_slides.md)
+- [Overview on Slidev's Default Demo](SliDev_Basic.md)
+- [Debugging Log for SliDev](SliDev_Debugging_Log.md)
+- [npx slidev --help](SliDev_Help.md)
 - [Notes on using SliDev & lightvue](SliDev_LightVue.md)
