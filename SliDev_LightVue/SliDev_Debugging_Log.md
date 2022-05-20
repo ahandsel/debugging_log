@@ -7,7 +7,7 @@
   * [Issue: Bug Report - npm run build for a MD file in a subfolder leads to an `Error: Could not resolve entry module (index.html)`](#issue-bug-report---npm-run-build-for-a-md-file-in-a-subfolder-leads-to-an-error-could-not-resolve-entry-module-indexhtml)
 <!-- markdownlint-enable MD007 -->
 
-## `npm run export` not workign with an playwright install error?
+## `npm run export` not working with an playwright install error?
 
 ```text
 ❯ npm run export
@@ -50,6 +50,13 @@ Solution:
   * `npm init slidev`
   * `npx slidev export`
   * `npm i playwright-chromium`
+  * `npx slidev export`
+  * --> exported to ./slides-export.pdf
+
+Solution 2:
+  * Delete `node_modules` folder
+  * `npm i`
+  * `npm i -D playwright-chromium`
   * `npx slidev export`
   * --> exported to ./slides-export.pdf
 
