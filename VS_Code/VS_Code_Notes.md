@@ -1,12 +1,14 @@
 # Compilation of random notes in using VS Code
 
 ## Outline <!-- omit in toc -->
-  * [Display Whitespace in VS Code](#display-whitespace-in-vs-code)
-  * [Remove Duplicate Lines in VS Code](#remove-duplicate-lines-in-vs-code)
-    * [If the lines order is not important](#if-the-lines-order-is-not-important)
-    * [If the lines order *IS* important (can't alphabetically sort)](#if-the-lines-order-is-important-cant-alphabetically-sort)
-  * [How to install VS Code Extensions Manually?](#how-to-install-vs-code-extensions-manually)
-  * [VS Code & romkatv/powerlevel10k](#vs-code--romkatvpowerlevel10k)
+<!-- markdownlint-disable MD007 -->
+* [Display Whitespace in VS Code](#display-whitespace-in-vs-code)
+* [Remove Duplicate Lines in VS Code](#remove-duplicate-lines-in-vs-code)
+  * [If the lines order is not important](#if-the-lines-order-is-not-important)
+  * [If the lines order *IS* important (can't alphabetically sort)](#if-the-lines-order-is-important-cant-alphabetically-sort)
+* [How to install VS Code Extensions Manually?](#how-to-install-vs-code-extensions-manually)
+* [VS Code & romkatv/powerlevel10k](#vs-code--romkatvpowerlevel10k)
+<!-- markdownlint-enable MD007 -->
 
 ## Display Whitespace in VS Code
   * It is useful to see whitespace in your code editor.
@@ -21,7 +23,7 @@
     * Search `editor.renderWhitespace`
     * Select `boundary` from the dropdown menu
   * Demo gif:
-    * ![whitespace_setting Demo Gif](./img/whitespace_setting.gif)
+    * ![vscode_whitespace_setting.gif](../img/vscode_whitespace_setting.gif)
 
 ## Remove Duplicate Lines in VS Code
   * Original: [marcosvpj/vscode-remove-duplicate-lines.md](https://gist.github.com/marcosvpj/f04116e5443284ccb5f14f3c443a2d0d)
