@@ -11,5 +11,5 @@ npm install -g markdown-notes-tree
 ## Use
 
 ```shell
-npx markdown-notes-tree --ignore img --ignore **/img --ignore VS_Code/IMG
+npx markdown-notes-tree --ignore img
 ```
