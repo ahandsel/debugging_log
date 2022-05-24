@@ -28,7 +28,6 @@
   * Following are extensions I recommend:
     * [zenkaku](https://marketplace.visualstudio.com/items?itemName=mosapride.zenkaku)
     * [Trailing Spaces](https://marketplace.visualstudio.com/items?itemName=shardulm94.trailing-spaces)
-    * [Simple icons](https://marketplace.visualstudio.com/items?itemName=LaurentTreguier.vscode-simple-icons)
     * [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)
     * [Replace curly quotes](https://marketplace.visualstudio.com/items?itemName=jinhyuk.replace-curly-quotes)
     * [Rainbow CSV](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv)
