@@ -36,7 +36,7 @@ Kintone:
 Kintone Developer Program (KDP):
   * Search Engine: `KDP`
   * Keyword: `kdp`
-  * Query URL: `https://developer.kintone.io/hc/en-us/search?utf8=%E2%9C%93&query=%s&commit=Search`
+  * Query URL: `https://kintone.dev/en/search-result/?q=%s`
 
 Google Translate (Japanese to English):
   * Search Engine: `JP_Translate`
