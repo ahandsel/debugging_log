@@ -26,7 +26,7 @@
     * ![vscode_website.png](./img/vscode_website.png)
 
   * Following are extensions I recommend:
-    * [zenkaku](https://marketplace.visualstudio.com/items?itemName=mosapride.zenkaku)
+    * [Highlight Bad Chars](https://marketplace.visualstudio.com/items?itemName=wengerk.highlight-bad-chars)
     * [Trailing Spaces](https://marketplace.visualstudio.com/items?itemName=shardulm94.trailing-spaces)
     * [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)
     * [Replace curly quotes](https://marketplace.visualstudio.com/items?itemName=jinhyuk.replace-curly-quotes)
