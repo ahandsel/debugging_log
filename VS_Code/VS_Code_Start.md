@@ -9,23 +9,23 @@ I highly recommend using Visual studio code as your code editor.
 <!-- markdownlint-enable MD007 -->
 
 ## What is a Code Editor?
-  * i.e. Source-code editor
-  * A code editor is a text editor program designed specifically for editing source code of computer programs.
-  * Can be a standalone application, in a integrated development environment, or web browser
+* i.e. Source-code editor
+* A code editor is a text editor program designed specifically for editing source code of computer programs.
+* Can be a standalone application, in a integrated development environment, or web browser
 
 ## What is Visual studio code?
-  * i.e. VS code
-  * One of the best code editors in the market.
-  * Made by Microsoft but free
-  * Has powerful extensions to make developing easier.
-  * Download: [code.visualstudio.com](https://code.visualstudio.com)
-  * ![vscode_website.png](../img/vscode_website.png)
+* i.e. VS code
+* One of the best code editors in the market.
+* Made by Microsoft but free
+* Has powerful extensions to make developing easier.
+* Download: [code.visualstudio.com](https://code.visualstudio.com)
+* ![vscode_website.png](../img/vscode_website.png)
 
 ## Recommended VS Code Extensions
 
 | VS Code Extension Link                                                                                                   | Reason                                                                                                               |
 | ------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------- |
-| [Highlight Bad Chars](https://marketplace.visualstudio.com/items?itemName=wengerk.highlight-bad-chars)                                         | Makes zenkaku-Space (double-byte-whitespace) visible.                                                                |
+| [Highlight Bad Chars](https://marketplace.visualstudio.com/items?itemName=wengerk.highlight-bad-chars)                   | Makes zenkaku-Space (double-byte-whitespace) visible.                                                                |
 | [Trailing Spaces](https://marketplace.visualstudio.com/items?itemName=shardulm94.trailing-spaces)                        | Highlights trailing spaces and allows for simple all trailing space delete command.                                  |
 | [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)                             | Backup & Sync your VS Code settings and Extensions by storing the setting JSON file as a secrete GitHub Gist.        |
 | [Replace curly quotes](https://marketplace.visualstudio.com/items?itemName=jinhyuk.replace-curly-quotes)                 | Replaces all curly quotes(`‘`, `’`, `“`, `”`) in a document with straight quotes(`'`, `"`).                          |
@@ -43,3 +43,4 @@ I highly recommend using Visual studio code as your code editor.
 | [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)                       | Automatically add HTML/XML close tag.                                                                                |
 | [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)                     | Automatically rename paired HTML/XML tag, same as Visual Studio IDE does.                                            |
 | [Markdown Paste](https://marketplace.visualstudio.com/items?itemName=telesoho.vscode-markdown-paste-image)               | Smartly paste images in Markdown with `Markdown Paste` command                                                       |
+| [Open in GitHub Desktop](https://marketplace.visualstudio.com/items?itemName=wraith13.open-in-github-desktop)            | Open the [GitHub Desktop App](https://desktop.github.com/) easily from VS Code                                       |
