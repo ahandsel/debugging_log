@@ -1,9 +1,10 @@
 # Zoom に関する注意事項
-  * [Zoom](https://zoom.us/)
-  * English Version -> [Zoom.md](Zoom.md)
+* [Zoom](https://zoom.us/)
+* English Version -> [Zoom.md](Zoom.md)
 
 ## 概要
-  * [MCチップ - Zoomで動画を共有するとき](#mcチップ---zoomで動画を共有するとき)
+* [概要](#概要)
+* [MCチップ - Zoomで動画を共有するとき](#mcチップ---zoomで動画を共有するとき)
 
 ---
 
@@ -11,7 +12,7 @@
 1. 事前にビデオをダウンロードします
    * YouTubeビデオをダウンロードするには、次のツールをお勧めします:
      * [Folx - Download manager for Mac](https://mac.eltima.com/download-manager.html)
-     * [Pulltube – beautiful online video downloader](https://mymixapps.com/pulltube)
+     * [Pulltube - beautiful online video downloader](https://mymixapps.com/pulltube)
 
 2. Zoomでの設定
    1. Zoom Meetings を開始するかそれに参加します。
@@ -22,7 +23,7 @@
    6. ビデオが Zoom 内で開き、出席者に見えるようになります。
 
 Zoom サポート:
-  * [ビデオの共有](https://support.zoom.us/hc/ja/articles/360051673592-Sharing-and-playing-a-video#h_01EPAWQXNJNETMY4S33GB0WST0)
+* [ビデオの共有](https://support.zoom.us/hc/ja/articles/360051673592-Sharing-and-playing-a-video#h_01EPAWQXNJNETMY4S33GB0WST0)
 
 Zoomでビデオを共有するデモです
-  * ![Share_Video_Zoom.gif](img/Zoom_Video_Share_Public_Compressed.gif)
+* ![Share_Video_Zoom.gif](img/Zoom_Video_Share_Public_Compressed.gif)
