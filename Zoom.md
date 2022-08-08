@@ -1,35 +1,36 @@
 # Notes about Zoom
-  * [Zoom](https://zoom.us/)
-  * Japanese version -> [Zoom_JP.md](Zoom_JP.md)
+* [Zoom](https://zoom.us/)
+* Japanese version -> [Zoom_JP.md](Zoom_JP.md)
 
 ## Outline
-  * [Enable the following Zoom Webinar settings for Virtual Workshop](#enable-the-following-zoom-webinar-settings-for-virtual-workshop)
-  * [Steps to configuring Zoom settings](#steps-to-configuring-zoom-settings)
-  * [Useful shortcuts](#useful-shortcuts)
-  * [Roles in a webinar | Zoom Help](#roles-in-a-webinar--zoom-help)
-  * [Zoom Meeting vs. Zoom Webinar](#zoom-meeting-vs-zoom-webinar)
-  * [Zoom's Waiting Rooms Are Not Very Customizable](#zooms-waiting-rooms-are-not-very-customizable)
-  * [Getting Attendees' Feedback Over Zoom](#getting-attendees-feedback-over-zoom)
-    * [Webinar - Use Post Webinar Survey](#webinar---use-post-webinar-survey)
-    * [Meeting - Use Poll](#meeting---use-poll)
-  * [Sharing a Video on Zoom - Superior Method](#sharing-a-video-on-zoom---superior-method)
+* [Outline](#outline)
+* [Enable the following Zoom Webinar settings for Virtual Workshop](#enable-the-following-zoom-webinar-settings-for-virtual-workshop)
+* [Steps to configuring Zoom settings](#steps-to-configuring-zoom-settings)
+* [Useful shortcuts](#useful-shortcuts)
+* [Roles in a webinar | Zoom Help](#roles-in-a-webinar--zoom-help)
+* [Zoom Meeting vs. Zoom Webinar](#zoom-meeting-vs-zoom-webinar)
+* [Zoom's Waiting Rooms Are Not Very Customizable](#zooms-waiting-rooms-are-not-very-customizable)
+* [Getting Attendees' Feedback Over Zoom](#getting-attendees-feedback-over-zoom)
+  * [Webinar - Use Post Webinar Survey](#webinar---use-post-webinar-survey)
+  * [Meeting - Use Poll](#meeting---use-poll)
+* [Sharing a Video on Zoom - Superior Method](#sharing-a-video-on-zoom---superior-method)
 
 ---
 
 ## Enable the following Zoom Webinar settings for Virtual Workshop
-  * Webinar practice session | [Zoom Doc](https://support.zoom.us/hc/en-us/articles/206316975-Webinar-practice-session#h_f39ba5de-428f-4aed-a962-3741d6543ca6)
-    * This allows the hosts to configure their Zoom settings before sharing with attendees.
-    * When you are ready, click **Broadcast** to start the webinar and allow attendees to join the webinar.
-  * Question & Answer (Q&A) | [Zoom Doc](https://support.zoom.us/hc/en-us/articles/203686015-Getting-Started-with-Question-Answer)
-    * Allows for a better experience of attendees asking questions and co-hosts answering them on an individual basis.
-    * Once the Webinar has started, allow attendees to see other's questions | See attached screenshot
-  * Recoding setting to **record active speaker, gallery view, and shared screen separately** | [Zoom Doc](https://support.zoom.us/hc/en-us/articles/360025561091-Recording-layouts#h_ba887192-78ae-4613-82cb-a7b52d1f4b67)
-    * By recording the Webinar without participant's faces, we can share the video publicly
+* Webinar practice session | [Zoom Doc](https://support.zoom.us/hc/en-us/articles/206316975-Webinar-practice-session#h_f39ba5de-428f-4aed-a962-3741d6543ca6)
+  * This allows the hosts to configure their Zoom settings before sharing with attendees.
+  * When you are ready, click **Broadcast** to start the webinar and allow attendees to join the webinar.
+* Question & Answer (Q&A) | [Zoom Doc](https://support.zoom.us/hc/en-us/articles/203686015-Getting-Started-with-Question-Answer)
+  * Allows for a better experience of attendees asking questions and co-hosts answering them on an individual basis.
+  * Once the Webinar has started, allow attendees to see other's questions | See attached screenshot
+* Recoding setting to **record active speaker, gallery view, and shared screen separately** | [Zoom Doc](https://support.zoom.us/hc/en-us/articles/360025561091-Recording-layouts#h_ba887192-78ae-4613-82cb-a7b52d1f4b67)
+  * By recording the Webinar without participant's faces, we can share the video publicly
 
 ---
 
 ## Steps to configuring Zoom settings
-  * See attached video
+* See attached video
 1. Visit [https://cybozu.zoom.us/webinar/list](https://cybozu.zoom.us/webinar/list)
 2. Schedule a webinar, or click the title of a webinar that's already scheduled.
    * Click Edit this Webinar.
@@ -58,18 +59,18 @@
 ---
 
 ## Roles in a webinar | [Zoom Help](https://support.zoom.us/hc/en-us/articles/360000252726)
-  * **Host** of the webinar is the user who the webinar is scheduled under.
-    * Has full permissions to manage the webinar, panelists, and attendees.
-  * **Alternative Host** are users who have the same permissions as a Host.
-    * They are assigned ahead of time & can start meetings.
-  * **Co-hosts** share many of the controls that hosts have but cannot start the webinar.
-    * The host must assign a co-host and can only be assigned during a meeting, and thus cannot start a meeting.
-    * If a host needs someone else to start the webinar --> assign an alternative host.
-  * **Panelists** are full participants in a webinar.
-    * They can view and send video, screen share, annotate, etc.
-    * Host must assign a panelist. --> [Inviting panelists to a webinar](https://support.zoom.us/hc/en-us/articles/115005657826)
-  * **Attendees** are view-only participants who can be unmuted if the host chooses.
-    * Can only interact with the host and the panelists through the Q&A and the chat.
+* **Host** of the webinar is the user who the webinar is scheduled under.
+  * Has full permissions to manage the webinar, panelists, and attendees.
+* **Alternative Host** are users who have the same permissions as a Host.
+  * They are assigned ahead of time & can start meetings.
+* **Co-hosts** share many of the controls that hosts have but cannot start the webinar.
+  * The host must assign a co-host and can only be assigned during a meeting, and thus cannot start a meeting.
+  * If a host needs someone else to start the webinar --> assign an alternative host.
+* **Panelists** are full participants in a webinar.
+  * They can view and send video, screen share, annotate, etc.
+  * Host must assign a panelist. --> [Inviting panelists to a webinar](https://support.zoom.us/hc/en-us/articles/115005657826)
+* **Attendees** are view-only participants who can be unmuted if the host chooses.
+  * Can only interact with the host and the panelists through the Q&A and the chat.
 
 ---
 
@@ -80,8 +81,8 @@ For more details, refer to the official Help Doc:
 [Meeting and webinar comparison – Zoom Help Center](https://support.zoom.us/hc/en-us/articles/115005474943-Meeting-and-webinar-comparison)
 
 TL;DR
-  * Webinar's Strength: Simpler interface for attendees, Q&A function, & Post attendee URL
-  * Webinar's Weakness: Guests cannot turn on their cameras by default. Need to be promoted...
+* Webinar's Strength: Simpler interface for attendees, Q&A function, & Post attendee URL
+* Webinar's Weakness: Guests cannot turn on their cameras by default. Need to be promoted...
 
 | Meeting                               | Webinar                                                  |
 | ------------------------------------- | -------------------------------------------------------- |
@@ -110,41 +111,41 @@ Comparing the features (Differences)
 | Paypal integration |                                            N/A                                             |                                                              ✔                                                               |
 
 Following are the same & available to both:
-  * [Annotation](https://support.zoom.us/hc/en-us/articles/115005706806)
-  * [Screen sharing](https://support.zoom.us/hc/en-us/articles/201362153)
-  * [Whiteboard](https://support.zoom.us/hc/en-us/articles/205677665)
-  * [Closed captioning](https://support.zoom.us/hc/en-us/articles/207279736)
-  * International dial-in numbers
-  * Livestream (Facebook, YouTube, Workplace by Facebook, Custom Streaming Service)
-  * Polling
-  * Recording
-  * Registration
-  * Require password to join
+* [Annotation](https://support.zoom.us/hc/en-us/articles/115005706806)
+* [Screen sharing](https://support.zoom.us/hc/en-us/articles/201362153)
+* [Whiteboard](https://support.zoom.us/hc/en-us/articles/205677665)
+* [Closed captioning](https://support.zoom.us/hc/en-us/articles/207279736)
+* International dial-in numbers
+* Livestream (Facebook, YouTube, Workplace by Facebook, Custom Streaming Service)
+* Polling
+* Recording
+* Registration
+* Require password to join
 
 ---
 
 ## Zoom's Waiting Rooms Are Not Very Customizable
-  * Only a tiny (100 x 100 px) logo can be placed.
-    * ![Customize Waiting Room Screen Shot - Zoom_1.png](img/Zoom_1.png)
-  * Text description can be added, but it is not clickable (users cannot click or copy a link).
-  * [Waiting Room | Zoom's Help Doc](https://support.zoom.us/hc/en-us/articles/115000332726-Waiting-Room#h_57118d8b-1498-4c4c-a520-f8a5815930a7)
-  * Waiting Room's Setting:
-    * `https://cybozu.zoom.us/profile/setting`
-    * Meeting > Security > Waiting Room
+* Only a tiny (100 x 100 px) logo can be placed.
+  * ![Customize Waiting Room Screen Shot - Zoom_1.png](img/Zoom_1.png)
+* Text description can be added, but it is not clickable (users cannot click or copy a link).
+* [Waiting Room | Zoom's Help Doc](https://support.zoom.us/hc/en-us/articles/115000332726-Waiting-Room#h_57118d8b-1498-4c4c-a520-f8a5815930a7)
+* Waiting Room's Setting:
+  * `https://cybozu.zoom.us/profile/setting`
+  * Meeting > Security > Waiting Room
 
 ---
 
 ## Getting Attendees' Feedback Over Zoom
 ### Webinar - Use Post Webinar Survey
-  * Allows us to redirect normal attendees to our survey website (or any URL) after they leave the Zoom Webinar. (does not work for panelists)
-  * Unfortunately, it does not work for Meetings, only for Zoom Webinars.
-  * The biggest drawback to Webinar is that only hosts and panelists can share their video (camera feed).
-  * We can promote all the attendees to panelists, but it does not go smoothly.
-  * ⚠ Post attendee URL is an alternative, but its performance is inconsistent. Many IT blogs recommend using the Post Webinar Survey method.
+* Allows us to redirect normal attendees to our survey website (or any URL) after they leave the Zoom Webinar. (does not work for panelists)
+* Unfortunately, it does not work for Meetings, only for Zoom Webinars.
+* The biggest drawback to Webinar is that only hosts and panelists can share their video (camera feed).
+* We can promote all the attendees to panelists, but it does not go smoothly.
+* ⚠ Post attendee URL is an alternative, but its performance is inconsistent. Many IT blogs recommend using the Post Webinar Survey method.
 
 ### Meeting - Use Poll
-  * Create a Zoom Poll to collect feedback on how attendees are doing before the break.
-  * [How To Use (In Meeting) Polling in Zoom - YouTube](https://youtu.be/erz4xtQHoVs?t=14)
+* Create a Zoom Poll to collect feedback on how attendees are doing before the break.
+* [How To Use (In Meeting) Polling in Zoom - YouTube](https://youtu.be/erz4xtQHoVs?t=14)
 
 ---
 
@@ -159,8 +160,8 @@ Following are the same & available to both:
    5. The video will now open within Zoom and be visible to attendees!
 
 Zoom Help Doc:
-  * 日本語 - [ビデオの共有](https://support.zoom.us/hc/ja/articles/360051673592-Sharing-and-playing-a-video#h_01EPAWQXNJNETMY4S33GB0WST0)
-  * English - [Sharing your video](https://support.zoom.us/hc/en-us/articles/360051673592-Sharing-and-playing-a-video#h_01EPAWQXNJNETMY4S33GB0WST0)
+* 日本語 - [ビデオの共有](https://support.zoom.us/hc/ja/articles/360051673592-Sharing-and-playing-a-video#h_01EPAWQXNJNETMY4S33GB0WST0)
+* English - [Sharing your video](https://support.zoom.us/hc/en-us/articles/360051673592-Sharing-and-playing-a-video#h_01EPAWQXNJNETMY4S33GB0WST0)
 
 Here is a demo of sharing a video on Zoom:
-  * ![Share_Video_Zoom.gif](img/Zoom_Video_Share_Public_Compressed.gif)
+* ![Share_Video_Zoom.gif](img/Zoom_Video_Share_Public_Compressed.gif)
