@@ -62,7 +62,7 @@
 * [YAMAP](https://apps.apple.com/jp/app/id558780450?l=en) 🌎 - Best hiking app for Japanese mountains; mostly in English
 * [ヤマレコ 登山・ハイキング地図＆GPSナビ](https://apps.apple.com/jp/app/id1121091790?l=en) - Only Japanese hiking app
 
-## Travailing
+## Traveling
 * [Japan Customs Declaration App](https://apps.apple.com/us/app/id1454991621?l=en) 🌎
 * [EMot](https://apps.apple.com/jp/app/id1472652885?l=en)
 
