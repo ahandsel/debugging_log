@@ -3,12 +3,12 @@
 ## Apps to Download
 
 ### Setapp
-[Setapp | Download Setapp and get app collections for any job](https://setapp.com/download)
-* [CleanMyMac X on Setapp | Free up space, protect, and speed up Mac](https://setapp.com/apps/cleanmymac)
+[Setapp - Download Setapp and get app collections for any job](https://setapp.com/download)
+* [CleanMyMac X on Setapp - Free up space, protect, and speed up Mac](https://setapp.com/apps/cleanmymac)
 
 ### General Productivity
 * [Alfred - Productivity App for macOS](https://www.alfredapp.com/)
-* [Logi Options+ | Software App for Logitech Products](https://www.logitech.com/en-us/software/logi-options-plus.html)
+* [Logi Options+ - Software App for Logitech Products](https://www.logitech.com/en-us/software/logi-options-plus.html)
 
 ### Developer Tools
 * [iTerm2 - macOS Terminal Replacement](https://iterm2.com/index.html)
