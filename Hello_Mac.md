@@ -9,12 +9,15 @@
 ### General Productivity
 * [Alfred - Productivity App for macOS](https://www.alfredapp.com/)
 * [Logi Options+ - Software App for Logitech Products](https://www.logitech.com/en-us/software/logi-options-plus.html)
+* [1Password - Password Manager](https://1password.com/downloads/mac/)
+  * [1Password on Chrome Web Store](https://chrome.google.com/webstore/detail/1password-%E2%80%93-password-mana/aeblfdkhhhdcdjpifhhbdiojplfjncoa)
 
 ### Developer Tools
 * [iTerm2 - macOS Terminal Replacement](https://iterm2.com/index.html)
 * [Visual Studio Code - Code Editing. Redefined](https://code.visualstudio.com/)
 * [Homebrew - Package Manager for macOS](https://brew.sh/)
   * `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
+* [GitHub Desktop](https://desktop.github.com/)
 
 ### Translation / Writing Tools
 * [DeepL Translate App](https://www.deepl.com/en/app/)
