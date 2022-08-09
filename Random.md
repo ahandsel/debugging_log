@@ -22,24 +22,18 @@ Messenger for Mac & PC:
 
 Instructions for Costco + T-Mobile:
 1. Need Costco Membership & check their deals:
-* <http://membershipwireless.com/index.cfm/go/shop/do/promos>
-
+    * <http://membershipwireless.com/index.cfm/go/shop/do/promos>
 2. Determine T-Mobile Plan:
-* If possible, get the 55+ (Get two lines, payer needs to be 55 or older)
-* <https://support.t-mobile.com/docs/DOC-31900>
-
+    * If possible, get the 55+ (Get two lines, payer needs to be 55 or older)
+    * <https://support.t-mobile.com/docs/DOC-31900>
 3. Contact T-Mobile help here:
-* <https://support.t-mobile.com/community/contact-us>
-
+    * <https://support.t-mobile.com/community/contact-us>
 4. Make T-Mobile staff do the credit check
-
 5. Get their Credit app# (save it, will need to give to Costco staff)
-
 6. Be sure to have current provider's Account number & have the devices unlocked.
-
 7. Go to Costco's Wireless Kiosk.
-* Provide them with Account Number, what plan you want, & the Credit app#
-* Be prepare to spend time...
+    * Provide them with Account Number, what plan you want, & the Credit app#
+    * Be prepare to spend time...
 
 T-Mobile Unlimited 55+ for $60/month
 * 2 lines thus $30/month/line
