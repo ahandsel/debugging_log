@@ -34,4 +34,4 @@
 | [Git](https://git-scm.com/)                                     | `brew install git`                                                          | distributed version control system      |
 | [Pandoc](https://pandoc.org/)                                   | `brew install pandoc`                                                       | Markdown ↔︎ Word Docx                    |
 | [ryanoasis/nerd-fonts](https://github.com/ryanoasis/nerd-fonts) | `brew tap homebrew/cask-fonts`<br>`brew install --cask font-hack-nerd-font` | Fonts including Fira Code & MesloLGS NF |
-| [tonsky/FiraCode](https://github.com/tonsky/FiraCode)           | `brew cask install font-fira-code`                                          | Great font for coding                   |
+| [tonsky/FiraCode](https://github.com/tonsky/FiraCode)           | `brew tap homebrew/cask-fonts`<br>`brew install --cask font-fira-code`      | Great font for coding                   |
