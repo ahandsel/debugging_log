@@ -23,6 +23,7 @@
 * [DeepL Translate App](https://www.deepl.com/en/app/)
 * [Sensible Paster - Japanese OCR Mac App](https://apps.apple.com/us/app/sensible-paster/id1553906835?mt=12)
 * [Grammarly for Your Desktop](https://www.grammarly.com/desktop)
+* [Wrise - Accessible word processor](https://apps.apple.com/us/app/id938050665)
 
 ### Personal
 * [Spotify](https://www.spotify.com/download/mac/)
