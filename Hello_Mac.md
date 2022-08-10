@@ -11,6 +11,8 @@
 * [Logi Options+ - Software App for Logitech Products](https://www.logitech.com/en-us/software/logi-options-plus.html)
 * [1Password - Password Manager](https://1password.com/downloads/mac/)
   * [1Password on Chrome Web Store](https://chrome.google.com/webstore/detail/1password-%E2%80%93-password-mana/aeblfdkhhhdcdjpifhhbdiojplfjncoa)
+* [Speedtest by Ookla](https://apps.apple.com/us/app/speedtest-by-ookla/id1153157709?mt=12)
+* [DaVinci Resolve](https://apps.apple.com/us/app/davinci-resolve/id571213070?mt=12)
 
 ### Developer Tools
 * [iTerm2 - macOS Terminal Replacement](https://iterm2.com/index.html)
@@ -18,6 +20,7 @@
 * [Homebrew - Package Manager for macOS](https://brew.sh/)
   * `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 * [GitHub Desktop](https://desktop.github.com/)
+* [Patterns - The Regex App](https://apps.apple.com/us/app/patterns-the-regex-app/id429449079?mt=12)
 
 ### Translation / Writing Tools
 * [DeepL Translate App](https://www.deepl.com/en/app/)
@@ -27,6 +30,7 @@
 
 ### Personal
 * [Spotify](https://www.spotify.com/download/mac/)
+* [Unsplash Wallpapers](https://apps.apple.com/us/app/unsplash-wallpapers/id1284863847?mt=12)
 
 ## Packages to Install
 
