@@ -5,6 +5,7 @@
 * [macOS with nodenv](#macos-with-nodenv)
 * [Windows with nvm-windows](#windows-with-nvm-windows)
 * [📺 Installing Node.js | Video by Kintone](#-installing-nodejs--video-by-kintone)
+* [Which NodeJS version to install?](#which-nodejs-version-to-install)
 * [Why Not Install Node Directly](#why-not-install-node-directly)
 
 ## Check if you already have Node.js or npm
@@ -91,6 +92,9 @@ Optional: Verify that nodenv is properly set up using [nodenv-doctor](https://gi
 
   # install a Node version:
   nodenv install 0.10.26
+
+  # Set a default global Node version:
+  nodenv global 0.10.26
   ```
 
 Alright! Your Mac is now armed with Node.js!
@@ -146,6 +150,10 @@ Download the required packages by opening a terminal for both the `frontend` & `
       src="https://img.youtube.com/vi/4Kw-i_rX3tY/hqdefault.jpg">
   </a>
 </p>
+
+## Which NodeJS version to install?
+
+As of 2022-08-10, the recommended [Node.js](https://nodejs.org/en/) version is `16.16.0`
 
 ## Why Not Install Node Directly
 
