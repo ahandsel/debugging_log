@@ -94,7 +94,7 @@ Optional: Verify that nodenv is properly set up using [nodenv-doctor](https://gi
   nodenv install 0.10.26
 
   # Set a default global Node version:
-  nodenv global 0.10.26
+  nodenv global 16.16.0
   ```
 
 Alright! Your Mac is now armed with Node.js!
