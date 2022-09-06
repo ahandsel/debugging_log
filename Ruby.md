@@ -10,6 +10,8 @@
   * [install a Ruby version](#install-a-ruby-version)
   * [set ruby version for a specific dir](#set-ruby-version-for-a-specific-dir)
   * [set ruby version globally](#set-ruby-version-globally)
+* [Debugging](#debugging)
+  * [Problem: Fails to run install rbenv local](#problem-fails-to-run-install-rbenv-local)
 * [Credit](#credit)
 
 ## brew install [rbenv](https://github.com/rbenv/rbenv)
@@ -44,8 +46,7 @@ rbenv install -l
 ### install a Ruby version
 
 ```shell
-
-rbenv install 2.4.1
+rbenv install 3.1.2
 ```
 
 ### set ruby version for a specific dir
@@ -63,6 +64,17 @@ rbenv rehash
 gem update --system
 ```
 
+## Debugging
+
+rbenv install 3.1.2
+
+
+### Problem: Fails to run install rbenv local 
+```shell
+brew install openssl libffi zlib readline
+```
+
 ## Credit
 
-[macos - How do I install ruby gems on Mac - Stack Overflow](https://stackoverflow.com/questions/39381360/how-do-i-install-ruby-gems-on-mac/43293653#43293653)
+* [macos - How do I install ruby gems on Mac - Stack Overflow](https://stackoverflow.com/questions/39381360/how-do-i-install-ruby-gems-on-mac/43293653#43293653)
+* [Installation issues with Arm Mac (M1 Chip) · Issue #1691 · rbenv/ruby-build](https://github.com/rbenv/ruby-build/issues/1691#issuecomment-983122764)
