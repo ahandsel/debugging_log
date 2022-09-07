@@ -1,4 +1,4 @@
-# Instal Ruby on MacOS with Version Manger
+# Install Ruby on macOS with Version Manager
 
 ## Outline <!-- omit in toc -->
 * [brew install rbenv](#brew-install-rbenv)
@@ -11,7 +11,8 @@
   * [set ruby version for a specific dir](#set-ruby-version-for-a-specific-dir)
   * [set ruby version globally](#set-ruby-version-globally)
 * [Debugging](#debugging)
-  * [Problem: Fails to run install rbenv local](#problem-fails-to-run-install-rbenv-local)
+  * [Bug 1](#bug-1)
+  * [Bug 2](#bug-2)
 * [Credit](#credit)
 
 ## brew install [rbenv](https://github.com/rbenv/rbenv)
@@ -47,18 +48,19 @@ rbenv install -l
 
 ```shell
 rbenv install 3.1.2
+rbenv install 2.1.4
 ```
 
 ### set ruby version for a specific dir
 
 ```shell
-rbenv local 2.4.1
+rbenv local 2.1.4
 ```
 
 ### set ruby version globally
 
 ```shell
-rbenv global 2.4.1
+rbenv global 3.1.2
 
 rbenv rehash
 gem update --system
@@ -69,10 +71,19 @@ gem update --system
 rbenv install 3.1.2
 
 
-### Problem: Fails to run install rbenv local 
+### Bug 1
+Problem: Could not install a ruby version
+
 ```shell
 brew install openssl libffi zlib readline
 ```
+
+### Bug 2
+Error: `You don't have write permissions for the /Library/Ruby/Gems/2.6.0 directory.`
+
+Solution:
+1. Deleted the `Gemfile.lock`
+1. Run `bundle`
 
 ## Credit
 
