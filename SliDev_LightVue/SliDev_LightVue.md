@@ -1,14 +1,14 @@
 # Notes on using SliDev & lightvue
 
-  * Slide Deck Tool - [slidevjs/slidev: Presentation Slides for Developers (Beta)](https://github.com/slidevjs/slidev)
-  * Theme - [lightvue/slidev-theme-light-icons: A light and Elegant theme for Slidev](https://github.com/lightvue/slidev-theme-light-icons)
-    * Links - [LightVue | The Emerging UI Component library for Vue](https://lightvue.org/getting-started/light-icons)
-  * GitHub Pages Setup - [SlidevをGitHub Pagesで公開](https://zenn.dev/shu1007/articles/c65dee06b29772)
+* Slide Deck Tool - [slidevjs/slidev: Presentation Slides for Developers (Beta)](https://github.com/slidevjs/slidev)
+* Theme - [lightvue/slidev-theme-light-icons: A light and Elegant theme for Slidev](https://github.com/lightvue/slidev-theme-light-icons)
+  * Links - [LightVue | The Emerging UI Component library for Vue](https://lightvue.org/getting-started/light-icons)
+* GitHub Pages Setup - [SlidevをGitHub Pagesで公開](https://zenn.dev/shu1007/articles/c65dee06b29772)
 
 ## Slide Deck
-  * Markdown - [slides.md](slides.md)
-  * Demo / Example Slides
-    * Demo you get with SliDev Initiate -> [Demo_slides.md](./SliDev_Basic/Demo_slides.md)
+* Markdown - [slides.md](slides.md)
+* Demo / Example Slides
+  * Demo you get with SliDev Initiate -> [Demo_slides.md](./SliDev_Basic/Demo_slides.md)
 
 ## Commands
 
@@ -19,9 +19,9 @@ Initiate the Project: `npm init slidev`
 Run the Project: `npx slidev`
 
 npm commands:
-  * `npm run dev` -> start dev server
-  * `npm run build` -> build production SPA
-  * `npm run export` -> export slides to pdf
+* `npm run dev` -> start dev server
+* `npm run build` -> build production SPA
+* `npm run export` -> export slides to pdf
 
 ### Setup
 
