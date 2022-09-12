@@ -1,4 +1,4 @@
-# Beginner's Guide in Markdown
+# Beginner Guide to Markdown
 
 ## Setup
 Here is my recommend setup when writing documentation in Markdown.

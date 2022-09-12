@@ -50,7 +50,7 @@ Random notes compiled in one place
 - [Kintone Debugging](Kintone_Debugging.md)
 - [My Mac Setup](Mac_Setup.md)
 - [MacOS Commands <!-- omit in toc -->](MacOS_Commads.md)
-- [Beginner's Guide in Markdown](Markdown.md)
+- [Beginner Guide to Markdown](Markdown.md)
 - [Markdown Tree](MarkdownTree.md)
 - [EAUDITNOPJSON Error & Solution](npm_log.md)
 - [Pandoc - Universal Document Converter](Pandoc.md)
