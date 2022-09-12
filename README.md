@@ -58,6 +58,7 @@ Random notes compiled in one place
 - [Random Google Sheet Formula](Random_GSheet.md)
 - [Notes on Random Stuff](Random.md)
 - [RegEx](RegEx.md)
+- [Install Ruby on macOS with Version Manager](Ruby.md)
 - [Santa Cruz & UCSC](SantaCruz_UCSC.md)
 - [Slide Backgrounds](Slide_Backgrounds.md)
 - [Zoom Shortcuts (Custom)](Zoom_CheatSheet.md)
