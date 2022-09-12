@@ -1,4 +1,4 @@
-# Hello Mac - My Guid on Getting Your Mac Up & Ready
+# Hello Mac - My Guide on Getting Your Mac Up & Ready
 
 ## Apps to Download
 
