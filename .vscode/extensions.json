@@ -1,0 +1,21 @@
+{
+  "recommendations": [
+    "viablelab.capitalize",
+    "wmaurer.change-case",
+    "streetsidesoftware.code-spell-checker",
+    "jerriepelser.copy-markdown-as-html",
+    "jianbingfang.dupchecker",
+    "bierner.github-markdown-preview",
+    "znck.grammarly",
+    "wengerk.highlight-bad-chars",
+    "yzhang.markdown-all-in-one",
+    "manuth.markdown-converter",
+    "telesoho.vscode-markdown-paste-image",
+    "takumii.markdowntable",
+    "davidanson.vscode-markdownlint",
+    "mushan.vscode-paste-image",
+    "christian-kohler.path-intellisense",
+    "jinhyuk.replace-curly-quotes",
+    "mosapride.zenkaku"
+  ]
+}
