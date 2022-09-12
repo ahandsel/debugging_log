@@ -11,7 +11,8 @@
 * [Mac Development Setup](#mac-development-setup)
   * [Xcode x Terminal](#xcode-x-terminal)
   * [Terminal Custom Setup](#terminal-custom-setup)
-  * [Setting up romkatv/powerlevel10k for your Terminal](#setting-up-romkatvpowerlevel10k-for-your-terminal)
+  * [Setting up romkatv/powerlevel10k for your [iTerm2](https://iterm2.com/index.html)](#setting-up-romkatvpowerlevel10k-for-your-iterm2)
+    * [For Apple Terminal & VS Code Terminal](#for-apple-terminal--vs-code-terminal)
   * [`brew`](#brew)
     * [Useful Commands](#useful-commands)
     * [Useful Packages](#useful-packages)
@@ -101,20 +102,46 @@
   * `brew install --cask font-hack-nerd-font`
 * Selection Hex: `#00C9C1`
 
-### Setting up [romkatv/powerlevel10k](https://github.com/romkatv/powerlevel10k) for your Terminal
+### Setting up [romkatv/powerlevel10k](https://github.com/romkatv/powerlevel10k) for your [iTerm2](https://iterm2.com/index.html)
 1. Make sure you installed [ryanoasis/nerd-fonts](https://github.com/ryanoasis/nerd-fonts)
-   * `brew tap homebrew/cask-fonts`
-   * `brew install --cask font-hack-nerd-font`
-2. Install
-   * `git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k`
-   * `echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc`
-3. Go through the `p10k configure` configuration wizard
+
+    ```shell
+    brew tap homebrew/cask-fonts
+    brew install --cask font-hack-nerd-font
+    ```
+
+1. Install
+
+```shell
+brew install romkatv/powerlevel10k/powerlevel10k
+echo "source $(brew --prefix)/opt/powerlevel10k/powerlevel10k.zsh-theme" >>~/.zshrc
+```
+
+1. Go through the `p10k configure` configuration wizard
     * ![configuration-wizard.gif](https://raw.githubusercontent.com/romkatv/powerlevel10k-media/master/configuration-wizard.gif)
     * Type in the choice you want.
     * Example: `Choice [12345rq]: ...`
       * 1 ~ 5 are the options
       * r is for restarting the configuration wizard
       * q is for quitting without saving
+
+#### For Apple Terminal & VS Code Terminal
+1. Install these four tff files to install fonts manually
+    * [MesloLGS NF Regular.ttf](https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Regular.ttf)
+    * [MesloLGS NF Bold.ttf](https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Bold.ttf)
+    * [MesloLGS NF Italic.ttf](https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Italic.ttf)
+    * [MesloLGS NF Bold Italic.ttf](https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Bold%20Italic.ttf)
+1. Double-click on each file and click "Install". This will make `MesloLGS NF` font available to all applications on your system.
+1. Configure Apple Terminal to use this font:
+    1. Open *Terminal → Preferences → Profiles → Text*
+    1. Click *Change* under *Font*
+    1. Select `MesloLGS NF` family.
+1. Configure Visual Studio Code Terminal to use this font:
+    1. Open *File → Preferences → Settings* (PC) or *Code → Preferences → Settings* (Mac)
+    1. Enter `terminal.integrated.fontFamily` in the search box at the top of *Settings* tab
+    1. And set the value below to `MesloLGS NF`.
+    1. ![Settings Screenshot](https://raw.githubusercontent.com/romkatv/powerlevel10k-media/389133fb8c9a2347929a23702ce3039aacc46c3d/visual-studio-code-font-settings.jpg)
+1. Run `p10k configure` to generate a new `~/.p10k.zsh`. The old config may work incorrectly with the new font.
 
 ### `brew`
 * Homebrew or `brew` is a package manager for MacOS. [brew.sh](https://brew.sh/)  
