@@ -44,7 +44,7 @@ Random notes compiled in one place
 - [DaVinci Resolve Tips & Notes](DaVinchi_Resolve.md)
 - [Getting Started with HTML + CSS](Getting_Started_Website.md)
 - [Quick Notes Regarding Google Sheets](GoogleSheet.md)
-- [Hello Mac - My Guid on Getting Your Mac Up & Ready](Hello_Mac.md)
+- [Hello Mac - My Guide on Getting Your Mac Up & Ready](Hello_Mac.md)
 - [Guide on Installing Node.js & npm](Install_Node.md)
 - [iOS Apps to Download When in Japan](Japan_Apps.md)
 - [Kintone Debugging](Kintone_Debugging.md)
