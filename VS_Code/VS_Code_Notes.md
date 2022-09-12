@@ -7,7 +7,7 @@
   * [If the lines order is not important](#if-the-lines-order-is-not-important)
   * [If the lines order *IS* important (can't alphabetically sort)](#if-the-lines-order-is-important-cant-alphabetically-sort)
 * [How to install VS Code Extensions Manually?](#how-to-install-vs-code-extensions-manually)
-* [VS Code & romkatv/powerlevel10k](#vs-code--romkatvpowerlevel10k)
+* [VS Code & powerlevel10k](#vs-code--powerlevel10k)
 <!-- markdownlint-enable MD007 -->
 
 ## Display Whitespace in VS Code
@@ -54,12 +54,11 @@
   * ![Install from VSIX Screenshot](https://i.stack.imgur.com/nPF49.png)
 * Verify the Extension was installed!
 
-## VS Code & [romkatv/powerlevel10k](https://github.com/romkatv/powerlevel10k)
-  1. Install [ryanoasis/nerd-fonts](https://github.com/ryanoasis/nerd-fonts)
-      * `brew tap homebrew/cask-fonts`
-      * `brew install --cask font-hack-nerd-font`
-  2. Configure VS Code Setting
-      * Open File → Preferences → Settings
-      * For `terminal.integrated.fontFamily`, set `MesloLGS NF`
-      * For `terminal.explorerKind`, set `external`
-      * For `terminal.external.osxExec`, set `iTerm.app`
+## VS Code & powerlevel10k
+1. Install & configure [romkatv/powerlevel10k](https://github.com/romkatv/powerlevel10k)
+    * See [Mac_Setup article's powerlevel10k section](../Mac_Setup.md#powerlevel10k---a-zsh-theme) for more details.
+2. Configure VS Code Setting
+    * Open File → Preferences → Settings
+    * For `terminal.integrated.fontFamily`, set `MesloLGS NF`
+    * For `terminal.explorerKind`, set `external`
+    * For `terminal.external.osxExec`, set `iTerm.app`

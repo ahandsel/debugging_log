@@ -11,8 +11,9 @@
 * [Mac Development Setup](#mac-development-setup)
   * [Xcode x Terminal](#xcode-x-terminal)
   * [Terminal Custom Setup](#terminal-custom-setup)
-  * [Setting up romkatv/powerlevel10k for your [iTerm2](https://iterm2.com/index.html)](#setting-up-romkatvpowerlevel10k-for-your-iterm2)
-    * [For Apple Terminal & VS Code Terminal](#for-apple-terminal--vs-code-terminal)
+  * [powerlevel10k - A Zsh theme](#powerlevel10k---a-zsh-theme)
+    * [Setup powerlevel10k for iTerm2](#setup-powerlevel10k-for-iterm2)
+    * [Setup powerlevel10k for Apple Terminal & VS Code Terminal](#setup-powerlevel10k-for-apple-terminal--vs-code-terminal)
   * [`brew`](#brew)
     * [Useful Commands](#useful-commands)
     * [Useful Packages](#useful-packages)
@@ -102,7 +103,10 @@
   * `brew install --cask font-hack-nerd-font`
 * Selection Hex: `#00C9C1`
 
-### Setting up [romkatv/powerlevel10k](https://github.com/romkatv/powerlevel10k) for your [iTerm2](https://iterm2.com/index.html)
+### powerlevel10k - A Zsh theme
+
+#### Setup powerlevel10k for iTerm2
+ for your [iTerm2](https://iterm2.com/index.html)
 1. Make sure you installed [ryanoasis/nerd-fonts](https://github.com/ryanoasis/nerd-fonts)
 
     ```shell
@@ -110,7 +114,7 @@
     brew install --cask font-hack-nerd-font
     ```
 
-1. Install
+1. Install [romkatv/powerlevel10k](https://github.com/romkatv/powerlevel10k)
 
 ```shell
 brew install romkatv/powerlevel10k/powerlevel10k
@@ -125,7 +129,7 @@ echo "source $(brew --prefix)/opt/powerlevel10k/powerlevel10k.zsh-theme" >>~/.zs
       * r is for restarting the configuration wizard
       * q is for quitting without saving
 
-#### For Apple Terminal & VS Code Terminal
+#### Setup powerlevel10k for Apple Terminal & VS Code Terminal
 1. Install these four tff files to install fonts manually
     * [MesloLGS NF Regular.ttf](https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Regular.ttf)
     * [MesloLGS NF Bold.ttf](https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Bold.ttf)
