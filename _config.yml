@@ -1,3 +1,5 @@
+title: Debugging Log by ahandsel
+description: Random Notes
 plugins:
   - jekyll-relative-links
 relative_links:
@@ -6,4 +8,8 @@ relative_links:
 include:
   - README.md
 
-theme: jekyll-theme-minimal
+theme: jekyll-theme-leap-day
+
+# jekyll-theme-leap-day specific settings
+show_downloads: false
+#google_analytics: [Your Google Analytics tracking ID]
