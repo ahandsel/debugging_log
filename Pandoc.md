@@ -43,6 +43,12 @@ pandoc -f gfm input.md -o output.docx
 pandoc --from=docx input.docx --to=gfm --output=output.md
 ```
 
+## Rich Text Format to GitHub-Flavored Markdown
+
+```bash
+pandoc --from=rtf input.rtf --to=gfm --output=output.md
+```
+
 <!-- ## PowerPoint to Markdown -->
 
 ---
