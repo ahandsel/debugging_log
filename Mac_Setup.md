@@ -17,6 +17,9 @@
   * [`brew`](#brew)
     * [Useful Commands](#useful-commands)
     * [Useful Packages](#useful-packages)
+  * [Python Setup on Mac](#python-setup-on-mac)
+    * [Install Pyenv](#install-pyenv)
+    * [Use Pyenv](#use-pyenv)
 <!-- markdownlint-enable MD007 -->
 
 ## Recommend Mac Apps
@@ -164,10 +167,66 @@ echo "source $(brew --prefix)/opt/powerlevel10k/powerlevel10k.zsh-theme" >>~/.zs
 
 #### Useful Packages
 
-| Package                                                         | brew                                    | Note                               |
-| --------------------------------------------------------------- | --------------------------------------- | ---------------------------------- |
-| [Node.js](https://nodejs.org/en/)                               | `brew install node`                     | JavaScript server environment      |
-| [Git](https://git-scm.com/)                                     | `brew install git`                      | distributed version control system |
-| [Pandoc](https://pandoc.org/)                                   | `brew install pandoc`                   | Markdown ↔︎ Word Docx               |
+| Package                                                         | brew                                                                        | Note                                    |
+| --------------------------------------------------------------- | --------------------------------------------------------------------------- | --------------------------------------- |
+| [Node.js](https://nodejs.org/en/)                               | `brew install node`                                                         | JavaScript server environment           |
+| [Git](https://git-scm.com/)                                     | `brew install git`                                                          | distributed version control system      |
+| [Pandoc](https://pandoc.org/)                                   | `brew install pandoc`                                                       | Markdown ↔︎ Word Docx                    |
 | [ryanoasis/nerd-fonts](https://github.com/ryanoasis/nerd-fonts) | `brew tap homebrew/cask-fonts`<br>`brew install --cask font-hack-nerd-font` | Fonts including Fira Code & MesloLGS NF |
-| [tonsky/FiraCode](https://github.com/tonsky/FiraCode)           | `brew cask install font-fira-code`      | Great font for coding              |
+| [tonsky/FiraCode](https://github.com/tonsky/FiraCode)           | `brew cask install font-fira-code`                                          | Great font for coding                   |
+
+### Python Setup on Mac
+
+* [pyenv/pyenv: Simple Python version management](https://github.com/pyenv/pyenv)
+
+#### Install Pyenv
+
+Steps: <https://github.com/pyenv/pyenv#getting-pyenv>
+
+```shell
+# Install Pyenv via brew
+brew update
+brew install pyenv
+
+# Add the following to ~/.zshrc
+echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.zshrc
+echo 'command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.zshrc
+echo 'eval "$(pyenv init -)"' >> ~/.zshrc
+
+# Restart the terminal
+exec "$SHELL"
+```
+
+#### Use Pyenv
+
+Current Python versions:  
+[Download Python | Python.org](https://www.python.org/downloads/)
+
+Install additional Python versions:  
+For example, to download and install *Python 3.10.4*, run:
+
+```shell
+pyenv install 3.10.4
+```
+
+List of Python versions:  
+
+```shell
+pyenv install --list
+```
+
+Switch between Python versions:  
+
+To select a Pyenv-installed Python as the version to use, run one of the following commands:
+
+| Python Version Scope                         | Command                  |
+| -------------------------------------------- | ------------------------ |
+| Just for current shell session               | `pyenv shell <version>`  |
+| Current directory (& subdirectories) Setting | `pyenv local <version>`  |
+| Global Setting                               | `pyenv global <version>` |
+
+Verify Python version:  
+
+```shell
+python --version
+```
