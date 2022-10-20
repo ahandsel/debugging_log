@@ -20,6 +20,7 @@
   * [Python Setup on Mac](#python-setup-on-mac)
     * [Install Pyenv](#install-pyenv)
     * [Use Pyenv](#use-pyenv)
+  * [PowerPoint to MD](#powerpoint-to-md)
 <!-- markdownlint-enable MD007 -->
 
 ## Recommend Mac Apps
@@ -230,3 +231,23 @@ Verify Python version:
 ```shell
 python --version
 ```
+
+### PowerPoint to MD
+
+[pptx2md](https://github.com/ssine/pptx2md) is a tool to convert PowerPoint to Markdown.
+
+Install: `pip install pptx2md`
+
+Usage: `pptx2md filename`
+
+Options:  
+* `-t [filename]` provide the title file
+* `-o [filename]` path of the output file
+* `-i [path]` directory of the extracted pictures
+* `--image-width [width]` the maximum width of the pictures, in px. If set, images are put as html img tag.
+* `--disable-image` disable the image extraction
+* `--disable-escaping` do not attempt to escape special characters
+* `--disable-wmf` keep wmf formatted image untouched (avoid exceptions under linux)
+* `--disable-color` disable color tags in HTML
+* `--min-block-size [size]` the minimum number of characters for a text block to be outputted
+* `--wiki` / `--mdk` if you happen to be using tiddlywiki or madoko, this argument outputs the corresponding markup language
