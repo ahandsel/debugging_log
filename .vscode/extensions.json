@@ -1,20 +1,20 @@
 {
   "recommendations": [
-    "viablelab.capitalize",
-    "wmaurer.change-case",
-    "streetsidesoftware.code-spell-checker",
+    "bierner.github-markdown-preview",
+    "christian-kohler.path-intellisense",
+    "davidanson.vscode-markdownlint",
     "jerriepelser.copy-markdown-as-html",
     "jianbingfang.dupchecker",
-    "bierner.github-markdown-preview",
-    "znck.grammarly",
-    "wengerk.highlight-bad-chars",
-    "yzhang.markdown-all-in-one",
-    "manuth.markdown-converter",
-    "telesoho.vscode-markdown-paste-image",
-    "davidanson.vscode-markdownlint",
-    "mushan.vscode-paste-image",
-    "christian-kohler.path-intellisense",
     "jinhyuk.replace-curly-quotes",
-    "mosapride.zenkaku"
+    "manuth.markdown-converter",
+    "mosapride.zenkaku",
+    "mushan.vscode-paste-image",
+    "streetsidesoftware.code-spell-checker",
+    "telesoho.vscode-markdown-paste-image",
+    "viablelab.capitalize",
+    "wengerk.highlight-bad-chars",
+    "wmaurer.change-case",
+    "yzhang.markdown-all-in-one",
+    "znck.grammarly",
   ]
 }
