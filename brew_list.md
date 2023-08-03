@@ -1,138 +1,155 @@
 # My installed brew packages as of 2023-04-27
 
 ## Formulae
-* `aom`
-* `aribb24`
-* `autoconf`
-* `bdw-gc`
-* `brotli`
-* `c-ares`
-* `ca-certificates`
-* `cairo`
-* `cjson`
-* `cmocka`
-* `dart`
-* `dav1d`
-* `docker`
-* `ffmpeg`
-* `flac`
-* `fontconfig`
-* `freetype`
-* `frei0r`
-* `fribidi`
-* `gettext`
-* `gh`
-* `giflib`
-* `git`
-* `glib`
-* `gmp`
-* `gnutls`
-* `go`
-* `graphite2`
-* `guile`
-* `harfbuzz`
-* `highway`
-* `hugo`
-* `icu4c`
-* `imath`
-* `jpeg-turbo`
-* `jpeg-xl`
-* `lame`
-* `leptonica`
-* `libarchive`
-* `libass`
-* `libb2`
-* `libbluray`
-* `libevent`
-* `libffi`
-* `libidn2`
-* `libnghttp2`
-* `libogg`
-* `libpng`
-* `librist`
-* `libsamplerate`
-* `libsndfile`
-* `libsodium`
-* `libsoxr`
-* `libtasn1`
-* `libtiff`
-* `libtool`
-* `libunibreak`
-* `libunistring`
-* `libuv`
-* `libvidstab`
-* `libvmaf`
-* `libvorbis`
-* `libvpx`
-* `libx11`
-* `libxau`
-* `libxcb`
-* `libxdmcp`
-* `libxext`
-* `libxrender`
-* `libyaml`
-* `little-cms2`
-* `lz4`
-* `lzo`
-* `m4`
-* `mbedtls`
-* `mkcert`
-* `mpdecimal`
-* `mpg123`
-* `nettle`
-* `node`
-* `node-build`
-* `nodenv`
-* `opencore-amr`
-* `openexr`
-* `openjpeg`
-* `openssl@1.1`
-* `openssl@3`
-* `opus`
-* `p11-kit`
-* `pandoc`
-* `pango`
-* `pcre2`
-* `pixman`
-* `pkg-config`
-* `poetry`
-* `powerlevel10k`
-* `protobuf`
-* `pyenv`
-* `pyright`
-* `python@3.11`
-* `rav1e`
-* `rbenv`
-* `readline`
-* `rubberband`
-* `ruby-build`
-* `sass`
-* `sdl2`
-* `six`
-* `snappy`
-* `speex`
-* `sqlite`
-* `srt`
-* `svt-av1`
-* `tesseract`
-* `theora`
-* `tree`
-* `unbound`
-* `virtualenv`
-* `webp`
-* `x264`
-* `x265`
-* `xorgproto`
-* `xvid`
-* `xz`
-* `yarn`
-* `zeromq`
-* `zimg`
-* `zlib`
-* `zstd`
+
+```shell
+abseil
+aom
+aribb24
+autoconf
+bdw-gc
+brotli
+buf
+c-ares
+ca-certificates
+cairo
+cffi
+cjson
+cli-kintone
+cmocka
+dart
+dart-sass-embedded@1.62.1
+dav1d
+docker
+docker-completion
+ffmpeg
+flac
+fontconfig
+freetype
+frei0r
+fribidi
+gettext
+gh
+giflib
+git
+glib
+gmp
+gnutls
+go
+graphite2
+guile
+harfbuzz
+highway
+hugo
+icu4c
+imath
+jpeg-turbo
+jpeg-xl
+lame
+leptonica
+libarchive
+libass
+libb2
+libbluray
+libevent
+libffi
+libidn2
+libnghttp2
+libogg
+libpng
+librist
+libsamplerate
+libsndfile
+libsodium
+libsoxr
+libtasn1
+libtiff
+libtool
+libunibreak
+libunistring
+libuv
+libvidstab
+libvmaf
+libvorbis
+libvpx
+libx11
+libxau
+libxcb
+libxdmcp
+libxext
+libxrender
+libyaml
+little-cms2
+lz4
+lzo
+m4
+markdownlint-cli
+markdownlint-cli2
+mbedtls
+mkcert
+mpdecimal
+mpg123
+nettle
+node
+node-build
+nodenv
+nodenv-nvmrc
+opencore-amr
+openexr
+openjpeg
+openssl@1.1
+openssl@3
+opus
+p11-kit
+pandoc
+pango
+pcre2
+pixman
+pkg-config
+poetry
+powerlevel10k
+protobuf
+pycparser
+pyenv
+pyright
+python@3.11
+rav1e
+rbenv
+readline
+rubberband
+ruby-build
+sass
+sdl2
+six
+snappy
+speex
+sqlite
+srt
+svt-av1
+tesseract
+theora
+tree
+unbound
+virtualenv
+webp
+x264
+x265
+xorgproto
+xvid
+xz
+yarn
+zeromq
+zimg
+zlib
+zstd
+```
 
 ## Casks
-* `firefox`
-* `font-fira-code`
-* `font-hack-nerd-font`
-* `microsoft-edge`
+
+```shell
+arduino-ide
+firefox
+font-fira-code
+font-hack-nerd-font
+microsoft-edge
+```
