@@ -2,7 +2,7 @@
 
 ## Outline <!-- omit in toc -->
 <!-- markdownlint-disable MD007 -->
-* [`npm run export` not workign with an playwright install error?](#npm-run-export-not-workign-with-an-playwright-install-error)
+* [`npm run export` not working with an playwright install error?](#npm-run-export-not-working-with-an-playwright-install-error)
 * [Slidev build with base Error: Could not resolve entry module (index.html)](#slidev-build-with-base-error-could-not-resolve-entry-module-indexhtml)
   * [Issue: Bug Report - npm run build for a MD file in a subfolder leads to an `Error: Could not resolve entry module (index.html)`](#issue-bug-report---npm-run-build-for-a-md-file-in-a-subfolder-leads-to-an-error-could-not-resolve-entry-module-indexhtml)
 <!-- markdownlint-enable MD007 -->
@@ -39,26 +39,26 @@ browserType.launch: Executable doesn't exist at /Users/USERNAME/Library/Caches/m
 ```
 
 Attempts:
-  * Removing the cache folder on `/Users/username/Library/Caches/ms-playwright`
-  * `npm i -D @playwright/test`
-  * `npx playwright install`
-  * `yarn add playwright-chromium`
-  * `npm add playwright-chromium`
+* Removing the cache folder on `/Users/username/Library/Caches/ms-playwright`
+* `npm i -D @playwright/test`
+* `npx playwright install`
+* `yarn add playwright-chromium`
+* `npm add playwright-chromium`
 
 Solution:
-  * Clean install of slidev (do not duplicate old project)
-  * `npm init slidev`
-  * `npx slidev export`
-  * `npm i playwright-chromium`
-  * `npx slidev export`
-  * --> exported to ./slides-export.pdf
+* Clean install of slidev (do not duplicate old project)
+* `npm init slidev`
+* `npx slidev export`
+* `npm i playwright-chromium`
+* `npx slidev export`
+* --> exported to ./slides-export.pdf
 
 Solution 2:
-  * Delete `node_modules` folder
-  * `npm i`
-  * `npm i -D playwright-chromium`
-  * `npx slidev export`
-  * --> exported to ./slides-export.pdf
+* Delete `node_modules` folder
+* `npm i`
+* `npm i -D playwright-chromium`
+* `npx slidev export`
+* --> exported to ./slides-export.pdf
 
 ## Slidev build with base Error: Could not resolve entry module (index.html)
 
@@ -88,24 +88,24 @@ Error: Could not resolve entry module (index.html).
 ```
 
 Test 1:
-  * Moving slides.md to the root folder
-  * `npx slidev build slides.md`
-  * Works ✅
+* Moving slides.md to the root folder
+* `npx slidev build slides.md`
+* Works ✅
 
 Test 2:
-  * Renaming the slides.md to panda.md
-  * `npx slidev build panda.md`
-  * works ✅
+* Renaming the slides.md to panda.md
+* `npx slidev build panda.md`
+* works ✅
 
 Test 3:
-  * Added the base option
-  * `npx slidev build panda.md "--base" "/slides/slidev_template/"`
-  * works ✅
+* Added the base option
+* `npx slidev build panda.md "--base" "/slides/slidev_template/"`
+* works ✅
 
 Test 4:
-  * Moved the panda.md to `slide_decks/panda.md`
-  * `npx slidev build "slide_decks/panda.md" "--base" "/slides/slidev_template/"`
-  * Error 😵
+* Moved the panda.md to `slide_decks/panda.md`
+* `npx slidev build "slide_decks/panda.md" "--base" "/slides/slidev_template/"`
+* Error 😵
 
 ```shell
 ❯ npx slidev build "slide_decks/panda.md" "--base" "/slides/slidev_template/"
@@ -134,13 +134,13 @@ Error: Could not resolve entry module (index.html).
 #### Describe the bug <!-- omit in toc -->
 When trying to run `npm run build` for a Slidev project where the `slides.md` is in a **subfolder** ends with an error.
 
-**Attempted Command**  
+##### Attempted Command <!-- omit in toc -->
 
 ```shell
 npx slidev build "slide_decks/slides.md" "--base" "/slides/slidev_template/"
 ```
 
-**Result**  
+##### Result <!-- omit in toc -->
 
 ```shell
   ●■▲
@@ -164,29 +164,29 @@ Error: Could not resolve entry module (index.html).
 #### Tests I have conducted <!-- omit in toc -->
 
 Test 1:
-  * Running the command when the slides.md is the root folder
-  * `npx slidev build slides.md`
-  * Works ✅
+* Running the command when the slides.md is the root folder
+* `npx slidev build slides.md`
+* Works ✅
 
 Test 2:
-  * Renaming the slides.md to panda.md
-  * `npx slidev build panda.md`
-  * works ✅
+* Renaming the slides.md to panda.md
+* `npx slidev build panda.md`
+* works ✅
 
 Test 3:
-  * Added the base option
-  * `npx slidev build panda.md "--base" "/slides/slidev_template/"`
-  * works ✅
+* Added the base option
+* `npx slidev build panda.md "--base" "/slides/slidev_template/"`
+* works ✅
 
 Test 4:
-  * Moved the panda.md to `slide_decks/panda.md`
-  * `npx slidev build "slide_decks/panda.md" "--base" "/slides/slidev_template/"`
-  * Error 😵
+* Moved the panda.md to `slide_decks/panda.md`
+* `npx slidev build "slide_decks/panda.md" "--base" "/slides/slidev_template/"`
+* Error 😵
 
 Test 5:
-  * Attempt to run build command from a markdown file in a subfolder without `base` option
-  * `npm run build slide_decks/panda.md`
-  * Error 😵
+* Attempt to run build command from a markdown file in a subfolder without `base` option
+* `npm run build slide_decks/panda.md`
+* Error 😵
 
   ```shell
   > build
@@ -218,8 +218,8 @@ Steps to reproduce the behavior:
 5. See error message in the terminal
 
 #### Desktop / Environment <!-- omit in toc -->
-  * OS: `macOS Monterey version 12.2.1`
-  * Browser: `Google Chrome Version 99.0.4844.51 (Official Build) (x86_64)`
-  * Slidev version: `Slidev v0.27.20`
+* OS: `macOS Monterey version 12.2.1`
+* Browser: `Google Chrome Version 99.0.4844.51 (Official Build) (x86_64)`
+* Slidev version: `Slidev v0.27.20`
 
 Thank you for your time 🙇‍♂️
