@@ -1,5 +1,6 @@
 # Random Google Sheet Formula
 
+## Emoji for Sat & Sun
 ```txt
-=IFS(OR(C7="",C7="PV"),"--Off--",C7="EA","Morning, 13:00",C7="LA","Night, 16:00")
+=IFS(LEFT(A1, 3) = "Sat", "🏖", LEFT(A1, 3) = "Sun", "🏖", TRUE, "")
 ```
