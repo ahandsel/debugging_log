@@ -1,3 +1,6 @@
+# NotePlan Template
+
+```markdown
 ---
 title: Weekly Report 💪
 type: empty-note
@@ -25,3 +28,4 @@ Other
 *  
 
 #### Memo
+```
