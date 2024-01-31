@@ -1,0 +1,5 @@
+repos:
+-   repo: https://github.com/mistermicheels/markdown-notes-tree
+    rev: v1.12.0
+    hooks:
+    -   id: markdown-notes-tree
