@@ -10,6 +10,14 @@ npm install -g markdown-notes-tree
 
 ## Use
 
+Basic:
+
 ```shell
 npx markdown-notes-tree --ignore img
+```
+
+Cleaner & debug:
+
+```shell
+npx markdown-notes-tree --ignore img --allowMissingTitle --noSubdirectoryTrees
 ```
