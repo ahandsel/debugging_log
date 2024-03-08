@@ -1,27 +1,21 @@
 #!/bin/zsh
 
-# Variables
-query=$input
-github_repo_url="${github_repo_url}"
+# Assign the first command line argument to input, trimming leading and trailing spaces
+input="${1// /%20}"
 
-# Use the first command line argument as input
-input=$1
-
-# Check if the URL ends with a '/'
-if [[ $github_repo_url != */ ]]; then
-    # If not, add '/'
-    github_repo_url="${github_repo_url}/"
-fi
+# Ensure github_repo_url is provided without leading/trailing spaces
+# and ends with a '/'
+github_repo_url="${github_repo_url%/}/"  # Trim any trailing slash and then add one back
 
 # Check if the input is empty
 if [[ -z $input ]]; then
-  echo "${github_repo_url}"
+  echo -n "${github_repo_url}"
 
 # Check if the input is only a number
 elif [[ $input =~ '^[0-9]+$' ]]; then
-  echo "${github_repo_url}issues/$input"
+  echo -n "${github_repo_url}issues/$input"
 
 # If the input is text
 else
-  echo "${github_repo_url}issues?q=is%3Aissue+$input"
+  echo -n "${github_repo_url}issues?q=is%3Aissue+$input"
 fi
