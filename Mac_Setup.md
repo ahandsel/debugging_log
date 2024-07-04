@@ -1,7 +1,6 @@
 # My Mac Setup
 
 ## Outline<!-- omit in toc -->
-<!-- markdownlint-disable MD007 -->
 * [Recommend Mac Apps](#recommend-mac-apps)
   * [PDF Expert - $80](#pdf-expert---80)
   * [CleanMyMac X - $34.99 Per Year or $89.99 One-Time](#cleanmymac-x---3499-per-year-or-8999-one-time)
@@ -13,7 +12,7 @@
   * [Terminal Custom Setup](#terminal-custom-setup)
   * [powerlevel10k - A Zsh theme](#powerlevel10k---a-zsh-theme)
     * [Setup powerlevel10k for iTerm2](#setup-powerlevel10k-for-iterm2)
-    * [Setup powerlevel10k for Apple Terminal & VS Code Terminal](#setup-powerlevel10k-for-apple-terminal--vs-code-terminal)
+    * [Setup powerlevel10k for Apple Terminal \& VS Code Terminal](#setup-powerlevel10k-for-apple-terminal--vs-code-terminal)
   * [`brew`](#brew)
     * [Useful Commands](#useful-commands)
     * [Useful Packages](#useful-packages)
@@ -21,7 +20,6 @@
     * [Install Pyenv](#install-pyenv)
     * [Use Pyenv](#use-pyenv)
   * [PowerPoint to MD](#powerpoint-to-md)
-<!-- markdownlint-enable MD007 -->
 
 ## Recommend Mac Apps
 
