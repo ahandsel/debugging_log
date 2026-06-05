@@ -1,0 +1,4 @@
+interface:
+  display_name: 'Japanese UX copy localize'
+  short_description: 'Localize JA CSV copy'
+  default_prompt: 'Use $ux-en-to-ja-localize to localize Japanese UX copy in phrase-data CSV files with project and key validation before row-level edits.'

@@ -1,0 +1,4 @@
+interface:
+  display_name: 'English Phrase Key Review'
+  short_description: 'Review English UX copy keys'
+  default_prompt: 'Review Key values in UX-copy tables for naming-rule compliance'
