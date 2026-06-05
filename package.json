@@ -1,0 +1,31 @@
+{
+  "name": "debugging-log",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview",
+    "index": "zsh scripts/index.sh",
+    "lint": "pnpm run lint-code && pnpm run lint-md",
+    "lint-code": "prettier --write .",
+    "lint-md": "markdownlint-cli2 --fix"
+  },
+  "devDependencies": {
+    "@prettier/plugin-xml": "^3.4.2",
+    "markdownlint-cli2": "^0.22.1",
+    "markdownlint-rule-relative-links": "^5.1.0",
+    "markdownlint-rule-search-replace": "^1.2.0",
+    "prettier": "^3.8.3",
+    "prettier-plugin-packagejson": "^3.0.2",
+    "prettier-plugin-sh": "^0.18.1",
+    "prettier-plugin-sql": "^0.20.0",
+    "prettier-plugin-toml": "^2.0.6",
+    "vitepress": "^1.5.0"
+  },
+  "engines": {
+    "node": ">=24",
+    "pnpm": ">=10"
+  }
+}
