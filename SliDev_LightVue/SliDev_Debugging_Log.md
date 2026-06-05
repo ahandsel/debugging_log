@@ -1,5 +1,6 @@
 # Debugging Log for SliDev
 
+
 ## Outline <!-- omit in toc -->
 <!-- markdownlint-disable MD007 -->
 * [`npm run export` not working with an playwright install error?](#npm-run-export-not-working-with-an-playwright-install-error)
@@ -59,6 +60,7 @@ Solution 2:
 * `npm i -D playwright-chromium`
 * `npx slidev export`
 * --> exported to ./slides-export.pdf
+
 
 ## Slidev build with base Error: Could not resolve entry module (index.html)
 
@@ -129,16 +131,21 @@ Error: Could not resolve entry module (index.html).
 }
 ```
 
+
 ### Issue: Bug Report - npm run build for a MD file in a subfolder leads to an `Error: Could not resolve entry module (index.html)`
 
+
 #### Describe the bug <!-- omit in toc -->
+
 When trying to run `npm run build` for a Slidev project where the `slides.md` is in a **subfolder** ends with an error.
+
 
 ##### Attempted Command <!-- omit in toc -->
 
 ```shell
 npx slidev build "slide_decks/slides.md" "--base" "/slides/slidev_template/"
 ```
+
 
 ##### Result <!-- omit in toc -->
 
@@ -160,6 +167,7 @@ Error: Could not resolve entry module (index.html).
   code: 'UNRESOLVED_ENTRY'
 }
 ```
+
 
 #### Tests I have conducted <!-- omit in toc -->
 
@@ -209,7 +217,9 @@ Test 5:
   }
   ```
 
+
 #### To Reproduce <!-- omit in toc -->
+
 Steps to reproduce the behavior:
 1. Create a Slidev project: `npm init slidev`
 2. Create a folder: `mkdir subfolder_test`
@@ -217,7 +227,9 @@ Steps to reproduce the behavior:
 4. Attempt to run build: `npm run build subfolder_test/slides.md`
 5. See error message in the terminal
 
+
 #### Desktop / Environment <!-- omit in toc -->
+
 * OS: `macOS Monterey version 12.2.1`
 * Browser: `Google Chrome Version 99.0.4844.51 (Official Build) (x86_64)`
 * Slidev version: `Slidev v0.27.20`

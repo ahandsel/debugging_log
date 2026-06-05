@@ -1,5 +1,7 @@
 # Getting Started with Visual Studio Code (VS Code)
+
 I highly recommend using Visual studio code as your code editor.
+
 
 ## Outline <!-- omit in toc -->
 <!-- markdownlint-disable MD007 -->
@@ -9,17 +11,21 @@ I highly recommend using Visual studio code as your code editor.
 <!-- markdownlint-enable MD007 -->
 
 ## What is a Code Editor?
+
 * i.e. Source-code editor
 * A code editor is a text editor program designed specifically for editing source code of computer programs.
 * Can be a standalone application, in a integrated development environment, or web browser
 
+
 ## What is Visual studio code?
+
 * i.e. VS code
 * One of the best code editors in the market.
 * Made by Microsoft but free
 * Has powerful extensions to make developing easier.
 * Download: [code.visualstudio.com](https://code.visualstudio.com)
 * ![vscode_website.png](../img/vscode_website.png)
+
 
 ## Recommended VS Code Extensions
 
@@ -28,7 +34,7 @@ I highly recommend using Visual studio code as your code editor.
 | [Highlight Bad Chars](https://marketplace.visualstudio.com/items?itemName=wengerk.highlight-bad-chars)                   | Makes zenkaku-Space (double-byte-whitespace) visible.                                                                |
 | [Trailing Spaces](https://marketplace.visualstudio.com/items?itemName=shardulm94.trailing-spaces)                        | Highlights trailing spaces and allows for simple all trailing space delete command.                                  |
 | [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)                             | Backup & Sync your VS Code settings and Extensions by storing the setting JSON file as a secrete GitHub Gist.        |
-| [Replace curly quotes](https://marketplace.visualstudio.com/items?itemName=jinhyuk.replace-curly-quotes)                 | Replaces all curly quotes(`‘`, `’`, `“`, `”`) in a document with straight quotes(`'`, `"`).                          |
+| [Replace curly quotes](https://marketplace.visualstudio.com/items?itemName=jinhyuk.replace-curly-quotes)                 | Replaces all curly quotes(`'`, `'`, `"`, `"`) in a document with straight quotes(`'`, `"`).                          |
 | [Rainbow CSV](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv)                               | Makes it easier to read and edit CSV and TSV files                                                                   |
 | [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)                    | Amazing tool that has all the features you need when writing Markdown files!                                         |
 | [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)                                 | Launch a local development server with live reload feature for static & dynamic pages. Perfect when working on HTML. |

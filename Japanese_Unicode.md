@@ -1,4 +1,5 @@
 # Japanese Unicode Table
+
 Following is a table of unicode characters for Japanese.  
 Note that this table excludes the Kanji characters.
 
@@ -16,13 +17,17 @@ Simply add the following to your VSCode settings.json file:
 }
 ```
 
+
 ## Japanese-style punctuation ( 3000 - 303f)
+
   3000   　  、  。  〃  〄  々  〆  〇  〈  〉  《  》  「  」  『  』  
   3010   【  】  〒  〓  〔  〕  〖  〗  〘  〙  〚  〛  〜  〝  〞  〟  
   3020   〠  〡  〢  〣  〤  〥  〦  〧  〨  〩  〪  〫  〬  〭  〮  〯  
   3030   〰  〱  〲  〳  〴  〵  〶  〷  〸  〹  〺  〻  〼  〽  〾  〿  
 
+
 ## Hiragana ( 3040 - 309f)
+
   3040   ぀  ぁ  あ  ぃ  い  ぅ  う  ぇ  え  ぉ  お  か  が  き  ぎ  く  
   3050   ぐ  け  げ  こ  ご  さ  ざ  し  じ  す  ず  せ  ぜ  そ  ぞ  た  
   3060   だ  ち  ぢ  っ  つ  づ  て  で  と  ど  な  に  ぬ  ね  の  は  
@@ -30,7 +35,9 @@ Simply add the following to your VSCode settings.json file:
   3080   む  め  も  ゃ  や  ゅ  ゆ  ょ  よ  ら  り  る  れ  ろ  ゎ  わ  
   3090   ゐ  ゑ  を  ん  ゔ  ゕ  ゖ  ゗  ゘  ゙  ゚  ゛  ゜  ゝ  ゞ  ゟ  
 
+
 ## Katakana ( 30a0 - 30ff)
+
   30a0   ゠  ァ  ア  ィ  イ  ゥ  ウ  ェ  エ  ォ  オ  カ  ガ  キ  ギ  ク  
   30b0   グ  ケ  ゲ  コ  ゴ  サ  ザ  シ  ジ  ス  ズ  セ  ゼ  ソ  ゾ  タ  
   30c0   ダ  チ  ヂ  ッ  ツ  ヅ  テ  デ  ト  ド  ナ  ニ  ヌ  ネ  ノ  ハ  
@@ -38,7 +45,9 @@ Simply add the following to your VSCode settings.json file:
   30e0   ム  メ  モ  ャ  ヤ  ュ  ユ  ョ  ヨ  ラ  リ  ル  レ  ロ  ヮ  ワ  
   30f0   ヰ  ヱ  ヲ  ン  ヴ  ヵ  ヶ  ヷ  ヸ  ヹ  ヺ  ・  ー  ヽ  ヾ  ヿ  
 
+
 ## Full-width roman characters and half-width katakana ( ff00 - ffef)
+
   ff00   ＀  ！  ＂  ＃  ＄  ％  ＆  ＇  （  ）  ＊  ＋  ，  －  ．  ／  
   ff10   ０  １  ２  ３  ４  ５  ６  ７  ８  ９  ：  ；  ＜  ＝  ＞  ？  
   ff20   ＠  Ａ  Ｂ  Ｃ  Ｄ  Ｅ  Ｆ  Ｇ  Ｈ  Ｉ  Ｊ  Ｋ  Ｌ  Ｍ  Ｎ  Ｏ  

@@ -1,19 +1,22 @@
 # Overview on Slidev's Default Demo
 
+
 ## Outline
-  * [Configure Front Matter](#configure-front-matter)
-  * [1 - Intro Slide](#1---intro-slide)
-  * [2 - Markdown + Style](#2---markdown--style)
-  * [3 - Navigation Slide](#3---navigation-slide)
-  * [4 - image-right Slide](#4---image-right-slide)
-  * [5 - Components](#5---components)
-  * [6 - Class](#6---class)
-  * [7 - Animations Slide](#7---animations-slide)
-  * [8 - LaTeX Slide](#8---latex-slide)
-  * [9 - Diagrams Slide](#9---diagrams-slide)
-  * [10 - Learn more Slide](#10---learn-more-slide)
+
+* [Configure Front Matter](#configure-front-matter)
+* [1 - Intro Slide](#1---intro-slide)
+* [2 - Markdown + Style](#2---markdown--style)
+* [3 - Navigation Slide](#3---navigation-slide)
+* [4 - image-right Slide](#4---image-right-slide)
+* [5 - Components](#5---components)
+* [6 - Class](#6---class)
+* [7 - Animations Slide](#7---animations-slide)
+* [8 - LaTeX Slide](#8---latex-slide)
+* [9 - Diagrams Slide](#9---diagrams-slide)
+* [10 - Learn more Slide](#10---learn-more-slide)
 
 ---
+
 
 ## Configure Front Matter
 
@@ -43,6 +46,7 @@ drawings:
 ````
 
 ---
+
 
 ## 1 - Intro Slide
 
@@ -75,6 +79,7 @@ The last comment block of each slide will be treated as slide notes. It will be 
 [![slide_1](./SliDev_Basic/slide_1_small.png)](./SliDev_Basic/slide_1.png)
 
 ---
+
 
 ## 2 - Markdown + Style
 
@@ -118,6 +123,7 @@ h1 {
 
 ---
 
+
 ## 3 - Navigation Slide
 
   ````md
@@ -144,6 +150,7 @@ h1 {
   ````
 
 [![slide_3](./SliDev_Basic/slide_3_small.png)](./SliDev_Basic/slide_3.png)
+
 
 ## 4 - image-right Slide
 
@@ -191,6 +198,7 @@ h1 {
 
 [![slide_4](./SliDev_Basic/slide_4_small.png)](./SliDev_Basic/slide_4.png)
 
+
 ## 5 - Components
 
   ````md  
@@ -226,6 +234,7 @@ h1 {
   ````
 
 [![slide_5](./SliDev_Basic/slide_5_small.png)](./SliDev_Basic/slide_5.png)
+
 
 ## 6 - Class
 
@@ -263,6 +272,7 @@ check out the [Awesome Themes Gallery](https://sli.dev/themes/gallery.html).
 ````
 
 [![slide_6](./SliDev_Basic/slide_6_small.png)](./SliDev_Basic/slide_6.png)
+
 
 ## 7 - Animations Slide
 
@@ -346,6 +356,7 @@ const final = {
 
 [![slide_7](./SliDev_Basic/slide_7_small.png)](./SliDev_Basic/slide_7.png)
 
+
 ## 8 - LaTeX Slide
 
 ````md  
@@ -378,6 +389,7 @@ $$
 
 [![slide_8](./SliDev_Basic/slide_8_small.png)](./SliDev_Basic/slide_8.png)
 
+
 ## 9 - Diagrams Slide
 
 ````md  
@@ -408,6 +420,7 @@ C -->|Two| E[Result 2]
 ````
 
 [![slide_9](./SliDev_Basic/slide_9_small.png)](./SliDev_Basic/slide_9.png)
+
 
 ## 10 - Learn more Slide
 

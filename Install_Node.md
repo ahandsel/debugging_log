@@ -1,12 +1,15 @@
 # Guide on Installing Node.js & npm
 
+
 ## Outline <!-- omit in toc -->
+
 * [Check if you already have Node.js or npm](#check-if-you-already-have-nodejs-or-npm)
 * [macOS with nodenv](#macos-with-nodenv)
 * [Windows with nvm-windows](#windows-with-nvm-windows)
 * [📺 Installing Node.js | Video by Kintone](#-installing-nodejs--video-by-kintone)
 * [Which NodeJS version to install?](#which-nodejs-version-to-install)
 * [Why Not Install Node Directly](#why-not-install-node-directly)
+
 
 ## Check if you already have Node.js or npm
 
@@ -20,6 +23,7 @@ npm -v
 If Node & npm are missing, let's install them!
 
 ---
+
 
 ## macOS with nodenv
 
@@ -103,6 +107,7 @@ Download the required packages by opening a terminal for both the `frontend` & `
 
 ---
 
+
 ## Windows with [nvm-windows](https://github.com/coreybutler/nvm-windows#node-version-manager-nvm-for-windows)
 
 The following steps are straight from the Microsoft Docs on [Set up NodeJS on native Windows](https://docs.microsoft.com/en-us/windows/dev-environment/javascript/nodejs-on-windows). We recommend installing and managing Node.js with [nvm-windows](https://github.com/coreybutler/nvm-windows#node-version-manager-nvm-for-windows)
@@ -142,6 +147,7 @@ Alright! Your Windows is now armed with Node.js!
 
 Download the required packages by opening a terminal for both the `frontend` & `backend` folders and then running the `npm install` command!
 
+
 ## 📺 Installing Node.js | Video by Kintone
 
 <p align="center">
@@ -151,9 +157,11 @@ Download the required packages by opening a terminal for both the `frontend` & `
   </a>
 </p>
 
+
 ## Which NodeJS version to install?
 
 As of 2022-08-10, the recommended [Node.js](https://nodejs.org/en/) version is `16.16.0`
+
 
 ## Why Not Install Node Directly
 
