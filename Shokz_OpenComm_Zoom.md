@@ -1,21 +1,27 @@
 # AfterShokz Open Comm headphone randomly mutes on Zoom calls
 
+
 ## Problem
+
 My Shokz Open Comm headset randomly mutes on Zoom calls.
 
+
 ### Specs
+
 * macOS Monterey 12.6
 * MacBook Pro (16-inch, 2019)
 * Connection Method: Bluetooth
 * Headset: [Shokz OpenComm Bone Conduction Stereo Bluetooth Headset](https://shokz.com/products/opencomm)
 
+
 ## Solution
+
 1. Connect the headset to Mac via Bluetooth
-1. Launch Zoom & Open Zoom's Settings
-1. Select **Audio**
-1. Verify that the **Speaker** and **Microphone** are set to Shokz OpenComm headset
-1. Under **Microphone**, uncheck **Automatically adjust microphone volume**
-1. Restart Zoom
+2. Launch Zoom & Open Zoom's Settings
+3. Select **Audio**
+4. Verify that the **Speaker** and **Microphone** are set to Shokz OpenComm headset
+5. Under **Microphone**, uncheck **Automatically adjust microphone volume**
+6. Restart Zoom
 
 You are now good to go! 💪
 
@@ -25,6 +31,7 @@ You are now good to go! 💪
 
 ⚡ This is a known issue by Shokz. Macs, Zoom, and Shokz OpenComm headset often experience this problem.
 However, this issue is not present when using the headphones with other applications.
+
 
 ## References
 

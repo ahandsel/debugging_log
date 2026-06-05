@@ -1,12 +1,18 @@
 # Beginner Guide to Markdown
 
+
 ## Setup
+
 Here is my recommend setup when writing documentation in Markdown.
 
+
 ### Text Editor - VS Code
+
 [Visual Studio Code](https://code.visualstudio.com/)
 
+
 ### VS Code Extensions
+
 * [bierner.github-markdown-preview](https://marketplace.visualstudio.com/items?itemName=bierner.github-markdown-preview)
 * [christian-kohler.path-intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
 * [davidanson.vscode-markdownlint](https://marketplace.visualstudio.com/items?itemName=davidanson.vscode-markdownlint)

@@ -2,6 +2,7 @@
 
 slidev [args]
 
+
 ## Commands
 
 | Commands                  | Notes                           |
@@ -12,10 +13,13 @@ slidev [args]
 | slidev theme [subcommand] | Theme related operations        |
 | slidev export [entry]     | Export slides to PDF            |
 
+
 ## Positions
+
 [entry]
-  * path to the slides markdown entry
-  * [string] [default: "slides.md"]
+* path to the slides markdown entry
+* [string] [default: "slides.md"]
+
 
 ## Options
 

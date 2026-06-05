@@ -1,5 +1,6 @@
 # gulp.js & Create-React-App
 
+
 ## Method 1
 
 Bundle the JavaScript files into one inside the `./build/static/js/` folder -> `bundle.js`
@@ -32,6 +33,7 @@ Bundle the JavaScript files into one inside the `./build/static/js/` folder -> `
    gulp
    cd build/static/js
    ```
+
 
 ## Method 2
 

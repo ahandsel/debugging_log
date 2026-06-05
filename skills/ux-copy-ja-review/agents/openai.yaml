@@ -1,0 +1,4 @@
+interface:
+  display_name: 'Japanese UX Copy Review'
+  short_description: 'Review Japanese UI copy quality'
+  default_prompt: 'Use $ux-copy-ja-review to review the Japanese column in UX-copy tables for style, clarity, grammar, and terminology compliance.'

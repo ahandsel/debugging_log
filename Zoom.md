@@ -1,8 +1,11 @@
 # Notes about Zoom
+
 * [Zoom](https://zoom.us/)
 * Japanese version -> [Zoom_JP.md](Zoom_JP.md)
 
+
 ## Outline
+
 * [Outline](#outline)
 * [Enable the following Zoom Webinar settings for Virtual Workshop](#enable-the-following-zoom-webinar-settings-for-virtual-workshop)
 * [Steps to configuring Zoom settings](#steps-to-configuring-zoom-settings)
@@ -17,7 +20,9 @@
 
 ---
 
+
 ## Enable the following Zoom Webinar settings for Virtual Workshop
+
 * Webinar practice session | [Zoom Doc](https://support.zoom.us/hc/en-us/articles/206316975-Webinar-practice-session#h_f39ba5de-428f-4aed-a962-3741d6543ca6)
   * This allows the hosts to configure their Zoom settings before sharing with attendees.
   * When you are ready, click **Broadcast** to start the webinar and allow attendees to join the webinar.
@@ -29,7 +34,9 @@
 
 ---
 
+
 ## Steps to configuring Zoom settings
+
 * See attached video
 1. Visit [https://cybozu.zoom.us/webinar/list](https://cybozu.zoom.us/webinar/list)
 2. Schedule a webinar, or click the title of a webinar that's already scheduled.
@@ -42,6 +49,7 @@
    * Under Cloud recording > enable **Record active speaker, gallery view, and shared screen separately**
 
 ---
+
 
 ## Useful shortcuts
 
@@ -58,7 +66,9 @@
 
 ---
 
+
 ## Roles in a webinar | [Zoom Help](https://support.zoom.us/hc/en-us/articles/360000252726)
+
 * **Host** of the webinar is the user who the webinar is scheduled under.
   * Has full permissions to manage the webinar, panelists, and attendees.
 * **Alternative Host** are users who have the same permissions as a Host.
@@ -74,11 +84,13 @@
 
 ---
 
+
 ## Zoom Meeting vs. Zoom Webinar
+
 Here is a rundown of the differences between the two.
 
 For more details, refer to the official Help Doc:
-[Meeting and webinar comparison – Zoom Help Center](https://support.zoom.us/hc/en-us/articles/115005474943-Meeting-and-webinar-comparison)
+[Meeting and webinar comparison - Zoom Help Center](https://support.zoom.us/hc/en-us/articles/115005474943-Meeting-and-webinar-comparison)
 
 TL;DR
 * Webinar's Strength: Simpler interface for attendees, Q&A function, & Post attendee URL
@@ -124,7 +136,9 @@ Following are the same & available to both:
 
 ---
 
+
 ## Zoom's Waiting Rooms Are Not Very Customizable
+
 * Only a tiny (100 x 100 px) logo can be placed.
   * ![Customize Waiting Room Screen Shot - Zoom_1.png](img/Zoom_1.png)
 * Text description can be added, but it is not clickable (users cannot click or copy a link).
@@ -135,21 +149,29 @@ Following are the same & available to both:
 
 ---
 
+
 ## Getting Attendees' Feedback Over Zoom
+
+
 ### Webinar - Use Post Webinar Survey
+
 * Allows us to redirect normal attendees to our survey website (or any URL) after they leave the Zoom Webinar. (does not work for panelists)
 * Unfortunately, it does not work for Meetings, only for Zoom Webinars.
 * The biggest drawback to Webinar is that only hosts and panelists can share their video (camera feed).
 * We can promote all the attendees to panelists, but it does not go smoothly.
 * ⚠ Post attendee URL is an alternative, but its performance is inconsistent. Many IT blogs recommend using the Post Webinar Survey method.
 
+
 ### Meeting - Use Poll
+
 * Create a Zoom Poll to collect feedback on how attendees are doing before the break.
 * [How To Use (In Meeting) Polling in Zoom - YouTube](https://youtu.be/erz4xtQHoVs?t=14)
 
 ---
 
+
 ## Sharing a Video on Zoom - Superior Method
+
 1. Download the video in advance
    * I recommend [Folx - Download manager for Mac](https://mac.eltima.com/download-manager.html)
 2. On Zoom:

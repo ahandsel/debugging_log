@@ -1,0 +1,4 @@
+interface:
+  display_name: 'English UX copy auto-edit'
+  short_description: 'Auto-edit English UI copy in tables'
+  default_prompt: 'Use $ux-copy-en-review to review and polish English or EN columns in UX-copy Markdown tables, apply edits directly, add TODO comments for uncertain rows, and report applied changes'

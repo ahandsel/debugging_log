@@ -1,5 +1,6 @@
 # Kintone Translate
 
+
 ## Field Names
 
 | English (Field)      | Japanese (フィールド) |
@@ -22,7 +23,7 @@
 | Group selection      | グループ選択          |
 | Department selection | 組織選択              |
 
-| English (Field)  | 日本語	 (フィールド) | 中文（简体）               |
+| English (Field)  | 日本語  (フィールド) | 中文（简体）               |
 | ---------------- | --------------------- | ------------------ |
 | Record number    | レコード番号          |    记录编号                |
 | Updated by       | 更新者                |     更新人               |
@@ -33,6 +34,7 @@
 | Assignee         | 作業者                |                    |
 | Categories       | カテゴリー            |                    |
 
+
 ## Request Parameters
 
 | English           | 日本語           |
@@ -42,10 +44,11 @@
 | Object            | オブジェクト     |
 | Array             | 配列             |
 
+
 ## User Administration / ユーザー管理
 
-  * [User Administration](https://get.kintone.help/general/en/admin/list_useradmin.html)
-  * [ユーザー管理](https://jp.cybozu.help/general/ja/admin/list_useradmin.html)
+* [User Administration](https://get.kintone.help/general/en/admin/list_useradmin.html)
+* [ユーザー管理](https://jp.cybozu.help/general/ja/admin/list_useradmin.html)
 
 | English            | Japanese         |
 | ------------------ | ---------------- |
@@ -54,6 +57,7 @@
 | Job Title          | 役職情報         |
 | Group Details      | グループ情報     |
 | Custom Fields      | カスタマイズ項目 |
+
 
 ## App Permissions
 

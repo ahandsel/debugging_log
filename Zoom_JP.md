@@ -1,14 +1,19 @@
 # Zoom に関する注意事項
+
 * [Zoom](https://zoom.us/)
 * English Version -> [Zoom.md](Zoom.md)
 
+
 ## 概要
+
 * [概要](#概要)
 * [MCチップ - Zoomで動画を共有するとき](#mcチップ---zoomで動画を共有するとき)
 
 ---
 
+
 ## MCチップ - Zoomで動画を共有するとき
+
 1. 事前にビデオをダウンロードします
    * YouTubeビデオをダウンロードするには、次のツールをお勧めします:
      * [Folx - Download manager for Mac](https://mac.eltima.com/download-manager.html)

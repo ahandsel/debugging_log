@@ -1,0 +1,9 @@
+# pnpm
+pnpm-lock.yaml
+
+# VitePress
+.vitepress/cache
+.vitepress/dist
+
+# Node
+node_modules

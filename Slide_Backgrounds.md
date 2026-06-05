@@ -1,5 +1,6 @@
 # Slide Backgrounds
 
+
 ## Unsplash
 
 [Unsplash](https://unsplash.com/) is a great website to look for images to use for a slide background.  
@@ -13,6 +14,7 @@ Highly recommend building out a file to give credit to the creators!
 Good thing to do & keeps you from using photos you do not know where you got it from.
 
 Here is mine: [Talks/Credits.md](https://github.com/ahandsel/Talks/blob/main/Credits.md)
+
 
 ## Editing Photos with TouchRetouch
 

@@ -1,17 +1,23 @@
 # Getting Started with HTML + CSS
+
 * Here is a compilation of resources for learning how to build your own website
 * Goal: Build your own multi-lingual website to teach Japanese + English
 
+
 ## Step Overview
+
 * Step 0 - Tools & Environments
 * Step 1 - What is HTML & CSS anyway?
 * Step 2 - Alright, lets build a webpage
 * Step 3 - Publish on GitHub Page
 * Step 4 - Hugo!
 
+
 ## Step 0 - Tools & Environments
 
+
 ### Code Editor - Visual studio code
+
 * What is a Code Editor?
   * i.e. Source-code editor
   * A code editor is a text editor program designed specifically for editing source code of computer programs.
@@ -44,7 +50,9 @@
   * [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)
   * [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
 
+
 ### Git + GitHub
+
 * What is Version Control?
   * It is similar to a ...
     * checkpoint a video game - Where you save a point in the game
@@ -63,7 +71,9 @@
     * i.e. hosts the 'remote repositories'
   * Founded in 2008 and now a Microsoft subsidiary
 
+
 #### Create a GitHub Account
+
 * Create a GitHub account --> [github.com](https://github.com/)
 * Add 2-Factor Authentication ([help doc](https://help.github.com/en/github/authenticating-to-github/configuring-two-factor-authentication))
   * Go to GitHub Settings:
@@ -72,7 +82,9 @@
 * Install an Authenticator App:
   * e.g. [Authy](https://authy.com/guides/github/) or [1Password](https://support.1password.com/one-time-passwords/)
 
+
 #### Install GitHub Desktop App
+
 * By far the easiest way to manage your GitHub repository on Macs & Windows
 * You do not need to use the Command Line to manage your files.
 * Download: <https://desktop.github.com/>
@@ -80,7 +92,9 @@
 
 If you want to the git command on your MacOS terminal:
 
+
 #### Install Git - MacOS
+
 * Ref: <https://git-scm.com/book/en/v2/Getting-Started-Installing-Git>
 * Do you have **Homebrew**?
   * If not, install Homebrew first: <https://brew.sh/>
@@ -89,18 +103,23 @@ If you want to the git command on your MacOS terminal:
 * Confirm installation:       `git --version`
 * Expected result:            `git version 2.26.2`
 
+
 ##### Install Git - MacOS - Potential Issue
+
 * If you get the following result:  `git version 1.7.10.2 (Apple Git-33)`
 * Try `brew link --force git`
 * Or Try: `export PATH=/usr/local/bin:$PATH`
 
+
 ## Step 1 - What is HTML & CSS anyway?
 
+
 ### Where to learn?
+
 List of resources to learn HTML & CSS:
 * [progate's HTML](https://progate.com/languages/html)
 * [Introduction to HTML by MDN](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML)
-* [HTML Periodic Table](https://websitesetup.org/html5-periodical-table/) – lists all HTML tags in the form of a periodic table, making it easy to learn/use them.
+* [HTML Periodic Table](https://websitesetup.org/html5-periodical-table/) - lists all HTML tags in the form of a periodic table, making it easy to learn/use them.
 * [HTML Cheat Sheet](https://websitesetup.org/html5-cheat-sheet/) - Learn with templates
 * [khanacademy's Making Webpages](https://www.khanacademy.org/computing/computer-programming/html-css)
 
@@ -110,7 +129,9 @@ Video Tutorials:
 * [Intro to HTML & CSS - Tutorial | FreeCodeCamp.org](https://youtu.be/kLO4X_3VYdg)
 * [HTML Full Course - Build a Website Tutorial | FreeCodeCamp.org](https://www.youtube.com/watch?v=pQN-pnXPaVg&t=493s)
 
+
 ### What is HTML?
+
 * HTML stands for Hypertext Markup Language
 * HTML is not a programming language
 * Instead, it is a markup language that tells web browsers how to structure the web pages you visit.

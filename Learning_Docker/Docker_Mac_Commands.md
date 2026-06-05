@@ -14,23 +14,27 @@ Docker Guides: [docs.docker.com/go/guides](https://docs.docker.com/go/guides)
 
 See a list of docker images on the local machine
 
+
 ## `docker [OPTIONS]` COMMAND
 
 A self-sufficient runtime for containers
 
-### Options
-  * `-v`, `--version`            Print version information and quit
 
-  * `--config` *string* -> Location of client config files (default `/Users/g001494/.docker`)
-  * `-c`, `--context` *string* -> Name of the context to use to connect to the daemon
-  * `-D`, `--debug` -> Enable debug mode
-  * `-H`, `--host list` -> Daemon socket(s) to connect to
-  * `-l`, `--log-level` *string* -> Set the logging level (`debug`|`info`|`warn`|`error`|`fatal`)
-  * `--tls` -> Use TLS; implied by `--tlsverify`
-    * `--tlsverify` -> Use TLS and verify the remote
-    * `--tlscacert` *string* -> Trust certs signed only by this CA (default `/Users/g001494/.docker/ca.pem`)
-    * `--tlscert` *string* -> Path to TLS certificate file (default `/Users/g001494/.docker/cert.pem`)
-    * `--tlskey` *string* -> Path to TLS key file (default `/Users/g001494/.docker/key.pem`)
+### Options
+
+* `-v`, `--version`            Print version information and quit
+
+* `--config` *string* -> Location of client config files (default `/Users/g001494/.docker`)
+* `-c`, `--context` *string* -> Name of the context to use to connect to the daemon
+* `-D`, `--debug` -> Enable debug mode
+* `-H`, `--host list` -> Daemon socket(s) to connect to
+* `-l`, `--log-level` *string* -> Set the logging level (`debug`|`info`|`warn`|`error`|`fatal`)
+* `--tls` -> Use TLS; implied by `--tlsverify`
+  * `--tlsverify` -> Use TLS and verify the remote
+  * `--tlscacert` *string* -> Trust certs signed only by this CA (default `/Users/g001494/.docker/ca.pem`)
+  * `--tlscert` *string* -> Path to TLS certificate file (default `/Users/g001494/.docker/cert.pem`)
+  * `--tlskey` *string* -> Path to TLS key file (default `/Users/g001494/.docker/key.pem`)
+
 
 ### Management Commands
 
@@ -55,6 +59,7 @@ A self-sufficient runtime for containers
   | `system`            | Manage Docker                                  |
   | `trust`             | Manage trust on Docker images                  |
   | `volume`            | Manage volumes                                 |
+
 
 ### Commands
 

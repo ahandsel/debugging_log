@@ -1,10 +1,11 @@
 # Google Sheets x Web Scrapper
 
+
 ## Meetup.com
 
 To get Meetup's City:
-- `=IMPORTXML(A2,"//a[@class='groupHomeHeaderInfo-cityLink']")`
-- xpath_query = `//a[@class='groupHomeHeaderInfo-cityLink']`
+* `=IMPORTXML(A2,"//a[@class='groupHomeHeaderInfo-cityLink']")`
+* xpath_query = `//a[@class='groupHomeHeaderInfo-cityLink']`
 
 <!-- To get Upcoming Event count:
 - xpath_query = `//a[@class='groupHome-eventsList-upcomingEventsTitle']`
@@ -33,8 +34,8 @@ $x("//h3")
 
 
 ## Resources
-- [x] [Use Google Sheets’ ImportXML function to display data in Geckoboard](https://support.geckoboard.com/hc/en-us/articles/207238327)
-- [] [Automatically refresh your Google Sheets data daily with Supermetrics](https://support.geckoboard.com/hc/en-us/articles/360007389898-Automatically-refresh-your-Google-Sheets-data-daily-with-Supermetrics)
-- [] [Use Google Sheets’ ImportData function to display online data in Geckoboard](https://support.geckoboard.com/hc/en-us/articles/216438097-Use-Google-Sheets-ImportData-function-to-display-online-data-in-Geckoboard)
-- [] [Use Google Sheets’ ImportRange function to display data in Geckoboard](https://support.geckoboard.com/hc/en-us/articles/360007400057-Use-Google-Sheets-ImportRange-function-to-display-data-in-Geckoboard)
-- [] [Use Google Sheets’ ImportHTML function to display data in Geckoboard](https://support.geckoboard.com/hc/en-us/articles/206260188-Use-Google-Sheets-ImportHTML-function-to-display-data-in-Geckoboard)
+* [x] [Use Google Sheets' ImportXML function to display data in Geckoboard](https://support.geckoboard.com/hc/en-us/articles/207238327)
+* [] [Automatically refresh your Google Sheets data daily with Supermetrics](https://support.geckoboard.com/hc/en-us/articles/360007389898-Automatically-refresh-your-Google-Sheets-data-daily-with-Supermetrics)
+* [] [Use Google Sheets' ImportData function to display online data in Geckoboard](https://support.geckoboard.com/hc/en-us/articles/216438097-Use-Google-Sheets-ImportData-function-to-display-online-data-in-Geckoboard)
+* [] [Use Google Sheets' ImportRange function to display data in Geckoboard](https://support.geckoboard.com/hc/en-us/articles/360007400057-Use-Google-Sheets-ImportRange-function-to-display-data-in-Geckoboard)
+* [] [Use Google Sheets' ImportHTML function to display data in Geckoboard](https://support.geckoboard.com/hc/en-us/articles/206260188-Use-Google-Sheets-ImportHTML-function-to-display-data-in-Geckoboard)

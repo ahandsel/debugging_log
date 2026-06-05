@@ -1,12 +1,17 @@
 # Hello Mac - My Guide on Getting Your Mac Up & Ready
 
+
 ## Apps to Download
 
+
 ### Setapp
+
 [Setapp - Download Setapp and get app collections for any job](https://setapp.com/download)
 * [CleanMyMac X on Setapp - Free up space, protect, and speed up Mac](https://setapp.com/apps/cleanmymac)
 
+
 ### General Productivity
+
 * [Alfred - Productivity App for macOS](https://www.alfredapp.com/)
 * [Logi Options+ - Software App for Logitech Products](https://www.logitech.com/en-us/software/logi-options-plus.html)
 * [1Password - Password Manager](https://1password.com/downloads/mac/)
@@ -14,7 +19,9 @@
 * [Speedtest by Ookla](https://apps.apple.com/us/app/speedtest-by-ookla/id1153157709?mt=12)
 * [DaVinci Resolve](https://apps.apple.com/us/app/davinci-resolve/id571213070?mt=12)
 
+
 ### Developer Tools
+
 * [iTerm2 - macOS Terminal Replacement](https://iterm2.com/index.html)
 * [Visual Studio Code - Code Editing. Redefined](https://code.visualstudio.com/)
 * [Homebrew - Package Manager for macOS](https://brew.sh/)
@@ -22,15 +29,20 @@
 * [GitHub Desktop](https://desktop.github.com/)
 * [Patterns - The Regex App](https://apps.apple.com/us/app/patterns-the-regex-app/id429449079?mt=12)
 
+
 ### Translation / Writing Tools
+
 * [DeepL Translate App](https://www.deepl.com/en/app/)
 * [Sensible Paster - Japanese OCR Mac App](https://apps.apple.com/us/app/sensible-paster/id1553906835?mt=12)
 * [Grammarly for Your Desktop](https://www.grammarly.com/desktop)
 * [Wrise - Accessible word processor](https://apps.apple.com/us/app/id938050665)
 
+
 ### Personal
+
 * [Spotify](https://www.spotify.com/download/mac/)
 * [Unsplash Wallpapers](https://apps.apple.com/us/app/unsplash-wallpapers/id1284863847?mt=12)
+
 
 ## Packages to Install
 

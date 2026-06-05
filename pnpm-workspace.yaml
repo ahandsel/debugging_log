@@ -1,0 +1,13 @@
+# Configure pnpm settings for the workspace
+
+# Delay installing published versions to reduce security risk.
+minimumReleaseAge: 4320 # Three-day buffer for security updates.
+
+allowBuilds:
+  esbuild: true
+  "@parcel/watcher": true
+
+# Pin rollup below the recently-published 4.61.1 so minimumReleaseAge passes.
+# Revisit once 4.61.x is past the buffer.
+overrides:
+  rollup: "4.60.4"

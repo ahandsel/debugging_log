@@ -5,12 +5,16 @@
   * Links - [LightVue | The Emerging UI Component library for Vue](https://lightvue.org/getting-started/light-icons)
 * GitHub Pages Setup - [SlidevをGitHub Pagesで公開](https://zenn.dev/shu1007/articles/c65dee06b29772)
 
+
 ## Slide Deck
+
 * Markdown - [slides.md](slides.md)
 * Demo / Example Slides
   * Demo you get with SliDev Initiate -> [Demo_slides.md](./SliDev_Basic/Demo_slides.md)
 
+
 ## Commands
+
 
 ### Quick Start
 
@@ -23,6 +27,7 @@ npm commands:
 * `npm run build` -> build production SPA
 * `npm run export` -> export slides to pdf
 
+
 ### Setup
 
 ```bash
@@ -30,6 +35,7 @@ npm install @slidev/cli
 npm install gh-pages
 npm install
 ```
+
 
 ### To view/ edit
 
@@ -41,11 +47,13 @@ or
 npx slidev --open
 ```
 
+
 ### To build & upload
 
 ```bash
 npm run pub
 ```
+
 
 ### Generate PDF
 
@@ -53,7 +61,9 @@ npm run pub
 npm run export
 ```
 
+
 ### lightvue Layouts
+
 [lightvue/slidev-theme-light-icons#readme](https://github.com/lightvue/slidev-theme-light-icons#readme)
 
 ```yaml
@@ -63,6 +73,7 @@ layout: image-header-intro
 layout: image-left
 layout: intro
 ```
+
 
 #### Intro `intro`
 
@@ -75,6 +86,7 @@ image: 'https://source.unsplash.com/collection/94734566/1920x1080'
 
 ![intro](./LightVue_Screenshots/1-layout-intro.png)
 
+
 #### Intro with icon `image-header-intro`
 
 ```yaml
@@ -86,6 +98,7 @@ imageRight: '../assets/images/light-icons-landing.svg'
 ```
 
 ![image-header-intro](./LightVue_Screenshots/2-layout-image-header-intro-light.png)
+
 
 #### Dynamic Image `dynamic-image`
 
@@ -100,6 +113,7 @@ left: false
 
 ![dynamic-image](./LightVue_Screenshots/3-layout-dynamic-image-light.png)
 
+
 #### Dynamic Image `dynamic-image`
 
 ```yaml
@@ -112,6 +126,7 @@ left: false
 ```
 
 ![dynamic-image](./LightVue_Screenshots/4-layout-dynamic-image-light.png)
+
 
 #### Dynamic Image `dynamic-image`
 
@@ -128,6 +143,7 @@ left: true
 
 ---
 
+
 #### Dynamic Image `dynamic-image`
 
 ```yaml
@@ -140,6 +156,7 @@ left: false
 ```
 
 ![dynamic-image](./LightVue_Screenshots/6-layout-dynamic-image-light.png)
+
 
 #### Dynamic Image `dynamic-image`
 
@@ -155,6 +172,7 @@ left: false
 
 ![dynamic-image](./LightVue_Screenshots/7-layout-dynamic-image-light.png)
 
+
 #### Image at center `dynamic-image`
 
 ```yaml
@@ -165,6 +183,7 @@ image: '../assets/images/light-icons-landing2.png'
 ```
 
 ![center-image](./LightVue_Screenshots/8-layout-center-image-light.png)
+
 
 #### Dynamic Image `dynamic-image`
 
@@ -179,6 +198,7 @@ left: false
 
 ![dynamic-image](./LightVue_Screenshots/9-layout-dynamic-image-light.png)
 
+
 #### Image at left `image-left`
 
 ```yaml
@@ -191,6 +211,7 @@ equal: true
 
 ![image-left](./LightVue_Screenshots/10-layout-left-image-light.png)
 
+
 #### Image at center `dynamic-image`
 
 ```yaml
@@ -201,31 +222,39 @@ layout: center-image
 
 ![center-image](./LightVue_Screenshots/11-layout-center-image-light.png)
 
+
 ### SliDev Built-in Layouts
+
 
 #### `center`
 
 Displays the content in the middle of the sreen.
 
+
 #### `cover`
 
 Used to display the cover page for the presentation, may contain the presentation title, contextualization, etc.
+
 
 #### `default`
 
 The most basic layout, to display any kind of content.
 
+
 #### `end`
 
 The final page for the presentation.
+
 
 #### `fact`
 
 To show some fact or data with a lot of prominence on the screen.
 
+
 #### `full`
 
 Use all the space of the screen to display the content.
+
 
 #### `image-left`
 
@@ -241,6 +270,7 @@ class: my-cool-content-on-the-right
 ---
 ```
 
+
 #### `image-right`
 
 Shows an image on the right side of the screen, the content will be placed on the left side.
@@ -255,6 +285,7 @@ class: my-cool-content-on-the-left
 ---
 ```
 
+
 #### `image`
 
 Shows an image as the main content of the page.  
@@ -267,6 +298,7 @@ layout: image
 image: ./path/to/the/image
 ---
 ```
+
 
 #### `iframe-left`
 
@@ -282,7 +314,9 @@ class: my-cool-content-on-the-right
 ---
 ```
 
+
 #### `iframe-right`
+
 Shows a web page on the right side of the screen, the content will be placed on the left side.
 
 ```yaml
@@ -294,6 +328,7 @@ url: https://github.com/slidevjs/slidev
 class: my-cool-content-on-the-left
 ---
 ```
+
 
 #### `iframe`
 
@@ -308,25 +343,31 @@ url: https://github.com/slidevjs/slidev
 ---
 ```
 
+
 #### `intro`
 
 To introduce the presentation, usually with the presentation title, a short description, the author, etc.
+
 
 #### `none`
 
 A layout without any existent styling.
 
+
 #### `quote`
 
 To display a quotation with prominience.
+
 
 #### `section`
 
 Used to mark the beginning of a new presentation section.
 
+
 #### `statement`
 
 Make an affirmation/statement as the main page content.
+
 
 #### `two-cols`
 

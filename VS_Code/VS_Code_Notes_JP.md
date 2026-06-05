@@ -1,6 +1,8 @@
 # VS Codeを使用する際のさまざまなメモのまとめ
 
+
 ## VS Codeでの空白の表示
+
 * コードエディターで空白を確認すると便利です。
 * [VS Code Setting](https://code.visualstudio.com/docs/getstarted/settings)の `editor.renderWhitespace`は、空白の表示方法を管理します。次の入力を受け取ります。
   * `none` - 空白は表示されません。
