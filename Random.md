@@ -1,11 +1,15 @@
 # Notes on Random Stuff
 
+
 ## 1Password classic extension
+
 I strongly prefer the old 1Password Chrome Extension
 Get the 1Password classic extension here:
 [1Password extension (desktop app required)](https://chrome.google.com/webstore/detail/1password-extension-deskt/aomjjhallfgjeglblehebfpbcfeobpgk)
 
+
 ## Messenger
+
 Messenger.com
 * Great way to get you FB msgs w/out getting distracted with cat videos
 
@@ -16,7 +20,9 @@ Messenger for Mac:
 Messenger for Mac & PC:
 <https://messengerfordesktop.com/>
 
+
 ## T-Mobile + Costco
+
 * T-Mobile + Costco =* $50 Cash Card deal
 * Buy through Costco to get free sims
 
@@ -42,13 +48,17 @@ T-Mobile Unlimited 55+ for $60/month
 * International Data
 * GoGo
 
+
 ## SF Commute
+
 * Drive from San Jose to Daly City
 * Free parking here: <https://goo.gl/maps/78JHeMEFizj>
 * Daly City Bart to Montgomery (SF Downtown) {20 min}
 * What you need: Clipper Card
 
+
 ## Tips for studying Computer Science
+
 * Buy MacBook Pro
   * Only way to code for iOS & Mac OS
   * Still can code for Android Java
@@ -89,13 +99,13 @@ T-Mobile Unlimited 55+ for $60/month
 Tips for Dyslexia
 * <https://dyslexiaida.org/dyslexia-test/>
 * Stick w/ built points
-* Get tested and send all the information to the universities’s Accessible Education Center
+* Get tested and send all the information to the universities's Accessible Education Center
   * <https://aec.uoregon.edu/>
   * <https://aec.uoregon.edu/node/31>
   * You can get extended time for testing, quite space, computer access, test reader, etc.
   * Make an appointment & see what they can offer you & what they need from you.
 * eMail your professors & follow up in person
-  * You will get the best results by talking about accommodations in-person but then you want to “archive” by sending an eMail reminding the professor about what you two agreed on.
+  * You will get the best results by talking about accommodations in-person but then you want to "archive" by sending an eMail reminding the professor about what you two agreed on.
 
 Tools:
 * <https://app.grammarly.com/>
@@ -112,7 +122,7 @@ Tools:
 * Best text-to-audio program & voice
   * <http://www.assistiveware.com/product/infovox-ivox>
   * Best voice: Heather Infovox iVox HQ
-  * Can be used to replace Siri’s voice for Apple’s build-in text-to-audio program
+  * Can be used to replace Siri's voice for Apple's build-in text-to-audio program
 
 Macbook Suggestion:
 <https://www.apple.com/shop/buy-mac/macbook>

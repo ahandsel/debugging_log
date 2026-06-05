@@ -1,5 +1,6 @@
 # Compilation of random notes in using VS Code
 
+
 ## Outline <!-- omit in toc -->
 <!-- markdownlint-disable MD007 -->
 * [Display Whitespace in VS Code](#display-whitespace-in-vs-code)
@@ -7,10 +8,11 @@
   * [If the lines order is not important](#if-the-lines-order-is-not-important)
   * [If the lines order *IS* important (can't alphabetically sort)](#if-the-lines-order-is-important-cant-alphabetically-sort)
 * [How to install VS Code Extensions Manually?](#how-to-install-vs-code-extensions-manually)
-* [VS Code & powerlevel10k](#vs-code--powerlevel10k)
+* [VS Code \& powerlevel10k](#vs-code--powerlevel10k)
 <!-- markdownlint-enable MD007 -->
 
 ## Display Whitespace in VS Code
+
 * It is useful to see whitespace in your code editor.
 * `editor.renderWhitespace` in the [VS Code Setting](https://code.visualstudio.com/docs/getstarted/settings) governs how to display whitespace. It takes in the following input:
   * `none` - Whitespace will never be displayed.
@@ -25,10 +27,14 @@
 * Demo gif:
   * ![vscode_whitespace_setting.gif](../img/vscode_whitespace_setting.gif)
 
+
 ## Remove Duplicate Lines in VS Code
+
 * Original: [marcosvpj/vscode-remove-duplicate-lines.md](https://gist.github.com/marcosvpj/f04116e5443284ccb5f14f3c443a2d0d)
 
+
 ### If the lines order is not important
+
 1. Sort lines alphabetically
 2. Open VS Code's Find Control: `Control` + `F`
 3. Toggle "Replace mode"
@@ -37,14 +43,18 @@
 6. In the "**replace with**" field,: `$1`
 7. Click "Replace All"
 
+
 ### If the lines order *IS* important (can't alphabetically sort)
+
 * In this case, either resort to a solution outside VS Code ([example](https://stackoverflow.com/q/11532157/3258851))
 * OR if your document is not very large...
   * **search**: `((^[^\S$]*?(?=\S)(?:.*)+$)[\S\s]*?)^\2$(?:\n)?`
   * **replace with**: `$1`
   * Click the "Replace All" button (*as many times as there are duplicate occurrences*)
 
+
 ## How to install VS Code Extensions Manually?
+
 * Based on this [Stack Overflow Thread](https://stackoverflow.com/questions/42017617/how-to-install-vs-code-extension-manually)
 * Example VS Extension from GitHub: [znck/ grammarly](https://github.com/znck/grammarly)
 * Go to the GitHub repo's Releases and download the `.vsix` file
@@ -54,7 +64,9 @@
   * ![Install from VSIX Screenshot](https://i.stack.imgur.com/nPF49.png)
 * Verify the Extension was installed!
 
+
 ## VS Code & powerlevel10k
+
 1. Install & configure [romkatv/powerlevel10k](https://github.com/romkatv/powerlevel10k)
     * See [Mac_Setup article's powerlevel10k section](../Mac_Setup.md#powerlevel10k---a-zsh-theme) for more details.
 2. Configure VS Code Setting
