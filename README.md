@@ -67,7 +67,6 @@ Random notes compiled in one place
 * [Santa Cruz & UCSC](SantaCruz_UCSC.md)
 * [AfterShokz Open Comm headphone randomly mutes on Zoom calls](Shokz_OpenComm_Zoom.md)
 * [Slide Backgrounds](Slide_Backgrounds.md)
-* [temp](temp.md)
 * [iOS Apps to Download When Traveling in the US](US_Apps.md)
 * [Zoom Shortcuts (Custom)](Zoom_CheatSheet.md)
 * [Zoom に関する注意事項](Zoom_JP.md)

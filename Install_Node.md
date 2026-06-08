@@ -150,12 +150,7 @@ Download the required packages by opening a terminal for both the `frontend` & `
 
 ## 📺 Installing Node.js | Video by Kintone
 
-<p align="center">
-  <a href="https://youtu.be/4Kw-i_rX3tY">
-    <img height="200" alt="Installing Node.js & Create a New React App YouTube Thumbnail"
-      src="https://img.youtube.com/vi/4Kw-i_rX3tY/hqdefault.jpg">
-  </a>
-</p>
+[![Installing Node.js & Create a New React App YouTube Thumbnail](https://img.youtube.com/vi/4Kw-i_rX3tY/hqdefault.jpg)](https://youtu.be/4Kw-i_rX3tY)
 
 
 ## Which NodeJS version to install?

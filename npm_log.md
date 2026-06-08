@@ -1,4 +1,7 @@
-# EAUDITNOPJSON Error & Solution
+# npm Errors & Solutions
+
+
+## EAUDITNOPJSON Error & Solution
 
 * Source: <http://www.programmersought.com/article/57071092772/>
 
@@ -15,7 +18,7 @@
   * `npm init --yes`
 
 
-# EAUDITNOLOCK Error & Solution
+## EAUDITNOLOCK Error & Solution
 
 * Source: <http://www.programmersought.com/article/57071092772/>
 

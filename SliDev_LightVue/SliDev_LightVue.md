@@ -8,7 +8,7 @@
 
 ## Slide Deck
 
-* Markdown - [slides.md](slides.md)
+* Markdown - `slides.md`
 * Demo / Example Slides
   * Demo you get with SliDev Initiate -> [Demo_slides.md](./SliDev_Basic/Demo_slides.md)
 
