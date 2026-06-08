@@ -36,4 +36,3 @@ However, this issue is not present when using the headphones with other applicat
 ## References
 
 [Needing help with Monterey and Aftershokz… - Apple Community](https://discussions.apple.com/thread/253539742?answerId=256647820022#256647820022)
-

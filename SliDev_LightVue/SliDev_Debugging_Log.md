@@ -2,11 +2,13 @@
 
 
 ## Outline <!-- omit in toc -->
+
 <!-- markdownlint-disable MD007 -->
+
 * [`npm run export` not working with an playwright install error?](#npm-run-export-not-working-with-an-playwright-install-error)
 * [Slidev build with base Error: Could not resolve entry module (index.html)](#slidev-build-with-base-error-could-not-resolve-entry-module-indexhtml)
   * [Issue: Bug Report - npm run build for a MD file in a subfolder leads to an `Error: Could not resolve entry module (index.html)`](#issue-bug-report---npm-run-build-for-a-md-file-in-a-subfolder-leads-to-an-error-could-not-resolve-entry-module-indexhtml)
-<!-- markdownlint-enable MD007 -->
+  <!-- markdownlint-enable MD007 -->
 
 ## `npm run export` not working with an playwright install error?
 
@@ -17,7 +19,7 @@
 > slidev export
 
   ●■▲
-  Slidev  v0.19.9 
+  Slidev  v0.19.9
 
   theme   slidev-theme-light-icons
   entry   /Users/USERNAME/Documents/GitHub/Slidev_Cybozu/Discourse_URL/slides.md
@@ -40,6 +42,7 @@ browserType.launch: Executable doesn't exist at /Users/USERNAME/Library/Caches/m
 ```
 
 Attempts:
+
 * Removing the cache folder on `/Users/username/Library/Caches/ms-playwright`
 * `npm i -D @playwright/test`
 * `npx playwright install`
@@ -47,6 +50,7 @@ Attempts:
 * `npm add playwright-chromium`
 
 Solution:
+
 * Clean install of slidev (do not duplicate old project)
 * `npm init slidev`
 * `npx slidev export`
@@ -55,6 +59,7 @@ Solution:
 * --> exported to ./slides-export.pdf
 
 Solution 2:
+
 * Delete `node_modules` folder
 * `npm i`
 * `npm i -D playwright-chromium`
@@ -73,7 +78,7 @@ Attempting Command:
 ❯ npx slidev build "./slides/slidev_template.md" "--base" "/slides/slidev_template/"
 
   ●■▲
-  Slidev  v0.27.20 
+  Slidev  v0.27.20
 
   theme   @slidev/theme-seriph
   entry   /Users/USERNAME/Documents/GitHub/Talks/slides/slidev_template.md
@@ -90,21 +95,25 @@ Error: Could not resolve entry module (index.html).
 ```
 
 Test 1:
+
 * Moving slides.md to the root folder
 * `npx slidev build slides.md`
 * Works ✅
 
 Test 2:
+
 * Renaming the slides.md to panda.md
 * `npx slidev build panda.md`
 * works ✅
 
 Test 3:
+
 * Added the base option
 * `npx slidev build panda.md "--base" "/slides/slidev_template/"`
 * works ✅
 
 Test 4:
+
 * Moved the panda.md to `slide_decks/panda.md`
 * `npx slidev build "slide_decks/panda.md" "--base" "/slides/slidev_template/"`
 * Error 😵
@@ -172,26 +181,31 @@ Error: Could not resolve entry module (index.html).
 #### Tests I have conducted <!-- omit in toc -->
 
 Test 1:
+
 * Running the command when the slides.md is the root folder
 * `npx slidev build slides.md`
 * Works ✅
 
 Test 2:
+
 * Renaming the slides.md to panda.md
 * `npx slidev build panda.md`
 * works ✅
 
 Test 3:
+
 * Added the base option
 * `npx slidev build panda.md "--base" "/slides/slidev_template/"`
 * works ✅
 
 Test 4:
+
 * Moved the panda.md to `slide_decks/panda.md`
 * `npx slidev build "slide_decks/panda.md" "--base" "/slides/slidev_template/"`
 * Error 😵
 
 Test 5:
+
 * Attempt to run build command from a markdown file in a subfolder without `base` option
 * `npm run build slide_decks/panda.md`
 * Error 😵
@@ -221,6 +235,7 @@ Test 5:
 #### To Reproduce <!-- omit in toc -->
 
 Steps to reproduce the behavior:
+
 1. Create a Slidev project: `npm init slidev`
 2. Create a folder: `mkdir subfolder_test`
 3. Move the `slides.md` into the folder

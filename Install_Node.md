@@ -59,21 +59,21 @@ Optional: Verify that nodenv is properly set up using [nodenv-doctor](https://gi
 
 * For those using Z shell (Zsh) shell:
 
-    ```shell
-    curl -fsSL https://github.com/nodenv/nodenv-installer/raw/master/bin/nodenv-doctor | bash
-    ```
+  ```shell
+  curl -fsSL https://github.com/nodenv/nodenv-installer/raw/master/bin/nodenv-doctor | bash
+  ```
 
 * Expected result:
 
-    ```shell
-    Checking for `nodenv' in PATH: /usr/local/bin/nodenv
-    Checking for nodenv shims in PATH: OK
-    Checking `nodenv install' support: /usr/local/bin/nodenv-install (node-build 3.0.22-4-g49c4cb9)
-    Counting installed Node versions: none
-      There aren't any Node versions installed under `~/.nodenv/versions'.
-      You can install Node versions like so: nodenv install 2.2.4
-    Auditing installed plugins: OK
-    ```
+  ```shell
+  Checking for `nodenv' in PATH: /usr/local/bin/nodenv
+  Checking for nodenv shims in PATH: OK
+  Checking `nodenv install' support: /usr/local/bin/nodenv-install (node-build 3.0.22-4-g49c4cb9)
+  Counting installed Node versions: none
+    There aren't any Node versions installed under `~/.nodenv/versions'.
+    You can install Node versions like so: nodenv install 2.2.4
+  Auditing installed plugins: OK
+  ```
 
 **Step 4**: Install Node.js inside the project folder
 
@@ -82,24 +82,24 @@ Optional: Verify that nodenv is properly set up using [nodenv-doctor](https://gi
 
   ```shell
   cd my_project/
-
+  
   nodenv install 14.5.0
-
+  
   nodenv local 14.5.0
   ```
 
 **Useful Commands** for nodenv
 
-  ```shell
-  # list all available versions:
-  nodenv install -l
+```shell
+# list all available versions:
+nodenv install -l
 
-  # install a Node version:
-  nodenv install 0.10.26
+# install a Node version:
+nodenv install 0.10.26
 
-  # Set a default global Node version:
-  nodenv global 16.16.0
-  ```
+# Set a default global Node version:
+nodenv global 16.16.0
+```
 
 Alright! Your Mac is now armed with Node.js!
 
@@ -150,12 +150,7 @@ Download the required packages by opening a terminal for both the `frontend` & `
 
 ## 📺 Installing Node.js | Video by Kintone
 
-<p align="center">
-  <a href="https://youtu.be/4Kw-i_rX3tY">
-    <img height="200" alt="Installing Node.js & Create a New React App YouTube Thumbnail"
-      src="https://img.youtube.com/vi/4Kw-i_rX3tY/hqdefault.jpg">
-  </a>
-</p>
+[![Installing Node.js & Create a New React App YouTube Thumbnail](https://img.youtube.com/vi/4Kw-i_rX3tY/hqdefault.jpg)](https://youtu.be/4Kw-i_rX3tY)
 
 
 ## Which NodeJS version to install?

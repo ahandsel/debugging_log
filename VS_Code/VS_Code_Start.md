@@ -4,7 +4,9 @@ I highly recommend using Visual studio code as your code editor.
 
 
 ## Outline <!-- omit in toc -->
+
 <!-- markdownlint-disable MD007 -->
+
 * [What is a Code Editor?](#what-is-a-code-editor)
 * [What is Visual studio code?](#what-is-visual-studio-code)
 * [Recommended VS Code Extensions](#recommended-vs-code-extensions)

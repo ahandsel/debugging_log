@@ -7,8 +7,8 @@
   </div>
 </template>
 <script setup lang="ts">
-import { computed, defineProps } from "vue";
-import { handleBackground } from "../utils";
+import { computed, defineProps } from 'vue';
+import { handleBackground } from '../utils';
 const props = defineProps({
   image: {
     type: String,

@@ -7,6 +7,7 @@
 ### Setapp
 
 [Setapp - Download Setapp and get app collections for any job](https://setapp.com/download)
+
 * [CleanMyMac X on Setapp - Free up space, protect, and speed up Mac](https://setapp.com/apps/cleanmymac)
 
 

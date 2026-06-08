@@ -11,14 +11,22 @@ const appId = kintone.app.getId(); // getId; not getID
 console.log(appId);
 
 const body = {
-  'app': appId,
-  'ids': deleteList
+  app: appId,
+  ids: deleteList,
 };
 
-kintone.api(kintone.api.url('/k/v1/records', true), 'DELETE', body, function(resp) {
-  // success
-  console.log(`Records from ${deleteStart} to ${deleteEnd} has been deleted \n ${count} records`);
-}, function(error) {
-  // error
-  console.log(error);
-});
+kintone.api(
+  kintone.api.url('/k/v1/records', true),
+  'DELETE',
+  body,
+  function (resp) {
+    // success
+    console.log(
+      `Records from ${deleteStart} to ${deleteEnd} has been deleted \n ${count} records`,
+    );
+  },
+  function (error) {
+    // error
+    console.log(error);
+  },
+);

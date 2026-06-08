@@ -2,7 +2,6 @@
 
 This folder contains local Codex skills used by this repository.
 
-
 ## Usage
 
 To use a skill, enter the skill's name in the AI interface (VS Code extension, terminal prompt, or desktop app) with the appropriate prefix for AI tool.
@@ -16,9 +15,7 @@ To use a skill, enter the skill's name in the AI interface (VS Code extension, t
 > [!TIP]
 > Ask the AI `What does [skill name] do?` to get a description of the skill's functionality and usage instructions.
 
-
 ## Available skills
-
 
 ### Daily utility skills
 
@@ -31,7 +28,6 @@ To use a skill, enter the skill's name in the AI interface (VS Code extension, t
 [`ai-commit`]: ./ai-commit/SKILL.md
 [`general-en-polisher`]: ./general-en-polisher/SKILL.md
 [`git-pull-main`]: ./git-pull-main/SKILL.md
-
 
 ### Repository maintenance skills
 
@@ -48,7 +44,6 @@ To use a skill, enter the skill's name in the AI interface (VS Code extension, t
 [`script-auditor`]: ./script-auditor/SKILL.md
 [`skill-allowlist-syncer`]: ./skill-allowlist-syncer/SKILL.md
 [`ux-key-reviewer`]: ./ux-key-reviewer/SKILL.md
-
 
 ### UX copywriting and localization skills
 
@@ -70,7 +65,6 @@ To use a skill, enter the skill's name in the AI interface (VS Code extension, t
 [`ux-key-searcher`]: ./ux-key-searcher/SKILL.md
 [`ux-task-to-phrase`]: ./ux-task-to-phrase/SKILL.md
 
-
 ### Other utility skills
 
 | Skill                | Description                                                                                                                                                      | Last updated (UTC) |
@@ -82,7 +76,6 @@ To use a skill, enter the skill's name in the AI interface (VS Code extension, t
 [`gh-cli`]: ./gh-cli/SKILL.md
 [`gh-pr-reporter`]: ./gh-pr-reporter/SKILL.md
 [`link-polisher`]: ./link-polisher/SKILL.md
-
 
 ### Figma official skills
 

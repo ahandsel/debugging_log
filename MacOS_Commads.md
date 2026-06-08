@@ -1,4 +1,4 @@
-# MacOS Commands <!-- omit in toc -->
+# MacOS Commands
 
 * This document is a complication of commands and technical notes regarding MacOS
 
@@ -6,15 +6,11 @@
 ## Outline <!-- omit in toc -->
 
 * [Terminal: List only directories for the current location](#terminal-list-only-directories-for-the-current-location)
-* [scp command notes & examples](#scp-command-notes--examples)
+* [scp command notes \& examples](#scp-command-notes--examples)
   * [What is Secure Copy (scp)?](#what-is-secure-copy-scp)
-    * [Remote to Local](#remote-to-local)
-    * [Local to Remote](#local-to-remote)
-    * [Remote to Remote](#remote-to-remote)
-    * [scp Performance](#scp-performance)
   * [Error: `bash: scp: command not found`](#error-bash-scp-command-not-found)
 * [WindowServer process - MacOS system Process/ Command](#windowserver-process---macos-system-process-command)
-* [`rm` command to delete files & folders](#rm-command-to-delete-files--folders)
+* [`rm` command to delete files \& folders](#rm-command-to-delete-files--folders)
   * [Examples](#examples)
 * [Useful Mac Shortcuts](#useful-mac-shortcuts)
 * [Mac's Keyboard Symbols](#macs-keyboard-symbols)
@@ -114,11 +110,11 @@
 
 ## `rm` command to delete files & folders
 
-* Syntax:  rm [options] file ...
+* Syntax: rm [options] file ...
 * Options:
-  * `-f`   Attempt to remove the files without prompting for confirmation, regardless of the file's permissions.
-  * `-i`   Request confirmation before attempting to remove each file.
-  * `-r`   Remove the entire file hierarchy rooted in each file argument. (implies the -d  Delete folders).
+  * `-f` Attempt to remove the files without prompting for confirmation, regardless of the file's permissions.
+  * `-i` Request confirmation before attempting to remove each file.
+  * `-r` Remove the entire file hierarchy rooted in each file argument. (implies the -d Delete folders).
 
 
 ### Examples
@@ -161,6 +157,7 @@
 
 If your battery is showing signs of shorter run times, calibrate the battery (once every few months).  
 To calibrate the battery, follow these instructions:
+
 1. Fully charge your MacBook.
 2. Once fully charged, leave it plugged in for at least another 2 hours.
 3. Remove the MagSafe power adapter, and use your computer until you get the battery level warning message.
@@ -174,6 +171,7 @@ To calibrate the battery, follow these instructions:
 ## Resetting SMC
 
 (On Mac notebooks with non-removable battery)
+
 1. Shut down the computer.
 2. Plug in the MagSafe or USB-C power adapter to a power source and to your computer.
 3. On the built-in keyboard, press the (left side) Shift-Control-Option keys and the power button at the same time.

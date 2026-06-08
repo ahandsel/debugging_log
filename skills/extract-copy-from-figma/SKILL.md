@@ -9,28 +9,25 @@ Extract every TEXT layer under a Figma node, paired with its layer name, and emi
 
 This skill is extract-only. It does not propose Phrase keys, edit copy, or translate. Run the appropriate review skill afterward.
 
-
 ## Required input
 
 A Figma URL that points to the exact frame, page, or component to extract from. The URL must contain both a fileKey and a `node-id` query parameter.
 
 Examples:
 
-* `https://www.figma.com/design/<fileKey>/<fileName>?node-id=123-456`
-* `https://www.figma.com/design/<fileKey>/branch/<branchKey>/<fileName>?node-id=123-456`
+- `https://www.figma.com/design/<fileKey>/<fileName>?node-id=123-456`
+- `https://www.figma.com/design/<fileKey>/branch/<branchKey>/<fileName>?node-id=123-456`
 
 If the URL is missing `node-id`, stop and ask the user for a link to the specific node.
-
 
 ## Preflight
 
 1. Confirm the Figma MCP server is configured and reachable. If MCP tools are unavailable, point the user to [`doc-figma-mcp.md`](/doc-figma-mcp.md) and stop.
 2. Parse the URL:
-   * Extract `fileKey` from the path after `/design/`.
-   * Extract `nodeId` from `node-id=...` and convert `-` to `:` (for example, `123-456` becomes `123:456`).
+   - Extract `fileKey` from the path after `/design/`.
+   - Extract `nodeId` from `node-id=...` and convert `-` to `:` (for example, `123-456` becomes `123:456`).
 3. Do not browse the URL. The MCP client extracts the node ID from the link only.
 4. Load the [`figma-use`](../figma-use/SKILL.md) skill before extraction. This skill uses `use_figma` to read the literal layer names and text, and `figma-use` is a mandatory prerequisite for any `use_figma` call. Batch-load Figma tool schemas with a single `ToolSearch` call: `select:use_figma,get_metadata,get_screenshot`.
-
 
 ## Default workflow
 
@@ -76,15 +73,14 @@ If the URL is missing `node-id`, stop and ask the user for a link to the specifi
 3. **Handle truncation.** If the response is truncated or too large, narrow scope to a child frame and ask the user to confirm before extracting subsets.
 4. **Fetch a screenshot.** Call `get_screenshot` on the target node for a visual reference. Keep the localhost URL in the output report so the user can open it.
 5. **Build rows from the script output.** Consume the array returned by `use_figma`:
-   * `English`: the `characters` value. Replace newlines with `<br>` so Markdown table cells stay intact.
-   * `Key`: the `name` value - the literal Figma layer name. If `name` collides with another row's `name`, disambiguate as `parentName / name`.
-   * Skip rows where `visible === false`; list them at the end of the report in a `Skipped (hidden)` section.
-   * Skip rows where `characters` is empty, pure whitespace, or a placeholder glyph (`-`, `Lorem ipsum`); list them in a `Skipped (placeholder)` section.
+   - `English`: the `characters` value. Replace newlines with `<br>` so Markdown table cells stay intact.
+   - `Key`: the `name` value - the literal Figma layer name. If `name` collides with another row's `name`, disambiguate as `parentName / name`.
+   - Skip rows where `visible === false`; list them at the end of the report in a `Skipped (hidden)` section.
+   - Skip rows where `characters` is empty, pure whitespace, or a placeholder glyph (`-`, `Lorem ipsum`); list them in a `Skipped (placeholder)` section.
 6. **Preserve reading order.** The script already sorts by `y` then `x`. Do not remove duplicates; list every occurrence.
 7. **Confirm output destination.** Ask the user where to save the table. Default to a new file under the matching `tasks-*/` folder, named after the Figma frame in kebab-case (for example, `tasks-kinid/v1-midfi/<frame-name>.md`). If the user wants inline output instead, return the table in the response.
 8. **Write the file.** Use the structure in the `Saved file template` section below. Fill in the H1, description paragraph, Figma link line, identifier bullets, the main table, and any `Skipped` sections. Leave `Description` empty in the table for downstream fill-in. Set `Notes` to `Extracted` on a fresh extraction, or `Pulled` when refreshing existing rows with the latest text from Figma.
 9. **Report.** Summarize: number of TEXT nodes extracted, any nodes skipped (with reason), the screenshot URL, and recommended next steps.
-
 
 ## Output format
 
@@ -98,17 +94,16 @@ Default Markdown table:
 
 Columns:
 
-* `English`: the English text extracted from the Figma text layer.
-* `Key`: the layer name of the text layer in Figma.
-* `Description`: leave blank for now.
-* `Notes`: `Extracted` when the row is freshly pulled from Figma for the first time. `Pulled` when the row already existed and the latest text has just been re-fetched from Figma. If a TEXT node references a Figma variable, append `; Variable: <name>`.
+- `English`: the English text extracted from the Figma text layer.
+- `Key`: the layer name of the text layer in Figma.
+- `Description`: leave blank for now.
+- `Notes`: `Extracted` when the row is freshly pulled from Figma for the first time. `Pulled` when the row already existed and the latest text has just been re-fetched from Figma. If a TEXT node references a Figma variable, append `; Variable: <name>`.
 
 Rules:
 
-* Pad pipes and dashes so columns align visually (match the convention in existing `tasks-*/` files).
-* Wrap multi-line text using `<br>`. Do not split a single TEXT node across multiple rows.
-* Preserve placeholders, variables, Markdown-like syntax, product names, and capitalization exactly as they appear in Figma.
-
+- Pad pipes and dashes so columns align visually (match the convention in existing `tasks-*/` files).
+- Wrap multi-line text using `<br>`. Do not split a single TEXT node across multiple rows.
+- Preserve placeholders, variables, Markdown-like syntax, product names, and capitalization exactly as they appear in Figma.
 
 ## Saved file template
 
@@ -140,23 +135,21 @@ Figma: [<Figma file title>](<original Figma URL with node-id intact>)
 
 Rules:
 
-* H1: the kebab-case file name (same slug as the saved filename, without `.md`).
-* Description paragraph: one to two sentences. Source it from the Figma file title, the target frame's name, and any prominent heading text inside the frame. Do not invent product context that is not visible in Figma.
-* `Figma:` paragraph link text: the **Figma file title**. Get it from `get_metadata` when available; otherwise decode it from the URL slug between `/design/<fileKey>/` and the next `/` or `?` by applying these substitutions in order: (1) a leading `-` becomes `#`, (2) each `---` (three hyphens) becomes a hyphen surrounded by single spaces, (3) any remaining `-` becomes a single space. Keep the URL exactly as the user provided it, including the `node-id` query parameter.
-* `fileKey` / `nodeId` / `Screenshot`: top-level bullets directly under the Figma link paragraph, with no heading above them.
-* `Screenshot` link text: the asset ID (the final path segment of the `get_screenshot` URL, for example `b90c2fe8-6db1-4fad-82e7-6d88572a8781`). Use Markdown link syntax: `[<asset-id>](<screenshot URL>)`. Do not wrap the URL in angle brackets.
-* Use `## UX copy` for the main table heading. Do not use `## Source` or `## Extracted copy`.
-* Include `## Skipped (hidden)` only when at least one TEXT layer was hidden. Same columns as the main table minus `Description`; set `Notes` to `Hidden`.
-* Include `## Skipped (placeholder)` only when at least one TEXT layer was skipped as a placeholder. Use the same shape as `## Skipped (hidden)` with `Notes` set to `Placeholder`.
-
+- H1: the kebab-case file name (same slug as the saved filename, without `.md`).
+- Description paragraph: one to two sentences. Source it from the Figma file title, the target frame's name, and any prominent heading text inside the frame. Do not invent product context that is not visible in Figma.
+- `Figma:` paragraph link text: the **Figma file title**. Get it from `get_metadata` when available; otherwise decode it from the URL slug between `/design/<fileKey>/` and the next `/` or `?` by applying these substitutions in order: (1) a leading `-` becomes `#`, (2) each `---` (three hyphens) becomes a hyphen surrounded by single spaces, (3) any remaining `-` becomes a single space. Keep the URL exactly as the user provided it, including the `node-id` query parameter.
+- `fileKey` / `nodeId` / `Screenshot`: top-level bullets directly under the Figma link paragraph, with no heading above them.
+- `Screenshot` link text: the asset ID (the final path segment of the `get_screenshot` URL, for example `b90c2fe8-6db1-4fad-82e7-6d88572a8781`). Use Markdown link syntax: `[<asset-id>](<screenshot URL>)`. Do not wrap the URL in angle brackets.
+- Use `## UX copy` for the main table heading. Do not use `## Source` or `## Extracted copy`.
+- Include `## Skipped (hidden)` only when at least one TEXT layer was hidden. Same columns as the main table minus `Description`; set `Notes` to `Hidden`.
+- Include `## Skipped (placeholder)` only when at least one TEXT layer was skipped as a placeholder. Use the same shape as `## Skipped (hidden)` with `Notes` set to `Placeholder`.
 
 ## What to skip and what to flag
 
-* Skip rows where `visible === false`; list them at the end of the report in a `Skipped (hidden)` section. The script returns `visible` for every TEXT node, so there is no separate hidden-layer pass.
-* Skip rows whose `characters` is empty, pure whitespace, or a placeholder glyph (for example, `-`, `Lorem ipsum`); list them in a `Skipped (placeholder)` section.
-* For component instances, `node.characters` already returns the resolved instance text, including any local overrides. No extra handling is required.
-* If a layer name is auto-generated (for example, `Frame 12345`), still include it; do not invent a friendlier name.
-
+- Skip rows where `visible === false`; list them at the end of the report in a `Skipped (hidden)` section. The script returns `visible` for every TEXT node, so there is no separate hidden-layer pass.
+- Skip rows whose `characters` is empty, pure whitespace, or a placeholder glyph (for example, `-`, `Lorem ipsum`); list them in a `Skipped (placeholder)` section.
+- For component instances, `node.characters` already returns the resolved instance text, including any local overrides. No extra handling is required.
+- If a layer name is auto-generated (for example, `Frame 12345`), still include it; do not invent a friendlier name.
 
 ## Report format
 
@@ -165,30 +158,28 @@ This is the summary returned in the chat response after the file is written, not
 Return results in this order:
 
 1. Source:
-   * Figma URL
-   * Parsed `fileKey` and `nodeId`
-   * Screenshot URL (from `get_screenshot`)
+   - Figma URL
+   - Parsed `fileKey` and `nodeId`
+   - Screenshot URL (from `get_screenshot`)
 2. Summary:
-   * Total TEXT nodes extracted
-   * Number skipped (hidden, placeholder)
-   * Output file path (or `inline` if returned in the response)
+   - Total TEXT nodes extracted
+   - Number skipped (hidden, placeholder)
+   - Output file path (or `inline` if returned in the response)
 3. Next steps:
-   * Review English copy with `ux-copy-en-review`.
-   * Add Phrase keys per `kws-writing-style-guide/key-naming-rules.md`, then run `ux-key-reviewer`.
-   * If localizing to Japanese, run `ux-en-to-ja-localize` on the resulting CSV.
-
+   - Review English copy with `ux-copy-en-review`.
+   - Add Phrase keys per `kws-writing-style-guide/key-naming-rules.md`, then run `ux-key-reviewer`.
+   - If localizing to Japanese, run `ux-en-to-ja-localize` on the resulting CSV.
 
 ## Why use_figma instead of get_design_context
 
 `get_design_context` is optimized for design-to-code: it returns `componentName`, `source`, a rendered code snippet, and design tokens (see [`skills/figma-generate-library/references/code-connect-setup.md`](../figma-generate-library/references/code-connect-setup.md)). Identifiers inside that snippet are transformed for code (camelCased, deduplicated, etc.) and do not match the literal Figma layer names. To preserve layer names exactly as authored, this skill reads them via the Plugin API:
 
-* `node.name` - defined in `BaseNodeMixin` as "the name of the layer that appears in the layers panel" (see [`skills/figma-use/references/plugin-api-standalone.d.ts`](../figma-use/references/plugin-api-standalone.d.ts)).
-* `node.characters` - the rendered text for `TEXT` nodes, including any local overrides on component instances.
-
+- `node.name` - defined in `BaseNodeMixin` as "the name of the layer that appears in the layers panel" (see [`skills/figma-use/references/plugin-api-standalone.d.ts`](../figma-use/references/plugin-api-standalone.d.ts)).
+- `node.characters` - the rendered text for `TEXT` nodes, including any local overrides on component instances.
 
 ## Related skills
 
-* [`figma-generate-design`](../figma-generate-design/SKILL.md) - design-to-code workflow when implementing the extracted screen.
-* [`ux-copy-en-review`](../ux-copy-en-review/SKILL.md) - polish the extracted English copy.
-* [`ux-key-reviewer`](../ux-key-reviewer/SKILL.md) - audit Phrase key naming after keys are added.
-* [`ux-en-to-ja-localize`](../ux-en-to-ja-localize/SKILL.md) - add Japanese values once the CSV is ready.
+- [`figma-generate-design`](../figma-generate-design/SKILL.md) - design-to-code workflow when implementing the extracted screen.
+- [`ux-copy-en-review`](../ux-copy-en-review/SKILL.md) - polish the extracted English copy.
+- [`ux-key-reviewer`](../ux-key-reviewer/SKILL.md) - audit Phrase key naming after keys are added.
+- [`ux-en-to-ja-localize`](../ux-en-to-ja-localize/SKILL.md) - add Japanese values once the CSV is ready.

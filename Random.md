@@ -1,54 +1,6 @@
 # Notes on Random Stuff
 
 
-## 1Password classic extension
-
-I strongly prefer the old 1Password Chrome Extension
-Get the 1Password classic extension here:
-[1Password extension (desktop app required)](https://chrome.google.com/webstore/detail/1password-extension-deskt/aomjjhallfgjeglblehebfpbcfeobpgk)
-
-
-## Messenger
-
-Messenger.com
-* Great way to get you FB msgs w/out getting distracted with cat videos
-
-Messenger for Mac:
-<https://fbmacmessenger.rsms.me/>
-* Messenger.com for Mac App
-
-Messenger for Mac & PC:
-<https://messengerfordesktop.com/>
-
-
-## T-Mobile + Costco
-
-* T-Mobile + Costco =* $50 Cash Card deal
-* Buy through Costco to get free sims
-
-Instructions for Costco + T-Mobile:
-1. Need Costco Membership & check their deals:
-    * <http://membershipwireless.com/index.cfm/go/shop/do/promos>
-2. Determine T-Mobile Plan:
-    * If possible, get the 55+ (Get two lines, payer needs to be 55 or older)
-    * <https://support.t-mobile.com/docs/DOC-31900>
-3. Contact T-Mobile help here:
-    * <https://support.t-mobile.com/community/contact-us>
-4. Make T-Mobile staff do the credit check
-5. Get their Credit app# (save it, will need to give to Costco staff)
-6. Be sure to have current provider's Account number & have the devices unlocked.
-7. Go to Costco's Wireless Kiosk.
-    * Provide them with Account Number, what plan you want, & the Credit app#
-    * Be prepare to spend time...
-
-T-Mobile Unlimited 55+ for $60/month
-* 2 lines thus $30/month/line
-* Tethering at 3G speed
-* unlimited talk, text and LTE data
-* International Data
-* GoGo
-
-
 ## SF Commute
 
 * Drive from San Jose to Daly City
@@ -96,7 +48,7 @@ T-Mobile Unlimited 55+ for $60/month
 * Text editor that supports Github: <https://atom.io/>
 
 * ATTEND THE LABS!!! Your TAs & classmates are your keys to success.
-Tips for Dyslexia
+  Tips for Dyslexia
 * <https://dyslexiaida.org/dyslexia-test/>
 * Stick w/ built points
 * Get tested and send all the information to the universities's Accessible Education Center
@@ -108,6 +60,7 @@ Tips for Dyslexia
   * You will get the best results by talking about accommodations in-person but then you want to "archive" by sending an eMail reminding the professor about what you two agreed on.
 
 Tools:
+
 * <https://app.grammarly.com/>
   * Great tool to check your essays for grammar & word choices
   * Use as a checking tool

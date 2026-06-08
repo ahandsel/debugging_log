@@ -20,7 +20,7 @@
 
 ## Configure Front Matter
 
-````YAML
+```YAML
 ---
 # try also 'default' to start simple
 theme: seriph
@@ -43,14 +43,14 @@ info: |
 drawings:
   persist: false
 ---
-````
+```
 
 ---
 
 
 ## 1 - Intro Slide
 
-````md
+```md
 # Welcome to Slidev
 
 Presentation slides for developers
@@ -74,7 +74,7 @@ Presentation slides for developers
 <!--
 The last comment block of each slide will be treated as slide notes. It will be visible and editable in Presenter Mode along with the slide. [Read more in the docs](https://sli.dev/guide/syntax.html#notes)
 -->
-````
+```
 
 [![slide_1](./SliDev_Basic/slide_1_small.png)](./SliDev_Basic/slide_1.png)
 
@@ -83,7 +83,7 @@ The last comment block of each slide will be treated as slide notes. It will be 
 
 ## 2 - Markdown + Style
 
-````md
+```md
 # What is Slidev?
 
 Slidev is a slides maker and presenter designed for developers, consist of the following features
@@ -117,7 +117,7 @@ h1 {
   -moz-text-fill-color: transparent;
 }
 </style>
-````
+```
 
 [![slide_2](./SliDev_Basic/slide_2_small.png)](./SliDev_Basic/slide_2.png)
 
@@ -126,28 +126,30 @@ h1 {
 
 ## 3 - Navigation Slide
 
-  ````md
-  # Navigation
+```md
+# Navigation
 
-  Hover on the bottom-left corner to see the navigation's controls panel, [learn more](https://sli.dev/guide/navigation.html)
+Hover on the bottom-left corner to see the navigation's controls panel, [learn more](https://sli.dev/guide/navigation.html)
 
-  ### Keyboard Shortcuts
+### Keyboard Shortcuts
 
-  |                                                     |                             |
-  | --------------------------------------------------- | --------------------------- |
-  | <kbd>right</kbd> / <kbd>space</kbd>                 | next animation or slide     |
-  | <kbd>left</kbd>  / <kbd>shift</kbd><kbd>space</kbd> | previous animation or slide |
-  | <kbd>up</kbd>                                       | previous slide              |
-  | <kbd>down</kbd>                                     | next slide                  |
+|                                                    |                             |
+| -------------------------------------------------- | --------------------------- |
+| <kbd>right</kbd> / <kbd>space</kbd>                | next animation or slide     |
+| <kbd>left</kbd> / <kbd>shift</kbd><kbd>space</kbd> | previous animation or slide |
+| <kbd>up</kbd>                                      | previous slide              |
+| <kbd>down</kbd>                                    | next slide                  |
 
-  <!-- https://sli.dev/guide/animations.html#click-animations -->
-  <img
-    v-click
-    class="absolute -bottom-9 -left-7 w-80 opacity-50"
-    src="https://sli.dev/assets/arrow-bottom-left.svg"
-  />
-  <p v-after class="absolute bottom-23 left-45 opacity-30 transform -rotate-10">Here!</p>
-  ````
+<!-- https://sli.dev/guide/animations.html#click-animations -->
+
+<img
+  v-click
+  class="absolute -bottom-9 -left-7 w-80 opacity-50"
+  src="https://sli.dev/assets/arrow-bottom-left.svg"
+/>
+
+<p v-after class="absolute bottom-23 left-45 opacity-30 transform -rotate-10">Here!</p>
+```
 
 [![slide_3](./SliDev_Basic/slide_3_small.png)](./SliDev_Basic/slide_3.png)
 
@@ -155,33 +157,33 @@ h1 {
 ## 4 - image-right Slide
 
 ````md
-  ---
-  layout: image-right
-  image: https://source.unsplash.com/collection/94734566/1920x1080
-  ---
+---
+layout: image-right
+image: https://source.unsplash.com/collection/94734566/1920x1080
+---
 
-  # Code
+# Code
 
-  Use code snippets and get the highlighting directly![^1]
+Use code snippets and get the highlighting directly![^1]
 
-  ```ts {all|2|1-6|9|all}
-  interface User {
-    id: number
-    firstName: string
-    lastName: string
-    role: string
-  }
+```ts {all|2|1-6|9|all}
+interface User {
+  id: number;
+  firstName: string;
+  lastName: string;
+  role: string;
+}
 
-  function updateUser(id: number, update: User) {
-    const user = getUser(id)
-    const newUser = {...user, ...update}  
-    saveUser(id, newUser)
-  }
-  ```
+function updateUser(id: number, update: User) {
+  const user = getUser(id);
+  const newUser = { ...user, ...update };
+  saveUser(id, newUser);
+}
+```
 
   <arrow v-click="3" x1="400" y1="420" x2="230" y2="330" color="#564" width="3" arrowSize="1" />
 
-  [^1]: [Learn More](https://sli.dev/guide/syntax.html#line-highlighting)
+[^1]: [Learn More](https://sli.dev/guide/syntax.html#line-highlighting)
 
   <style>
   .footnotes-sep {
@@ -201,44 +203,44 @@ h1 {
 
 ## 5 - Components
 
-  ````md  
-  # Components
+````md
+# Components
 
-  <div grid="~ cols-2 gap-4">
-  <div>
+<div grid="~ cols-2 gap-4">
+<div>
 
-  You can use Vue components directly inside your slides.
+You can use Vue components directly inside your slides.
 
-  We have provided a few built-in components like `<Tweet/>` and `<Youtube/>` that you can use directly. And adding your custom components is also super easy.
+We have provided a few built-in components like `<Tweet/>` and `<Youtube/>` that you can use directly. And adding your custom components is also super easy.
 
-  ```html
-  <Counter :count="10" />
-  ```
+```html
+<Counter :count="10" />
+```
 
-  <!-- ./components/Counter.vue -->
-  <Counter :count="10" m="t-4" />
+<!-- ./components/Counter.vue -->
+<Counter :count="10" m="t-4" />
 
-  Check out [the guides](https://sli.dev/builtin/components.html) for more.
+Check out [the guides](https://sli.dev/builtin/components.html) for more.
 
-  </div>
-  <div>
+</div>
+<div>
 
-  ```html
-  <Tweet id="1390115482657726468" />
-  ```
+```html
+<Tweet id="1390115482657726468" />
+```
 
-  <Tweet id="1390115482657726468" scale="0.65" />
+<Tweet id="1390115482657726468" scale="0.65" />
 
-  </div>
-  </div>
-  ````
+</div>
+</div>
+````
 
 [![slide_5](./SliDev_Basic/slide_5_small.png)](./SliDev_Basic/slide_5.png)
 
 
 ## 6 - Class
 
-````md  
+````md
 ---
 class: px-20
 ---
@@ -276,7 +278,7 @@ check out the [Awesome Themes Gallery](https://sli.dev/themes/gallery.html).
 
 ## 7 - Animations Slide
 
-````md  
+````md
 ---
 preload: false
 ---
@@ -286,12 +288,7 @@ preload: false
 Animations are powered by [@vueuse/motion](https://motion.vueuse.org/).
 
 ```html
-<div
-  v-motion
-  :initial="{ x: -80 }"
-  :enter="{ x: 0 }">
-  Slidev
-</div>
+<div v-motion :initial="{ x: -80 }" :enter="{ x: 0 }">Slidev</div>
 ```
 
 <div class="w-60 relative mt-6">
@@ -359,7 +356,7 @@ const final = {
 
 ## 8 - LaTeX Slide
 
-````md  
+```md
 # LaTeX
 
 LaTeX is supported out-of-box powered by [KaTeX](https://katex.org/).
@@ -369,6 +366,7 @@ LaTeX is supported out-of-box powered by [KaTeX](https://katex.org/).
 Inline $\sqrt{3x-1}+(1+x)^2$
 
 Block
+
 $$
 \begin{array}{c}
 
@@ -385,14 +383,14 @@ $$
 <br>
 
 [Learn more](https://sli.dev/guide/syntax#latex)
-````
+```
 
 [![slide_8](./SliDev_Basic/slide_8_small.png)](./SliDev_Basic/slide_8.png)
 
 
 ## 9 - Diagrams Slide
 
-````md  
+````md
 ---
 
 # Diagrams
@@ -424,7 +422,7 @@ C -->|Two| E[Result 2]
 
 ## 10 - Learn more Slide
 
-````md  
+```md
 ---
 layout: center
 class: text-center
@@ -433,6 +431,6 @@ class: text-center
 # Learn More
 
 [Documentations](https://sli.dev) · [GitHub](https://github.com/slidevjs/slidev) · [Showcases](https://sli.dev/showcases.html)
-````
+```
 
 [![slide_10](./SliDev_Basic/slide_10_small.png)](./SliDev_Basic/slide_10.png)

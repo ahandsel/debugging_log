@@ -7,15 +7,13 @@ description: Review and polish the English UX copy in Markdown tables (especiall
 
 Review and polish UX copy in `English` or `EN` columns of Markdown tables and apply fixes directly.
 
-
 ## Required input
 
 Receive a file path from the user.
 
 Example:
 
-* `tasks-kinid/v1-midfi/prd37-pw-mgt.md`
-
+- `tasks-kinid/v1-midfi/prd37-pw-mgt.md`
 
 ## Source of truth
 
@@ -32,7 +30,6 @@ If guidance conflicts, prioritize:
 2. `style-guide-english.md`
 3. General UX writing best practices
 
-
 ## Default workflow
 
 1. Open the user-provided file.
@@ -45,41 +42,38 @@ If guidance conflicts, prioritize:
 
 Switch to review-only mode only when the user explicitly asks for suggestions without file edits. See "Review-only mode" below.
 
-
 ## Review-only mode
 
 When the user asks for a review without applied edits, do not change the file. Instead, report each issue with a severity grade so the user can triage:
 
-* 🔴 **Must fix**: Incorrect, misleading, inaccessible, or blames the user.
-* 🟡 **Should fix**: Inconsistent, wordy, wrong capitalization, or does not follow the style guide.
-* 🟢 **Consider**: Minor polish or optional improvement.
+- 🔴 **Must fix**: Incorrect, misleading, inaccessible, or blames the user.
+- 🟡 **Should fix**: Inconsistent, wordy, wrong capitalization, or does not follow the style guide.
+- 🟢 **Consider**: Minor polish or optional improvement.
 
 For each issue, give the file location, the current text, the guideline it violates, and a suggested revision. End with a short summary: total strings reviewed, issue counts by severity, and the top recurring patterns observed.
-
 
 ## Checks to perform
 
 1. Terminology and style consistency:
-   * Use approved terms from `translation.csv` and terminology docs.
-   * Flag inconsistent variants (for example, `login` vs `log in`, `user name` vs `username`).
+   - Use approved terms from `translation.csv` and terminology docs.
+   - Flag inconsistent variants (for example, `login` vs `log in`, `user name` vs `username`).
 2. Clarity and concision:
-   * Prefer direct, user-friendly wording.
-   * Remove unnecessary words and ambiguity.
+   - Prefer direct, user-friendly wording.
+   - Remove unnecessary words and ambiguity.
 3. Vocabulary level:
-   * Keep wording at high school reading level or lower.
-   * Flag uncommon or overly technical words unless domain-required.
-   * Suggest simpler alternatives.
+   - Keep wording at high school reading level or lower.
+   - Flag uncommon or overly technical words unless domain-required.
+   - Suggest simpler alternatives.
 4. Grammar and voice:
-   * Fix grammar issues.
-   * Prefer active voice when it improves clarity and responsibility.
+   - Fix grammar issues.
+   - Prefer active voice when it improves clarity and responsibility.
 5. US English conventions:
-   * Enforce US spelling and grammar.
+   - Enforce US spelling and grammar.
 6. Sentence case:
-   * Use sentence case for headings, titles, and UI text unless proper nouns or explicit exceptions apply in the style guide.
+   - Use sentence case for headings, titles, and UI text unless proper nouns or explicit exceptions apply in the style guide.
 7. Error-message quality:
-   * Ensure error messages are specific and actionable.
-   * For messages like `Check the poll above for errors.`, verify that the action and location are clear to users.
-
+   - Ensure error messages are specific and actionable.
+   - For messages like `Check the poll above for errors.`, verify that the action and location are clear to users.
 
 ## Safe edit rules
 
@@ -89,33 +83,31 @@ For each issue, give the file location, the current text, the guideline it viola
 4. Preserve intentional capitalization for branded terms.
 5. Keep each revised string semantically equivalent unless the original meaning is clearly wrong or ambiguous.
 
-
 ## TODO comments for user review
 
 1. Add a TODO comment when meaning, product behavior, legal wording, or terminology intent is uncertain and needs user confirmation.
 2. Use this exact format:
-   * `<!-- TODO: Needs user review - Table <table_number>, Row <row_number>: <reason> -->`
+   - `<!-- TODO: Needs user review - Table <table_number>, Row <row_number>: <reason> -->`
 3. Place TODO comments directly below the relevant table, not inside table rows.
 4. Write one TODO comment per uncertain row.
 5. Keep TODO reasons short, specific, and actionable.
-
 
 ## Output format
 
 Return results in this order:
 
 1. Summary:
-   * Total `English` cells reviewed
-   * Number of edited cells
-   * Number of unchanged cells
-   * Number of TODO comments added
+   - Total `English` cells reviewed
+   - Number of edited cells
+   - Number of unchanged cells
+   - Number of TODO comments added
 2. Applied changes table with columns:
-   * `Table`
-   * `Row`
-   * `Before`
-   * `After`
-   * `Rule reference`
+   - `Table`
+   - `Row`
+   - `Before`
+   - `After`
+   - `Rule reference`
 3. Ambiguities:
-   * Note uncertain edits and the deciding rule.
+   - Note uncertain edits and the deciding rule.
 4. TODO comments added:
-   * List each inserted TODO comment.
+   - List each inserted TODO comment.

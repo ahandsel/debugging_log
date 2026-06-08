@@ -8,4 +8,3 @@
 | `⇧⌘D`    | Show/Hide In-meeting Chat Panel     |
 | `⇧⌘X`    | Raise/Lower Hand                    |
 | `⇧⌘F`    | Show/Hide Floating Meeting Controls |
-

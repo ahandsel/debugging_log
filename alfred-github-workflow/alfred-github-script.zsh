@@ -5,7 +5,7 @@ input="${1// /%20}"
 
 # Ensure github_repo_url is provided without leading/trailing spaces
 # and ends with a '/'
-github_repo_url="${github_repo_url%/}/"  # Trim any trailing slash and then add one back
+github_repo_url="${github_repo_url%/}/" # Trim any trailing slash and then add one back
 
 # Check if the input is empty
 if [[ -z $input ]]; then

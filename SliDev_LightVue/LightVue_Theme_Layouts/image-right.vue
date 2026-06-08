@@ -1,7 +1,7 @@
 <template>
   <div class="relative h-full intro grid grid-cols-12">
     <div class="absolute h-full w-full" style="z-index: -10">
-      <BubbleFrame v-if="!hideFrame"/>
+      <BubbleFrame v-if="!hideFrame" />
     </div>
     <div
       :class="[
@@ -32,7 +32,7 @@
 
 <script setup lang="ts">
 // Dependencies
-import { defineProps } from "vue";
+import { defineProps } from 'vue';
 
 const props = defineProps({
   image: {
@@ -47,6 +47,6 @@ const props = defineProps({
   hideFrame: {
     type: Boolean,
     default: false,
-  }
+  },
 });
 </script>

@@ -17,6 +17,7 @@ slidev [args]
 ## Positions
 
 [entry]
+
 * path to the slides markdown entry
 * [string] [default: "slides.md"]
 

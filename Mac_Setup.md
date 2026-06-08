@@ -129,53 +129,54 @@
 
 #### Setup powerlevel10k for iTerm2
 
- for your [iTerm2](https://iterm2.com/index.html)
+for your [iTerm2](https://iterm2.com/index.html)
+
 1. Make sure you installed [ryanoasis/nerd-fonts](https://github.com/ryanoasis/nerd-fonts)
 
-    ```shell
-    brew tap homebrew/cask-fonts
-    brew install --cask font-hack-nerd-font
-    ```
+   ```shell
+   brew tap homebrew/cask-fonts
+   brew install --cask font-hack-nerd-font
+   ```
 
 2. Install [romkatv/powerlevel10k](https://github.com/romkatv/powerlevel10k)
 
 ```shell
 brew install romkatv/powerlevel10k/powerlevel10k
-echo "source $(brew --prefix)/opt/powerlevel10k/powerlevel10k.zsh-theme" >>~/.zshrc
+echo "source $(brew --prefix)/opt/powerlevel10k/powerlevel10k.zsh-theme" >> ~/.zshrc
 ```
 
 1. Go through the `p10k configure` configuration wizard
-    * ![configuration-wizard.gif](https://raw.githubusercontent.com/romkatv/powerlevel10k-media/master/configuration-wizard.gif)
-    * Type in the choice you want.
-    * Example: `Choice [12345rq]: ...`
-      * 1 ~ 5 are the options
-      * r is for restarting the configuration wizard
-      * q is for quitting without saving
+   * ![configuration-wizard.gif](https://raw.githubusercontent.com/romkatv/powerlevel10k-media/master/configuration-wizard.gif)
+   * Type in the choice you want.
+   * Example: `Choice [12345rq]: ...`
+     * 1 ~ 5 are the options
+     * r is for restarting the configuration wizard
+     * q is for quitting without saving
 
 
 #### Setup powerlevel10k for Apple Terminal & VS Code Terminal
 
 1. Install these four tff files to install fonts manually
-    * [MesloLGS NF Regular.ttf](https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Regular.ttf)
-    * [MesloLGS NF Bold.ttf](https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Bold.ttf)
-    * [MesloLGS NF Italic.ttf](https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Italic.ttf)
-    * [MesloLGS NF Bold Italic.ttf](https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Bold%20Italic.ttf)
+   * [MesloLGS NF Regular.ttf](https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Regular.ttf)
+   * [MesloLGS NF Bold.ttf](https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Bold.ttf)
+   * [MesloLGS NF Italic.ttf](https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Italic.ttf)
+   * [MesloLGS NF Bold Italic.ttf](https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Bold%20Italic.ttf)
 2. Double-click on each file and click "Install". This will make `MesloLGS NF` font available to all applications on your system.
 3. Configure Apple Terminal to use this font:
-    1. Open *Terminal → Preferences → Profiles → Text*
-    2. Click *Change* under *Font*
-    3. Select `MesloLGS NF` family.
+   1. Open _Terminal → Preferences → Profiles → Text_
+   2. Click _Change_ under _Font_
+   3. Select `MesloLGS NF` family.
 4. Configure Visual Studio Code Terminal to use this font:
-    1. Open *File → Preferences → Settings* (PC) or *Code → Preferences → Settings* (Mac)
-    2. Enter `terminal.integrated.fontFamily` in the search box at the top of *Settings* tab
-    3. And set the value below to `MesloLGS NF`.
-    4. ![Settings Screenshot](https://raw.githubusercontent.com/romkatv/powerlevel10k-media/389133fb8c9a2347929a23702ce3039aacc46c3d/visual-studio-code-font-settings.jpg)
+   1. Open _File → Preferences → Settings_ (PC) or _Code → Preferences → Settings_ (Mac)
+   2. Enter `terminal.integrated.fontFamily` in the search box at the top of _Settings_ tab
+   3. And set the value below to `MesloLGS NF`.
+   4. ![Settings Screenshot](https://raw.githubusercontent.com/romkatv/powerlevel10k-media/389133fb8c9a2347929a23702ce3039aacc46c3d/visual-studio-code-font-settings.jpg)
 5. Run `p10k configure` to generate a new `~/.p10k.zsh`. The old config may work incorrectly with the new font.
 
 
 ### `brew`
 
-* Homebrew or `brew` is a package manager for MacOS. [brew.sh](https://brew.sh/)  
+* Homebrew or `brew` is a package manager for MacOS. [brew.sh](https://brew.sh/)
 * It is helpful to manage packages like font-fira-code, git, python, or node.
 
 
@@ -232,19 +233,19 @@ Current Python versions:
 [Download Python | Python.org](https://www.python.org/downloads/)
 
 Install additional Python versions:  
-For example, to download and install *Python 3.10.4*, run:
+For example, to download and install _Python 3.10.4_, run:
 
 ```shell
 pyenv install 3.10.4
 ```
 
-List of Python versions:  
+List of Python versions:
 
 ```shell
 pyenv install --list
 ```
 
-Switch between Python versions:  
+Switch between Python versions:
 
 To select a Pyenv-installed Python as the version to use, run one of the following commands:
 
@@ -254,7 +255,7 @@ To select a Pyenv-installed Python as the version to use, run one of the followi
 | Current directory (& subdirectories) Setting | `pyenv local <version>`  |
 | Global Setting                               | `pyenv global <version>` |
 
-Verify Python version:  
+Verify Python version:
 
 ```shell
 python --version
@@ -269,7 +270,8 @@ Install: `pip install pptx2md`
 
 Usage: `pptx2md filename`
 
-Options:  
+Options:
+
 * `-t [filename]` provide the title file
 * `-o [filename]` path of the output file
 * `-i [path]` directory of the extracted pictures

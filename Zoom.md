@@ -38,6 +38,7 @@
 ## Steps to configuring Zoom settings
 
 * See attached video
+
 1. Visit [https://cybozu.zoom.us/webinar/list](https://cybozu.zoom.us/webinar/list)
 2. Schedule a webinar, or click the title of a webinar that's already scheduled.
    * Click Edit this Webinar.
@@ -93,6 +94,7 @@ For more details, refer to the official Help Doc:
 [Meeting and webinar comparison - Zoom Help Center](https://support.zoom.us/hc/en-us/articles/115005474943-Meeting-and-webinar-comparison)
 
 TL;DR
+
 * Webinar's Strength: Simpler interface for attendees, Q&A function, & Post attendee URL
 * Webinar's Weakness: Guests cannot turn on their cameras by default. Need to be promoted...
 
@@ -123,6 +125,7 @@ Comparing the features (Differences)
 | Paypal integration |                                            N/A                                             |                                                              ✔                                                               |
 
 Following are the same & available to both:
+
 * [Annotation](https://support.zoom.us/hc/en-us/articles/115005706806)
 * [Screen sharing](https://support.zoom.us/hc/en-us/articles/201362153)
 * [Whiteboard](https://support.zoom.us/hc/en-us/articles/205677665)
@@ -182,8 +185,10 @@ Following are the same & available to both:
    5. The video will now open within Zoom and be visible to attendees!
 
 Zoom Help Doc:
+
 * 日本語 - [ビデオの共有](https://support.zoom.us/hc/ja/articles/360051673592-Sharing-and-playing-a-video#h_01EPAWQXNJNETMY4S33GB0WST0)
 * English - [Sharing your video](https://support.zoom.us/hc/en-us/articles/360051673592-Sharing-and-playing-a-video#h_01EPAWQXNJNETMY4S33GB0WST0)
 
 Here is a demo of sharing a video on Zoom:
+
 * ![Share_Video_Zoom.gif](img/Zoom_Video_Share_Public_Compressed.gif)

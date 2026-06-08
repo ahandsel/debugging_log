@@ -40,6 +40,7 @@ Bundle the JavaScript files into one inside the `./build/static/js/` folder -> `
 Bundle the JavaScript files into one inside the `./build/static/js/` folder -> `bundle.js`
 
 <https://stackoverflow.com/questions/67358595/how-to-bundle-react-to-one-big-bundle-with-css-js>
+
 1. Create the following `gulpfile.js` and save in the root folder.
 
    ```js
@@ -54,18 +55,20 @@ Bundle the JavaScript files into one inside the `./build/static/js/` folder -> `
      return gulp
        .src(`${path}/css/*.css`)
        .pipe(concat('styles.css'))
-       .pipe(css2js({
-         splitOnNewline: false
-       }))
+       .pipe(
+         css2js({
+           splitOnNewline: false,
+         }),
+       )
        .pipe(gulp.dest(`${path}/js`));
    });
 
    gulp.task('bundle', () => {
-   return gulp
-     .src(`${path}/js/*.js`)
-     .pipe(concat('bundle.js'))
-     .pipe(replace('ReactDom', 'ReactDOM'))
-     .pipe(gulp.dest('./dist/'));
+     return gulp
+       .src(`${path}/js/*.js`)
+       .pipe(concat('bundle.js'))
+       .pipe(replace('ReactDom', 'ReactDOM'))
+       .pipe(gulp.dest('./dist/'));
    });
 
    gulp.task('default', gulp.series('unite-css', 'bundle'));

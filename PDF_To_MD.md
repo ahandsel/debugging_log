@@ -27,6 +27,7 @@ npx @opendocsg/pdf2md --inputFolderPath=[your input folder path] --outputFolderP
 ⚠️ `outputFolderPath` is required
 
 Example
+
 * Convert all PDF files in the current folder
 
 ```shell

@@ -15,24 +15,21 @@ For the given PR, this skill collects:
 
 The skill only reads from GitHub. It never posts, edits, or resolves comments.
 
-
 ## Required input
 
 A pull request identifier in any of these forms:
 
-* **Number only:** `498` - uses the repo of the current working directory (resolved via `gh repo view`).
-* **Owner/repo + number:** `cybozu-private/kws-writing#498`.
-* **GitHub URL:** `https://github.com/cybozu-private/kws-writing/pull/498` (an `/issues/<n>` URL with the same number is also accepted).
+- **Number only:** `498` - uses the repo of the current working directory (resolved via `gh repo view`).
+- **Owner/repo + number:** `cybozu-private/kws-writing#498`.
+- **GitHub URL:** `https://github.com/cybozu-private/kws-writing/pull/498` (an `/issues/<n>` URL with the same number is also accepted).
 
 If the user gives a bare number while the current directory is not a clone of the target repo, ask for the repo or pass `--repo owner/repo` to the helper.
 
-
 ## Prerequisites
 
-* `gh` CLI installed and authenticated (`gh auth status` succeeds).
-* Read access to the target repo.
-* Node.js 24+ for running the helper.
-
+- `gh` CLI installed and authenticated (`gh auth status` succeeds).
+- Read access to the target repo.
+- Node.js 24+ for running the helper.
 
 ## Quick start
 
@@ -55,10 +52,9 @@ node skills/gh-pr-reporter/scripts/get-pr-comments.mjs 498 --json
 
 Exit codes:
 
-* `0` - success.
-* `1` - fetch failure (authentication, network, or PR not found).
-* `2` - invalid arguments.
-
+- `0` - success.
+- `1` - fetch failure (authentication, network, or PR not found).
+- `2` - invalid arguments.
 
 ## Default workflow
 
@@ -66,7 +62,6 @@ Exit codes:
 2. **Run the helper.** Invoke `node skills/gh-pr-reporter/scripts/get-pr-comments.mjs <pr-ref>` from the repo root. Capture stdout as the Markdown report.
 3. **Show the report to the user.** Display the helper's stdout directly. The helper already groups, sorts, and formats the content.
 4. **Optional follow-up.** When the user asks for a summary or for action items, summarize from the report - do not re-fetch from GitHub.
-
 
 ## Report structure
 
@@ -79,9 +74,7 @@ The Markdown report has four sections in this order:
 
 Empty sections render as a single italicized placeholder ("_No reviews yet._", "_No inline comments._", "_No general comments._") so the user still sees the structure.
 
-
 ## Bundled resources
-
 
 ### scripts/get-pr-comments.mjs
 
@@ -89,26 +82,24 @@ The helper does all GitHub I/O.
 
 Behavior:
 
-* Parses `<pr-ref>` into `{ owner, repo, number }`. Resolves the repo from `gh repo view` when only a number is given.
-* Fetches PR metadata, reviews, inline review comments, and issue comments using `gh api --paginate` with a page size of 100. Multi-page responses are concatenated and re-merged into a single array.
-* Builds a Markdown report or, with `--json`, dumps a `{ pr, reviews, reviewComments, issueComments }` object on stdout.
-* Prints a one-line success summary to stderr (so it does not pollute the report when stdout is piped to a file).
-* Exits `0` on success, `1` on fetch failure, `2` on invalid arguments.
+- Parses `<pr-ref>` into `{ owner, repo, number }`. Resolves the repo from `gh repo view` when only a number is given.
+- Fetches PR metadata, reviews, inline review comments, and issue comments using `gh api --paginate` with a page size of 100. Multi-page responses are concatenated and re-merged into a single array.
+- Builds a Markdown report or, with `--json`, dumps a `{ pr, reviews, reviewComments, issueComments }` object on stdout.
+- Prints a one-line success summary to stderr (so it does not pollute the report when stdout is piped to a file).
+- Exits `0` on success, `1` on fetch failure, `2` on invalid arguments.
 
 The helper only reads from GitHub. It never writes, posts, or resolves anything.
 
-
 ## Constraints
 
-* Use the bundled helper - do not call `gh api` directly. The helper handles ref parsing, pagination, threading, and consistent formatting.
-* Do not invent or paraphrase comments. The report quotes every comment body verbatim. When summarizing for the user, mark paraphrases as such and keep authors and timestamps intact.
-* Do not post, edit, resolve, or react to any comment from this skill. For write actions on PR comments, use the [`gh-cli`][] skill instead.
-* Do not strip or rewrite bot comments (for example, `@Copilot` review bodies). They count as comments and belong in the report.
-* Bodies that contain Markdown that itself uses `>` blockquotes will look nested in the output - this is expected and does not need to be flattened.
-
+- Use the bundled helper - do not call `gh api` directly. The helper handles ref parsing, pagination, threading, and consistent formatting.
+- Do not invent or paraphrase comments. The report quotes every comment body verbatim. When summarizing for the user, mark paraphrases as such and keep authors and timestamps intact.
+- Do not post, edit, resolve, or react to any comment from this skill. For write actions on PR comments, use the [`gh-cli`][] skill instead.
+- Do not strip or rewrite bot comments (for example, `@Copilot` review bodies). They count as comments and belong in the report.
+- Bodies that contain Markdown that itself uses `>` blockquotes will look nested in the output - this is expected and does not need to be flattened.
 
 ## Related skills
 
-* [`gh-cli`][] - general-purpose GitHub CLI usage, including replying to or resolving comments after this skill surfaces them.
+- [`gh-cli`][] - general-purpose GitHub CLI usage, including replying to or resolving comments after this skill surfaces them.
 
 [`gh-cli`]: ../gh-cli/SKILL.md

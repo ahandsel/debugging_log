@@ -1,9 +1,8 @@
-
-  <template>
+<template>
   <!-- Image is at Left -->
   <div v-if="left" class="relative h-full intro grid grid-cols-12">
     <div class="absolute h-full w-full" style="z-index: -10">
-      <BubbleFrame v-if="!hideFrame"/>
+      <BubbleFrame v-if="!hideFrame" />
     </div>
     <!-- Image -->
     <div
@@ -88,10 +87,10 @@
 
 <script setup lang="ts">
 // Dependencies
-import { computed, defineProps } from "vue";
+import { computed, defineProps } from 'vue';
 
 // Utils
-import { handleBackground } from "../utils";
+import { handleBackground } from '../utils';
 const props = defineProps({
   image: {
     type: String,
@@ -114,7 +113,7 @@ const props = defineProps({
   hideFrame: {
     type: Boolean,
     default: false,
-  }
+  },
 });
 // const style1 = {
 //   filter: "blur(3px)",
@@ -124,6 +123,6 @@ const props = defineProps({
 //   backgroundSize: "cover",
 // };
 const style = computed(() =>
-  handleBackground(props.image, props.upperImage ? true : false)
+  handleBackground(props.image, props.upperImage ? true : false),
 );
 </script>

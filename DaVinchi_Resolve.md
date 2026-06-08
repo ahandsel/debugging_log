@@ -37,9 +37,11 @@ Project > `Export Project Archive` > Included Media --> Full Backup of the proje
 ## Export Markers for YouTube Video Chapters
 
 Go to Media Tab (Bottom)
+
 * ![DaVinci_Resolve_MediaTab.png](img/DaVinci_Resolve_MediaTab.png)
 
 Left-Click on `Timeline 1` > Export > Timeline Markers > Timeline Markers to EDL...
+
 * ![DaVinci_Resolve_MarkersExport.png](img/DaVinci_Resolve_MarkersExport.png)
 
 Open `Timeline 1.edl` in VS Code

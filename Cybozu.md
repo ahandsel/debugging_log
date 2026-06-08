@@ -8,8 +8,7 @@ Here are some helpful links & articles to get to know Cybozu and Kintone USA com
 
 ### General Audience
 
-* Kintopia - English Content on Teamwork in Japan & Cybozu work culture
-  * [Kintopia - Teamwork, Reimagined](https://kintopia.kintone.com/)
+* [Diversity and the future of the Japanese workplace](https://info.japantimes.co.jp/jt-with-kintopia/)
 
 
 ### Developer/ Technical Audience
@@ -32,18 +31,6 @@ Here are some helpful links & articles to get to know Cybozu and Kintone USA com
 
 
 ## Cybozu Design Team
-
-
-### Tech Stack in Design Team
-
-* Prototype Tools: Figma, Sketch
-* Adobe Suite: Adobe PhotoShop
-* GitHub
-* HTML, CSS, & JavaScript
-* Transitioning from Closure framework to React framework
-
-
-### Cybozu Design Tech Blog
 
 * [Cybozu Designers&Researchers｜サイボウズ デザイン&リサーチ｜note](https://note.com/cybozu_design/m/mc12622f890cf)
 * Cybozu Design Team - [採用情報・活動紹介｜サイボウズ デザイン＆リサーチグループ](https://cybozu.co.jp/company/job/recruitment/designgroup/)
