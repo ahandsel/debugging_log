@@ -1,4 +1,4 @@
-# MacOS Commands <!-- omit in toc -->
+# MacOS Commands
 
 * This document is a complication of commands and technical notes regarding MacOS
 
@@ -6,15 +6,11 @@
 ## Outline <!-- omit in toc -->
 
 * [Terminal: List only directories for the current location](#terminal-list-only-directories-for-the-current-location)
-* [scp command notes & examples](#scp-command-notes--examples)
+* [scp command notes \& examples](#scp-command-notes--examples)
   * [What is Secure Copy (scp)?](#what-is-secure-copy-scp)
-    * [Remote to Local](#remote-to-local)
-    * [Local to Remote](#local-to-remote)
-    * [Remote to Remote](#remote-to-remote)
-    * [scp Performance](#scp-performance)
   * [Error: `bash: scp: command not found`](#error-bash-scp-command-not-found)
 * [WindowServer process - MacOS system Process/ Command](#windowserver-process---macos-system-process-command)
-* [`rm` command to delete files & folders](#rm-command-to-delete-files--folders)
+* [`rm` command to delete files \& folders](#rm-command-to-delete-files--folders)
   * [Examples](#examples)
 * [Useful Mac Shortcuts](#useful-mac-shortcuts)
 * [Mac's Keyboard Symbols](#macs-keyboard-symbols)
