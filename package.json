@@ -4,13 +4,13 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vitepress dev",
     "build": "vitepress build",
-    "preview": "vitepress preview",
+    "dev": "vitepress dev",
     "index": "zsh scripts/index.sh",
     "lint": "pnpm run lint-code && pnpm run lint-md",
     "lint-code": "prettier --write .",
-    "lint-md": "markdownlint-cli2 --fix"
+    "lint-md": "markdownlint-cli2 --fix",
+    "preview": "vitepress preview"
   },
   "devDependencies": {
     "@prettier/plugin-xml": "^3.4.2",
@@ -22,7 +22,7 @@
     "prettier-plugin-sh": "^0.18.1",
     "prettier-plugin-sql": "^0.20.0",
     "prettier-plugin-toml": "^2.0.6",
-    "vitepress": "^1.5.0"
+    "vitepress": "^1.6.4"
   },
   "engines": {
     "node": ">=24",
