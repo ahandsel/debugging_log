@@ -10,7 +10,11 @@
     "lint": "pnpm run lint-code && pnpm run lint-md",
     "lint-code": "prettier --write .",
     "lint-md": "markdownlint-cli2 --fix",
-    "preview": "vitepress preview"
+    "preview": "vitepress preview",
+    "tree": "markdown-notes-tree --ignore index.md --ignore skills"
+  },
+  "dependencies": {
+    "markdown-notes-tree": "^1.13.1"
   },
   "devDependencies": {
     "@prettier/plugin-xml": "^3.4.2",
