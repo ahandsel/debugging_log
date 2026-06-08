@@ -8,10 +8,12 @@ Action failed with "The process '/usr/bin/git' failed with exit code 128"
 ```
 
 Cause:
+
 * Executing GitHub Actions for the first time
 * New repositories do not have proper workflow permissions by default.
 
 Solution:
+
 * Go to the following GitHub Repo settings:
   * Settings > Actions > General > Workflow permissions
   * `https://github.com/{USERNAME}/{REPO_NAME}/settings/actions`

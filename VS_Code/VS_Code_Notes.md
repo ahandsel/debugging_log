@@ -2,11 +2,13 @@
 
 
 ## Outline <!-- omit in toc -->
+
 <!-- markdownlint-disable MD007 -->
+
 * [Display Whitespace in VS Code](#display-whitespace-in-vs-code)
 * [Remove Duplicate Lines in VS Code](#remove-duplicate-lines-in-vs-code)
   * [If the lines order is not important](#if-the-lines-order-is-not-important)
-  * [If the lines order *IS* important (can't alphabetically sort)](#if-the-lines-order-is-important-cant-alphabetically-sort)
+  * [If the lines order _IS_ important (can't alphabetically sort)](#if-the-lines-order-is-important-cant-alphabetically-sort)
 * [How to install VS Code Extensions Manually?](#how-to-install-vs-code-extensions-manually)
 * [VS Code \& powerlevel10k](#vs-code--powerlevel10k)
 <!-- markdownlint-enable MD007 -->
@@ -44,13 +46,13 @@
 7. Click "Replace All"
 
 
-### If the lines order *IS* important (can't alphabetically sort)
+### If the lines order _IS_ important (can't alphabetically sort)
 
 * In this case, either resort to a solution outside VS Code ([example](https://stackoverflow.com/q/11532157/3258851))
 * OR if your document is not very large...
   * **search**: `((^[^\S$]*?(?=\S)(?:.*)+$)[\S\s]*?)^\2$(?:\n)?`
   * **replace with**: `$1`
-  * Click the "Replace All" button (*as many times as there are duplicate occurrences*)
+  * Click the "Replace All" button (_as many times as there are duplicate occurrences_)
 
 
 ## How to install VS Code Extensions Manually?
@@ -68,9 +70,9 @@
 ## VS Code & powerlevel10k
 
 1. Install & configure [romkatv/powerlevel10k](https://github.com/romkatv/powerlevel10k)
-    * See [Mac_Setup article's powerlevel10k section](../Mac_Setup.md#powerlevel10k---a-zsh-theme) for more details.
+   * See [Mac_Setup article's powerlevel10k section](../Mac_Setup.md#powerlevel10k---a-zsh-theme) for more details.
 2. Configure VS Code Setting
-    * Open File → Preferences → Settings
-    * For `terminal.integrated.fontFamily`, set `MesloLGS NF`
-    * For `terminal.explorerKind`, set `external`
-    * For `terminal.external.osxExec`, set `iTerm.app`
+   * Open File → Preferences → Settings
+   * For `terminal.integrated.fontFamily`, set `MesloLGS NF`
+   * For `terminal.explorerKind`, set `external`
+   * For `terminal.external.osxExec`, set `iTerm.app`

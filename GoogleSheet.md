@@ -1,6 +1,7 @@
 # Quick Notes Regarding Google Sheets
 
 <!-- markdownlint-disable MD007 -->
+
 * [Count Duplicates in Google Sheets](#count-duplicates-in-google-sheets)
 * [Remove Specified Text from a Cell](#remove-specified-text-from-a-cell)
 <!-- markdownlint-enable MD007 -->
@@ -14,6 +15,7 @@
 ## Remove Specified Text from a Cell
 
 Use [SUBSTITUTE](https://support.google.com/docs/answer/3094215) function!
+
 * Replaces existing text with new text in a string.
 
 Ex/ `SUBSTITUTE("search for it","search for","Google")`

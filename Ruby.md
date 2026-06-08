@@ -32,7 +32,7 @@ brew install rbenv ruby-build
 
 ```shell
 echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bash_profile
-echo 'eval "$(rbenv init -)"' >> ~/.bash_profile  
+echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
 ```
 
 
@@ -40,7 +40,7 @@ echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
 
 ```shell
 echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.zprofile
-echo 'eval "$(rbenv init -)"' >> ~/.zprofile  
+echo 'eval "$(rbenv init -)"' >> ~/.zprofile
 ```
 
 
@@ -98,6 +98,7 @@ brew install openssl libffi zlib readline
 Error: `You don't have write permissions for the /Library/Ruby/Gems/2.6.0 directory.`
 
 Solution:
+
 1. Deleted the `Gemfile.lock`
 2. Run `bundle`
 

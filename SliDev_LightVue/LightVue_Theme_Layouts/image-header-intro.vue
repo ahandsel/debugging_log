@@ -1,7 +1,7 @@
 <template>
   <div class="slidev-layout intro relative grid grid-cols-12">
     <div class="absolute h-full w-full" style="z-index: -10">
-      <BubbleFrame v-if="!hideFrame"/>
+      <BubbleFrame v-if="!hideFrame" />
     </div>
     <div class="my-auto col-span-6 grid grid-cols-12">
       <div class="image col-span-8">
@@ -19,7 +19,7 @@
   </div>
 </template>
 <script setup lang="ts">
-import { defineProps } from "vue";
+import { defineProps } from 'vue';
 const props = defineProps({
   imageHeader: {
     type: String,
@@ -33,7 +33,6 @@ const props = defineProps({
   hideFrame: {
     type: Boolean,
     default: false,
-  }
+  },
 });
 </script>
-

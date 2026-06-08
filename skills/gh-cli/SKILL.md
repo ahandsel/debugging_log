@@ -7,7 +7,6 @@ description: Interact with GitHub repositories using the GitHub CLI (gh). Covers
 
 Use the `gh` CLI to read and write GitHub data for the repository in the current working directory.
 
-
 ## Choose your track
 
 | Track        | You should pick this if...                                        |
@@ -15,28 +14,23 @@ Use the `gh` CLI to read and write GitHub data for the repository in the current
 | Beginner     | You have never used `gh` or need setup help                       |
 | Intermediate | `gh` is installed and authenticated; you want a command reference |
 
-
 ## Prerequisites
 
-* `gh` CLI installed (see Beginner Track for instructions)
-* Authenticated via `gh auth login`
-* Current working directory is inside a cloned GitHub repository, or run `gh repo set-default` to set one
+- `gh` CLI installed (see Beginner Track for instructions)
+- Authenticated via `gh auth login`
+- Current working directory is inside a cloned GitHub repository, or run `gh repo set-default` to set one
 
 ---
 
-
 ## Beginner Track
 
-
 ### 1 Installation
-
 
 #### macOS
 
 ```bash
 brew install gh
 ```
-
 
 #### Linux (Debian / Ubuntu)
 
@@ -50,7 +44,6 @@ brew install gh
   && sudo apt update \
   && sudo apt install gh -y
 ```
-
 
 #### Windows (WSL)
 
@@ -67,7 +60,6 @@ Expected output (version number may differ):
 ```text
 gh version 2.x.x (2025-xx-xx)
 ```
-
 
 ### 2 Authentication
 
@@ -88,7 +80,6 @@ Expected output on success:
 ```text
 ✓ Logged in as your-username
 ```
-
 
 ### 3 Environment verification
 
@@ -114,9 +105,7 @@ gh repo set-default
 
 This prompts you to pick from your repositories.
 
-
 ### 4 Command guide
-
 
 #### Repository and branch operations
 
@@ -143,7 +132,6 @@ gh api repos/{owner}/{repo}/commits --jq '.[] | "\(.commit.author.date) \(.commi
 ```
 
 This prints the 10 most recent commits with date, author, and first line of the message.
-
 
 #### Pull requests
 
@@ -180,7 +168,6 @@ gh pr checkout 12
 
 This creates a local branch tracking the PR and switches to it.
 
-
 #### Issues
 
 **List open issues**
@@ -200,7 +187,6 @@ ID    TITLE                     LABELS     UPDATED
 #8    Crash on login            bug        about 1 day ago
 #7    Add SSO support           feature    about 3 days ago
 ```
-
 
 #### Releases and workflows
 
@@ -233,9 +219,7 @@ STATUS  TITLE             WORKFLOW    BRANCH   EVENT   ID          ELAPSED  AGE
 
 ---
 
-
 ## Intermediate Track
-
 
 ### Quick-start checklist
 
@@ -243,9 +227,7 @@ STATUS  TITLE             WORKFLOW    BRANCH   EVENT   ID          ELAPSED  AGE
 2. `gh auth status` confirms authentication.
 3. `cd` into a cloned repo, or run `gh repo set-default`.
 
-
 ### Command reference
-
 
 #### Repository and branch operations
 
@@ -253,7 +235,6 @@ STATUS  TITLE             WORKFLOW    BRANCH   EVENT   ID          ELAPSED  AGE
 | --------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Sync current branch from upstream | `gh repo sync`                                                                                                                                            |
 | View recent commits               | `gh api repos/{owner}/{repo}/commits --jq '.[] \| "\(.commit.author.date) \(.commit.author.name) \(.commit.message \| split("\n") \| .[0])"' \| head -10` |
-
 
 #### Pull requests
 
@@ -264,7 +245,6 @@ STATUS  TITLE             WORKFLOW    BRANCH   EVENT   ID          ELAPSED  AGE
 | Check out PR locally         | `gh pr checkout <number>`                                |
 | Create PR (write)            | `gh pr create --title "Title" --body "Body" --base main` |
 
-
 #### Issues
 
 | Action                     | Command                                                     |
@@ -274,7 +254,6 @@ STATUS  TITLE             WORKFLOW    BRANCH   EVENT   ID          ELAPSED  AGE
 | List issues assigned to me | `gh issue list --assignee @me`                              |
 | Create issue (write)       | `gh issue create --title "Title" --body "Body" --label bug` |
 | Comment on issue (write)   | `gh issue comment <number> --body "Comment text"`           |
-
 
 #### Releases and workflows
 
@@ -287,9 +266,7 @@ STATUS  TITLE             WORKFLOW    BRANCH   EVENT   ID          ELAPSED  AGE
 
 ---
 
-
 ## Write operations and the --auto flag
-
 
 ### Confirmation protocol
 
@@ -307,9 +284,7 @@ Proceed? [yes / no]
 
 Example: "Create a PR for this branch --auto"
 
-
 ### Write commands
-
 
 #### Create a pull request
 
@@ -319,7 +294,6 @@ Requires: write access to the repository.
 gh pr create --title "Fix login bug" --body "Resolves the null pointer on the login page." --base main
 ```
 
-
 #### Create an issue
 
 Requires: write access or issue creation enabled for the repository.
@@ -328,7 +302,6 @@ Requires: write access or issue creation enabled for the repository.
 gh issue create --title "Crash on login" --body "Steps to reproduce: ..." --label bug
 ```
 
-
 #### Comment on an issue
 
 Requires: write access to the repository.
@@ -336,7 +309,6 @@ Requires: write access to the repository.
 ```bash
 gh issue comment 8 --body "Confirmed - reproduced on v2.1.0."
 ```
-
 
 #### Trigger a workflow run
 
@@ -354,7 +326,6 @@ gh workflow run deploy.yaml --ref main -f environment=staging
 
 ---
 
-
 ## Error handling
 
 | Error                                                  | Cause                                                                  | Fix                                                                   |
@@ -369,9 +340,7 @@ gh workflow run deploy.yaml --ref main -f environment=staging
 
 ---
 
-
 ## Workflow chaining examples
-
 
 ### Example 1: Review and comment on a PR
 
@@ -394,7 +363,6 @@ gh pr diff 12
 gh pr comment 12 --body "Looks good overall. One nit: the error message on line 42 could be clearer."
 ```
 
-
 ### Example 2: Triage an issue and link it to a new PR
 
 Scenario: Read an issue, create a fix branch, and open a PR that references the issue.
@@ -412,7 +380,6 @@ git push -u origin fix/login-crash
 # Open a PR that references the issue (write operation)
 gh pr create --title "Fix login crash" --body "Fixes #8. Adds a null check before accessing the session object." --base main
 ```
-
 
 ### Example 3: Deploy after CI passes
 

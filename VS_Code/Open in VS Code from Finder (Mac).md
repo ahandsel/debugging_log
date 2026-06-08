@@ -30,7 +30,7 @@ Thank you so much for the perfect tutorial. I am writing it here just for my own
 * Select `Files & Folders` group from the library
 * Select `Open Finder Items` Action
 * Drag-&-drop the Action to the workflow area, below the "Get Specified Finder Items" Action
-* In the "Open Finder Items" Action, there is open with option.  Just select the VSCode.
+* In the "Open Finder Items" Action, there is open with option. Just select the VSCode.
 
 
 ## 5. Save the Action

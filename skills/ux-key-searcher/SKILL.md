@@ -18,37 +18,33 @@ This skill only reuses existing keys. It does not invent new keys, edit copy, or
 
 [`ux-key-reviewer`]: ../ux-key-reviewer/SKILL.md
 
-
 ## Required input
 
 A Markdown table in an open file that contains at least one of these copy columns:
 
-* `English` or `EN` - searched against the `*-en-copy.csv` files.
-* `Japanese`, `JA`, or `日本語` - searched against the `*-ja-copy.csv` files.
+- `English` or `EN` - searched against the `*-en-copy.csv` files.
+- `Japanese`, `JA`, or `日本語` - searched against the `*-ja-copy.csv` files.
 
 The table is edited in place in its source file.
-
 
 ### Scope
 
 **By default, use the IDE-selected lines as the scope.** Resolve the selection to the table rows to process:
 
-* If the selection covers one or more table rows, process exactly those rows. Leave all other rows and tables untouched.
-* If the selection is a section heading, a caption, or any partial line above or beside a table (for example, just the line `Deletion modal body variants`), process every data row of the first table in that section.
-* If the selection spans multiple sections or tables, process every data row of every table inside the selected range.
+- If the selection covers one or more table rows, process exactly those rows. Leave all other rows and tables untouched.
+- If the selection is a section heading, a caption, or any partial line above or beside a table (for example, just the line `Deletion modal body variants`), process every data row of the first table in that section.
+- If the selection spans multiple sections or tables, process every data row of every table inside the selected range.
 
 When there is no IDE selection, fall back to the table the user named or pointed to. If neither a selection nor a named target resolves to a Markdown table with a copy column and a `Key`, `Description`, or `Notes` column, stop and ask the user to confirm the target.
-
 
 ## Search corpus
 
 All data lives in `phrase-data/`:
 
-* English: `phrase-data/{project}-en-copy.csv` with header `key_name,en,comment`.
-* Japanese: `phrase-data/{project}-ja-copy.csv` with header `key_name,ja,comment`.
+- English: `phrase-data/{project}-en-copy.csv` with header `key_name,en,comment`.
+- Japanese: `phrase-data/{project}-ja-copy.csv` with header `key_name,ja,comment`.
 
 The `{project}` part of the filename is the project identifier and the prefix of every key in that file (for example, `id-en-copy.csv` holds keys that start with `id_`). Use this to reason about which project a candidate key belongs to.
-
 
 ## Default workflow
 
@@ -73,18 +69,15 @@ The `{project}` part of the filename is the project identifier and the prefix of
 5. **Edit the table in place.** Preserve the table structure, column order, every other column, and all rows outside the highlighted range.
 6. **Report** a summary of reused, uncertain, and unmatched rows.
 
-
 ## Applying results
 
 For each row, act on `match_count`:
 
-
 ### Exactly one match (`match_count == 1`)
 
-* Set `Key` to the matched `key`.
-* Set `Description` to the matched `comment`.
-* Set `Notes` to `Reused`.
-
+- Set `Key` to the matched `key`.
+- Set `Description` to the matched `comment`.
+- Set `Notes` to `Reused`.
 
 ### Multiple matches (`match_count > 1`)
 
@@ -96,22 +89,19 @@ Pick the single most likely candidate using the other rows' results as context, 
 
 Then:
 
-* Set `Key` to the chosen candidate's `key`.
-* Set `Description` to the chosen candidate's `comment`.
-* Set `Notes` to `TODO: Verify key`.
-
+- Set `Key` to the chosen candidate's `key`.
+- Set `Description` to the chosen candidate's `comment`.
+- Set `Notes` to `TODO: Verify key`.
 
 ### No match (`match_count == 0`)
 
 Leave the `Key`, `Description`, and `Notes` cells unchanged. Do not guess a key. List the row in the report as unmatched.
 
-
 ## Matching rules
 
-* **Exact match only.** The copy must equal the CSV value after normalization. Do not fuzzy-match, do not match substrings, and do not match across a trimmed difference in wording.
-* **Normalization** (handled by `search.mjs`): `<br>`, `<br/>`, and `<br />` become newlines, CRLF becomes LF, and leading and trailing whitespace is trimmed. Matching is otherwise case-sensitive and character-exact.
-* **Both copy columns present.** Process the language the user highlighted. If both columns hold copy, match on English first, then confirm the same `key_name` matches the Japanese value (see cross-language confirmation above). A row where the languages disagree on the key is uncertain - use `TODO: Verify key`.
-
+- **Exact match only.** The copy must equal the CSV value after normalization. Do not fuzzy-match, do not match substrings, and do not match across a trimmed difference in wording.
+- **Normalization** (handled by `search.mjs`): `<br>`, `<br/>`, and `<br />` become newlines, CRLF becomes LF, and leading and trailing whitespace is trimmed. Matching is otherwise case-sensitive and character-exact.
+- **Both copy columns present.** Process the language the user highlighted. If both columns hold copy, match on English first, then confirm the same `key_name` matches the Japanese value (see cross-language confirmation above). A row where the languages disagree on the key is uncertain - use `TODO: Verify key`.
 
 ## Safe edit rules
 
@@ -121,32 +111,30 @@ Leave the `Key`, `Description`, and `Notes` cells unchanged. Do not guess a key.
 4. Preserve placeholders, variables, Markdown links, product names, and IDs in any cell.
 5. If a cell already holds a value you would overwrite (for example, an existing `Key` or a `Notes` of `Extracted`), replace it per the rules above; the reused value is authoritative.
 
-
 ## Output format
 
 Return results in this order:
 
 1. Summary:
-   * Total rows processed.
-   * Number set to `Reused` (single match).
-   * Number set to `TODO: Verify key` (multiple matches).
-   * Number left unmatched.
+   - Total rows processed.
+   - Number set to `Reused` (single match).
+   - Number set to `TODO: Verify key` (multiple matches).
+   - Number left unmatched.
 2. Applied changes table with columns:
-   * `Row`
-   * `Copy`
-   * `Key`
-   * `Notes` (`Reused` or `TODO: Verify key`)
+   - `Row`
+   - `Copy`
+   - `Key`
+   - `Notes` (`Reused` or `TODO: Verify key`)
 3. Uncertain rows:
-   * For each `TODO: Verify key` row, list the candidate keys and the deciding heuristic.
+   - For each `TODO: Verify key` row, list the candidate keys and the deciding heuristic.
 4. Unmatched rows:
-   * List the copy that had no exact match, so the user knows a new key is needed.
-
+   - List the copy that had no exact match, so the user knows a new key is needed.
 
 ## Related skills
 
-* [`extract-copy-from-figma`][] - produces the table this skill consumes.
-* [`ux-key-reviewer`][] - audit key naming after keys are filled in.
-* [`ux-copy-en-review`][] and [`ux-copy-ja-review`][] - polish the copy itself.
+- [`extract-copy-from-figma`][] - produces the table this skill consumes.
+- [`ux-key-reviewer`][] - audit key naming after keys are filled in.
+- [`ux-copy-en-review`][] and [`ux-copy-ja-review`][] - polish the copy itself.
 
 [`extract-copy-from-figma`]: ../extract-copy-from-figma/SKILL.md
 [`ux-copy-en-review`]: ../ux-copy-en-review/SKILL.md

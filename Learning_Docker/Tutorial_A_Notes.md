@@ -3,6 +3,7 @@
 [Docker Tutorial for Beginners [2021] - YouTube](https://youtu.be/pTFZFxd4hOI)
 
 <!-- markdownlint-disable MD007 -->
+
 1. [What is Docker?](#what-is-docker)
 2. [Virtual Machines (VMs) vs Containers](#virtual-machines-vms-vs-containers)
 3. [Docker Architecture](#docker-architecture)
@@ -30,7 +31,7 @@
 
 * Containers = isolated environment for running an App
   * Containers are more lightweight since they use the host's OS (specifically the host's kernel)
-* VMs = recreates a whole *machine* (OS, license, etc.)
+* VMs = recreates a whole _machine_ (OS, license, etc.)
   * VMs consumes more resources
 
 
@@ -39,7 +40,7 @@
 * Docker's Type: Client-Server Architecture
 * Client -> {REST API} -> Server(Docker Engine)
 * Docker Engine creates & manages the containers
-* Containers are *special* processes running on the host OS
+* Containers are _special_ processes running on the host OS
   * Special b/c Contai ners contain their own **file system**
 * Containers uses the host's kernel
   * Windows -> Docker can run Windows & Linux Containers
@@ -59,10 +60,11 @@
 ### Development Flow Example
 
 Instructions for Docker -> Dockerfile
-  1. Start with an OS
-  2. Install Node
-  3. Copy app.js
-  4. Run node app.js
+
+1. Start with an OS
+2. Install Node
+3. Copy app.js
+4. Run node app.js
 
 ---
 
@@ -95,7 +97,7 @@ Instructions for Docker -> Dockerfile
 
 ### Container
 
-* Containers are *special* processes running on the host OS
+* Containers are _special_ processes running on the host OS
   * Special b/c Containers contain their own **file system**
 * Isolated environment for each app
   * Includes Config Files, Dependencies, etc.
@@ -105,9 +107,7 @@ Instructions for Docker -> Dockerfile
   * Linux -> Docker can run Linux Containers
   * Mac -> Docker runs Linux VM that runs Linux Containers
 
-
 ---
 
 
 ## Docker Commands
-

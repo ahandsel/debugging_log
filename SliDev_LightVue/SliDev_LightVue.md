@@ -23,6 +23,7 @@ Initiate the Project: `npm init slidev`
 Run the Project: `npx slidev`
 
 npm commands:
+
 * `npm run dev` -> start dev server
 * `npm run build` -> build production SPA
 * `npm run export` -> export slides to pdf
@@ -118,7 +119,7 @@ left: false
 
 ```yaml
 ---
-layout: dynamic-image 
+layout: dynamic-image
 image: 'https://source.unsplash.com/collection/94734566/1920x1080'
 equal: false
 left: false
@@ -132,7 +133,7 @@ left: false
 
 ```yaml
 ---
-layout: dynamic-image 
+layout: dynamic-image
 image: 'https://source.unsplash.com/collection/94734566/1920x1080'
 equal: false
 left: true
@@ -148,7 +149,7 @@ left: true
 
 ```yaml
 ---
-layout: dynamic-image 
+layout: dynamic-image
 image: 'https://source.unsplash.com/collection/94734566/1920x1080'
 equal: true
 left: false
@@ -162,7 +163,7 @@ left: false
 
 ```yaml
 ---
-layout: dynamic-image 
+layout: dynamic-image
 image: 'https://source.unsplash.com/collection/94734566/1920x1080'
 upperImage: 'https://source.unsplash.com/collection/94734566/1920x1080'
 equal: true
@@ -377,9 +378,13 @@ Separates the page content in two columns.
 ---
 layout: two-cols
 ---
+
 # Left
+
 This shows on the left
 ::right::
+
 # Right
+
 This shows on the right
 ```

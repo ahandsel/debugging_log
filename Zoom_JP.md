@@ -28,7 +28,9 @@
    6. ビデオが Zoom 内で開き、出席者に見えるようになります。
 
 Zoom サポート:
+
 * [ビデオの共有](https://support.zoom.us/hc/ja/articles/360051673592-Sharing-and-playing-a-video#h_01EPAWQXNJNETMY4S33GB0WST0)
 
 Zoomでビデオを共有するデモです
+
 * ![Share_Video_Zoom.gif](img/Zoom_Video_Share_Public_Compressed.gif)

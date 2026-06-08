@@ -98,15 +98,15 @@ If you want to the git command on your MacOS terminal:
 * Ref: <https://git-scm.com/book/en/v2/Getting-Started-Installing-Git>
 * Do you have **Homebrew**?
   * If not, install Homebrew first: <https://brew.sh/>
-  * If so, be sure to upgrade it:   `brew update && brew upgrade`
-* Install git with Homebrew:  `brew install git`
-* Confirm installation:       `git --version`
-* Expected result:            `git version 2.26.2`
+  * If so, be sure to upgrade it: `brew update && brew upgrade`
+* Install git with Homebrew: `brew install git`
+* Confirm installation: `git --version`
+* Expected result: `git version 2.26.2`
 
 
 ##### Install Git - MacOS - Potential Issue
 
-* If you get the following result:  `git version 1.7.10.2 (Apple Git-33)`
+* If you get the following result: `git version 1.7.10.2 (Apple Git-33)`
 * Try `brew link --force git`
 * Or Try: `export PATH=/usr/local/bin:$PATH`
 
@@ -117,6 +117,7 @@ If you want to the git command on your MacOS terminal:
 ### Where to learn?
 
 List of resources to learn HTML & CSS:
+
 * [progate's HTML](https://progate.com/languages/html)
 * [Introduction to HTML by MDN](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML)
 * [HTML Periodic Table](https://websitesetup.org/html5-periodical-table/) - lists all HTML tags in the form of a periodic table, making it easy to learn/use them.
@@ -126,6 +127,7 @@ List of resources to learn HTML & CSS:
 [JavaScript Tutorial for Beginners: Learn JavaScript in 1 Hour [2020]](https://youtu.be/W6NZfCO5SIk)
 
 Video Tutorials:
+
 * [Intro to HTML & CSS - Tutorial | FreeCodeCamp.org](https://youtu.be/kLO4X_3VYdg)
 * [HTML Full Course - Build a Website Tutorial | FreeCodeCamp.org](https://www.youtube.com/watch?v=pQN-pnXPaVg&t=493s)
 

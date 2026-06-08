@@ -1,8 +1,9 @@
-import { defineConfig } from 'vitepress'
+import { defineConfig } from 'vitepress';
 
 export default defineConfig({
   title: 'Debugging Log',
-  description: 'A personal grab-bag of debugging notes and tutorial walkthroughs.',
+  description:
+    'A personal grab-bag of debugging notes and tutorial walkthroughs.',
   base: '/debugging_log/',
   cleanUrls: true,
   lastUpdated: true,
@@ -49,7 +50,10 @@ export default defineConfig({
           { text: 'VS Code Notes', link: '/VS_Code/VS_Code_Notes' },
           { text: 'VS Code Notes (JP)', link: '/VS_Code/VS_Code_Notes_JP' },
           { text: 'VS Code Start', link: '/VS_Code/VS_Code_Start' },
-          { text: 'Open in VS Code from Finder (Mac)', link: '/VS_Code/Open in VS Code from Finder (Mac)' },
+          {
+            text: 'Open in VS Code from Finder (Mac)',
+            link: '/VS_Code/Open in VS Code from Finder (Mac)',
+          },
           { text: 'Chrome', link: '/Chrome' },
           { text: 'GitHub Actions', link: '/GitHub_Actions' },
           { text: 'Install Node', link: '/Install_Node' },
@@ -74,7 +78,10 @@ export default defineConfig({
         items: [
           { text: 'Cybozu', link: '/Cybozu' },
           { text: 'Kintone Debugging', link: '/Kintone_Debugging' },
-          { text: 'Kintone Translate', link: '/Kintone_Scripts/Kintone_Translate' },
+          {
+            text: 'Kintone Translate',
+            link: '/Kintone_Scripts/Kintone_Translate',
+          },
         ],
       },
       {
@@ -92,8 +99,14 @@ export default defineConfig({
         collapsed: true,
         items: [
           { text: 'Japanese Unicode', link: '/Japanese_Unicode' },
-          { text: 'Google Translate API', link: '/GoogleTranslateAPI/GoogleTranslateAPI' },
-          { text: 'VS Translator Voice Guide', link: '/RandomPosts/VS_Translator_Voice_Guide' },
+          {
+            text: 'Google Translate API',
+            link: '/GoogleTranslateAPI/GoogleTranslateAPI',
+          },
+          {
+            text: 'VS Translator Voice Guide',
+            link: '/RandomPosts/VS_Translator_Voice_Guide',
+          },
         ],
       },
       {
@@ -102,9 +115,18 @@ export default defineConfig({
         items: [
           { text: 'Ruby', link: '/Ruby' },
           { text: 'Learning Ruby', link: '/Learning_Ruby/Ruby' },
-          { text: 'Docker Debugging', link: '/Learning_Docker/Docker_Debugging' },
-          { text: 'Docker Mac Commands', link: '/Learning_Docker/Docker_Mac_Commands' },
-          { text: 'Docker Tutorial A', link: '/Learning_Docker/Tutorial_A_Notes' },
+          {
+            text: 'Docker Debugging',
+            link: '/Learning_Docker/Docker_Debugging',
+          },
+          {
+            text: 'Docker Mac Commands',
+            link: '/Learning_Docker/Docker_Mac_Commands',
+          },
+          {
+            text: 'Docker Tutorial A',
+            link: '/Learning_Docker/Tutorial_A_Notes',
+          },
           { text: 'gulp.js + React', link: '/gulpjs_react/gulpjs_react' },
           { text: 'RegEx', link: '/RegEx' },
           { text: 'CentOS 7', link: '/centos7' },
@@ -114,9 +136,15 @@ export default defineConfig({
         text: 'Web & Sheets',
         collapsed: true,
         items: [
-          { text: 'Getting Started: Website', link: '/Getting_Started_Website' },
+          {
+            text: 'Getting Started: Website',
+            link: '/Getting_Started_Website',
+          },
           { text: 'Google Sheet', link: '/GoogleSheet' },
-          { text: 'GSheets Web Scraper', link: '/GSheets_WebScrapper/GSheets_WebScrapper' },
+          {
+            text: 'GSheets Web Scraper',
+            link: '/GSheets_WebScrapper/GSheets_WebScrapper',
+          },
           { text: 'Random GSheet', link: '/Random_GSheet' },
         ],
       },
@@ -126,10 +154,16 @@ export default defineConfig({
         items: [
           { text: 'DaVinci Resolve', link: '/DaVinchi_Resolve' },
           { text: 'Slide Backgrounds', link: '/Slide_Backgrounds' },
-          { text: 'SliDev + LightVue', link: '/SliDev_LightVue/SliDev_LightVue' },
+          {
+            text: 'SliDev + LightVue',
+            link: '/SliDev_LightVue/SliDev_LightVue',
+          },
           { text: 'SliDev Basic', link: '/SliDev_LightVue/SliDev_Basic' },
           { text: 'SliDev Help', link: '/SliDev_LightVue/SliDev_Help' },
-          { text: 'SliDev Debugging Log', link: '/SliDev_LightVue/SliDev_Debugging_Log' },
+          {
+            text: 'SliDev Debugging Log',
+            link: '/SliDev_LightVue/SliDev_Debugging_Log',
+          },
         ],
       },
       {
@@ -160,4 +194,4 @@ export default defineConfig({
       level: [2, 3],
     },
   },
-})
+});

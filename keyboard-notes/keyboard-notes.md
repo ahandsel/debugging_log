@@ -2,12 +2,13 @@
 
 
 ## How to flash QMK firmware to Keychron Q8
+
 <https://usevia.app/>
 
 
 ## Macros
 
-| M*   | Macro                            | Key           |
+| Key  | Macro                            | Key           |
 | ---- | -------------------------------- | ------------- |
 | M1   | VS Code Command Prompt           | `cmd+shift+p` |
 | M2   | Snippet Editor                   | `cmd+shift+i` |

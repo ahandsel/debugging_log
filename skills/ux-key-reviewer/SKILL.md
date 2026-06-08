@@ -5,11 +5,9 @@ description: Review English UX copy files (typically Markdown docs with localiza
 
 # UX key reviewer
 
-
 ## Overview
 
 Audit `Key` values in Markdown table rows and report compliance with the key naming rules.
-
 
 ## Required Input
 
@@ -17,8 +15,7 @@ Receive a file path from the user.
 
 Example:
 
-* `tasks-kinid/v1-midfi/prd37-pw-mgt.md`
-
+- `tasks-kinid/v1-midfi/prd37-pw-mgt.md`
 
 ## Review Workflow
 
@@ -29,7 +26,6 @@ Example:
 5. Ignore rows where `Key` is empty, placeholder text, or clearly not a key candidate.
 6. Validate each key candidate against the rule set below.
 7. Return a structured review report with violations and suggested fixes.
-
 
 ## Rule Set to Enforce
 
@@ -47,7 +43,6 @@ Apply the following checks in order:
 
 If a rule appears ambiguous, cite the exact section title from `key-naming-rules.md` and state the assumption.
 
-
 ## Output Format
 
 Return findings in this order:
@@ -58,7 +53,6 @@ Return findings in this order:
 4. Optional quick-fix plan (only if at least one invalid key exists).
 
 Use concise, actionable wording. Prefer one concrete suggested key per issue.
-
 
 ## Editing Policy
 
