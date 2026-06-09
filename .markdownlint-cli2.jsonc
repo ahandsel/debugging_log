@@ -75,7 +75,7 @@
     ".vitepress/cache/**",
     ".vitepress/dist/**",
     "skills/**",
-    "SliDev_LightVue/SliDev_Basic/**",
+    "slidev-lightvue/slidev-basic/**",
   ],
 
   // Optional CLI behavior
